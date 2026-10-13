@@ -1,0 +1,24 @@
+{
+  "mode": "Reuse approved image_gen artwork; no new generation",
+  "hand_reference_frames": [
+    546,
+    549,
+    552,
+    555,
+    576
+  ],
+  "handedness": "Whole cel mirror for the opposite hand after the source cut; wrist registration only",
+  "coin": "Original per-frame colored instance plus complete dark contour; old gray glove excluded",
+  "signature": [
+    "MOVIE",
+    "GPT-6 × 虹夏天使在我家"
+  ],
+  "skin_palette": [
+    255,
+    232,
+    219
+  ],
+  "original_panel_generation_prompts": "<REVISION_WORKSPACE>\\work\\v9\\imagegen-prompts.json",
+  "official_codex_product_reference": "https://developers.openai.com/api/docs/guides/code-generation",
+  "model_signature_basis": "Current system-provided GPT-6 family identity"
+}

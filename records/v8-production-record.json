@@ -1,0 +1,170 @@
+{
+  "version": "v8",
+  "output": "<REVISION_WORKSPACE>\\outputs\\trick-heart-two-character-pv-v8.mp4",
+  "sha256": "22cc17687353bbbfe2a01054283d58b82be05578b8263b06f396acb683947238",
+  "technical": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 24.0,
+    "frames": 3768,
+    "duration": 157.0,
+    "audio": {
+      "description": "Stream #0:1[0x2](eng): Audio: opus (Opus / 0x7375704F), 48000 Hz, stereo, fltp, 135 kb/s (default)"
+    },
+    "method": "opencv-geometry-plus-strict-complete-ffmpeg-decode"
+  },
+  "audio_unchanged": true,
+  "v7_preserved": true,
+  "assets": [
+    {
+      "path": "<REVISION_WORKSPACE>\\work\\v8\\assets\\back-0787.png",
+      "sha256": "c9dfc5deba40797248920a2d414059472d2bdbcbdc4db2f4a7b6ecf3501cc485",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "<REVISION_WORKSPACE>\\work\\v8\\assets\\back-1092.png",
+      "sha256": "3dfddb709295c001609f7990f099d0b0d9a1ee1289666a355432c9786fe89b54",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "<REVISION_WORKSPACE>\\work\\v8\\assets\\back-calm-v2.png",
+      "sha256": "e9cfd1c9e88cc468676d61d30d909e97b3996015be217fa0cbe76267e7691424",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "<REVISION_WORKSPACE>\\work\\v8\\assets\\back-ending.png",
+      "sha256": "a2cb31d4e8ccf2051e32cf376bdf64edc091b48e0daa99ab44c10f458285b1d6",
+      "dimensions": [
+        1671,
+        941
+      ]
+    },
+    {
+      "path": "<REVISION_WORKSPACE>\\work\\v8\\assets\\back-gust-v2.png",
+      "sha256": "bce8c216db4325b57d92b0792ada594bcd55ded6f2937cf943babd85b9f4e688",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "<REVISION_WORKSPACE>\\work\\v8\\assets\\cuff.png",
+      "sha256": "a59511a62fe8b7cbdbdbb6ba4329e08afe5e44800a275ddba9bd4d59f32edd43",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "<REVISION_WORKSPACE>\\work\\v8\\assets\\gesture.png",
+      "sha256": "aa5bddbcf3ac28f2e4b7ebe69249dd3b036d1550566d1e136a87b0715d3ed6e7",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "<REVISION_WORKSPACE>\\work\\v8\\assets\\hand-1036.png",
+      "sha256": "8c42dee3a7a2446eb9216f38ac58b696bdb9e7991b85a586d6e72d51d4e96fc1",
+      "dimensions": [
+        1672,
+        941
+      ]
+    }
+  ],
+  "art_method": "built-in image_gen image editing; selected originals retained",
+  "compositing": "source tracking; instance-aware masks; original timeline and typography preserved",
+  "review": {
+    "path": "<REVISION_WORKSPACE>\\outputs\\v8-revision-review.mp4",
+    "sha256": "fd33286037b4e40cda10aabe707a078552fa92285defdaed407f9da76ff28664",
+    "frames": 1164,
+    "duration": 48.5,
+    "audio": "silent",
+    "layout": "v7 left / v8 right",
+    "playback": [
+      "normal",
+      "half-speed"
+    ],
+    "segments": [
+      [
+        393,
+        417,
+        "Sailor cuff"
+      ],
+      [
+        591,
+        605,
+        "Hand shape and skin"
+      ],
+      [
+        787,
+        819,
+        "Rear hair wind poses"
+      ],
+      [
+        1036,
+        1059,
+        "Card grip"
+      ],
+      [
+        1091,
+        1095,
+        "Rear turn"
+      ],
+      [
+        1174,
+        1208,
+        "Face skin"
+      ],
+      [
+        1428,
+        1452,
+        "Cup string close"
+      ],
+      [
+        1467,
+        1491,
+        "Cup string close"
+      ],
+      [
+        1631,
+        1708,
+        "Cup strings wide"
+      ],
+      [
+        2081,
+        2127,
+        "Rabbit outline"
+      ],
+      [
+        2314,
+        2340,
+        "Bouquet grip"
+      ],
+      [
+        2367,
+        2391,
+        "Flower hand overlap"
+      ],
+      [
+        3630,
+        3666,
+        "Rear ending"
+      ]
+    ],
+    "strict_complete_decode": true
+  },
+  "verification": "<REVISION_WORKSPACE>\\outputs\\v8-verification.json",
+  "prompts": "<REVISION_WORKSPACE>\\outputs\\v8-imagegen-prompts.json",
+  "manual_visual_review": "42 representative lossless keyframes, enlarged problem crops and final decoded comparison sheets. Automated full decode; no claim of full manual playback.",
+  "created_epoch": 1791810595.0024161
+}

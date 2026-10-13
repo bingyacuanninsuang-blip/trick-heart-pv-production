@@ -1,0 +1,271 @@
+{
+  "version": "v10",
+  "output": "<REVISION_WORKSPACE>\\outputs\\trick-heart-two-character-pv-v10.mp4",
+  "sha256": "0f3ce289ba63c42fe75f7308948d0db0936946edcc10bfc43b7e90fb2a61fa0e",
+  "bytes": 43548814,
+  "technical": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 24.0,
+    "frames": 3768,
+    "duration": 157.0,
+    "audio": {
+      "description": "Stream #0:1[0x2](eng): Audio: opus (Opus / 0x7375704F), 48000 Hz, stereo, fltp, 135 kb/s (default)"
+    },
+    "method": "opencv-geometry-plus-strict-complete-ffmpeg-decode"
+  },
+  "audio_hashes": {
+    "copy": {
+      "source": "SHA256=97e467e12f1726df1c0ca400030f11baf4149bd4783f1dc061bdd4a5d79e9e89",
+      "audio_input": "SHA256=97e467e12f1726df1c0ca400030f11baf4149bd4783f1dc061bdd4a5d79e9e89",
+      "v9": "SHA256=97e467e12f1726df1c0ca400030f11baf4149bd4783f1dc061bdd4a5d79e9e89",
+      "v10": "SHA256=97e467e12f1726df1c0ca400030f11baf4149bd4783f1dc061bdd4a5d79e9e89"
+    },
+    "pcm_s16le": {
+      "source": "SHA256=7da7185b91c5af1dd61cdca693a4b3cfc6f284215d2ba7815d39f22e2d1e689a",
+      "audio_input": "SHA256=7da7185b91c5af1dd61cdca693a4b3cfc6f284215d2ba7815d39f22e2d1e689a",
+      "v9": "SHA256=7da7185b91c5af1dd61cdca693a4b3cfc6f284215d2ba7815d39f22e2d1e689a",
+      "v10": "SHA256=7da7185b91c5af1dd61cdca693a4b3cfc6f284215d2ba7815d39f22e2d1e689a"
+    }
+  },
+  "audio_unchanged": true,
+  "strict_decode": true,
+  "read_only_inputs_unchanged": true,
+  "input_baseline": {
+    "inputs": {
+      "source": {
+        "path": "<ORIGINAL_WORKSPACE>\\work\\trick-heart-project\\research\\source-1080.mp4",
+        "sha256": "d78ca6d8e063d648d9f6f4f8cc6a2385d61b1e52252adb8b49a2f2d248a0faee",
+        "bytes": 38298318
+      },
+      "audio": {
+        "path": "<ORIGINAL_WORKSPACE>\\work\\trick-heart-project\\runs\\white-sailor\\research\\source-audio.m4s",
+        "sha256": "3d7838227634fd482dac4451087b1dae1728773c7ab2a5d23a58e746d2b1cb1c",
+        "bytes": 2696616
+      },
+      "v9": {
+        "path": "<REVISION_WORKSPACE>\\outputs\\trick-heart-two-character-pv-v9.mp4",
+        "sha256": "7d9ba5968c0dc86d7031048c5dc1ebddd5f8ac265e151c79fb6549cca88e1ac4",
+        "bytes": 43531502
+      }
+    },
+    "expected": {
+      "width": 1920,
+      "height": 1080,
+      "fps": 24.0,
+      "frames": 3768,
+      "duration": 157.0
+    },
+    "ffmpeg": "<ORIGINAL_WORKSPACE>\\work\\python_lib\\imageio_ffmpeg\\binaries\\ffmpeg-win-x86_64-v7.1.exe",
+    "old_project_read_only": true,
+    "baseline_created_epoch": 1791820640.1602583
+  },
+  "frame_audit": {
+    "frame_count": 3768,
+    "reused_v9_byte_identical": 3617,
+    "pixel_changed_count": 151,
+    "pixel_changed_intervals": [
+      {
+        "start": 591,
+        "end": 621
+      },
+      {
+        "start": 2702,
+        "end": 2777
+      },
+      {
+        "start": 3584,
+        "end": 3630
+      }
+    ],
+    "file_hash_changed_count": 151,
+    "declared_intervals": [
+      {
+        "start": 591,
+        "end": 621
+      },
+      {
+        "start": 2702,
+        "end": 2785
+      },
+      {
+        "start": 3584,
+        "end": 3630
+      }
+    ],
+    "required_corrections": [
+      {
+        "label": "23s_gesture_replay_coin",
+        "start": 591,
+        "end": 621,
+        "changed_frames": 30
+      },
+      {
+        "label": "movie_signature",
+        "start": 2702,
+        "end": 2785,
+        "changed_frames": 75
+      },
+      {
+        "label": "warm_face_neck_hands",
+        "start": 3584,
+        "end": 3630,
+        "changed_frames": 46
+      }
+    ],
+    "outside_declared_changes": [],
+    "protected_hat_segments_unchanged": true,
+    "manifest_sha256": "49fc2a6646aa27645533a7f57582a832f24a5401c15d1b1697b50240f3b860eb"
+  },
+  "comparison_evidence": {
+    "files": [
+      "<REVISION_WORKSPACE>\\outputs\\v10-comparison-1.jpg",
+      "<REVISION_WORKSPACE>\\outputs\\v10-comparison-2.jpg",
+      "<REVISION_WORKSPACE>\\outputs\\v10-comparison-3.jpg"
+    ],
+    "picks": [
+      591,
+      594,
+      597,
+      599,
+      600,
+      603,
+      612,
+      620,
+      2702,
+      2712,
+      3588,
+      3629
+    ],
+    "panels_are_decoded_mp4_frames": true,
+    "frame_checks": [
+      {
+        "frame": 591,
+        "decoded_png_sha256": "7c1e241f7ee4be6fc6f631ea688611c2ec32b5ca828b5b2c1ac91f63afbb734c",
+        "encode_vs_lossless_mean_absolute_error": 0.7514526844024658,
+        "encode_vs_lossless_psnr_db": 47.06937281938133
+      },
+      {
+        "frame": 594,
+        "decoded_png_sha256": "300d27b0eb5dd1adeee8458783eacccd7f24ba211a6417eed5975f744245b244",
+        "encode_vs_lossless_mean_absolute_error": 0.7835323214530945,
+        "encode_vs_lossless_psnr_db": 46.4682299340378
+      },
+      {
+        "frame": 597,
+        "decoded_png_sha256": "35288a7fcf1a7142f514b08039712e3a1b5e780e9cc0a443b3297bb0753ff437",
+        "encode_vs_lossless_mean_absolute_error": 0.7769991159439087,
+        "encode_vs_lossless_psnr_db": 46.489426487757434
+      },
+      {
+        "frame": 599,
+        "decoded_png_sha256": "0e71d4fffca7323aee3de6d542c0f28c52ae0d15930bc3777ccc4ae79268eded",
+        "encode_vs_lossless_mean_absolute_error": 0.7981041073799133,
+        "encode_vs_lossless_psnr_db": 45.965388468086985
+      },
+      {
+        "frame": 600,
+        "decoded_png_sha256": "efbf121263e08720e6cbf268461a0013b46dba4864cd40adcb6bbc3d4711bcf3",
+        "encode_vs_lossless_mean_absolute_error": 0.7909302711486816,
+        "encode_vs_lossless_psnr_db": 46.11033243656983
+      },
+      {
+        "frame": 603,
+        "decoded_png_sha256": "b5c1f9710d94640937d974f474c30c57d05e5972eea5e9b3a5bac79b31862099",
+        "encode_vs_lossless_mean_absolute_error": 0.771526038646698,
+        "encode_vs_lossless_psnr_db": 46.38035637138089
+      },
+      {
+        "frame": 612,
+        "decoded_png_sha256": "e27429f363d53d1f5d77eac8bfbac05751f07cd067d34d901b67730171410023",
+        "encode_vs_lossless_mean_absolute_error": 0.7678422331809998,
+        "encode_vs_lossless_psnr_db": 46.48818210477582
+      },
+      {
+        "frame": 620,
+        "decoded_png_sha256": "f9092cfd84b38eb20a635a3d832096c3982a7ff43d2f0ebf48628aef86b5b589",
+        "encode_vs_lossless_mean_absolute_error": 0.7682267427444458,
+        "encode_vs_lossless_psnr_db": 46.47944528866696
+      },
+      {
+        "frame": 2702,
+        "decoded_png_sha256": "0324df9c7ddfc7b7646cf67a1221202a2eeb17983346a174dd51b07a66e32748",
+        "encode_vs_lossless_mean_absolute_error": 0.9591870903968811,
+        "encode_vs_lossless_psnr_db": 42.6903920917334
+      },
+      {
+        "frame": 2712,
+        "decoded_png_sha256": "d18ca2de0e507bfd4954e96ee5a641ea9e7f1405991d509f5cad672413c57c2c",
+        "encode_vs_lossless_mean_absolute_error": 1.0523947477340698,
+        "encode_vs_lossless_psnr_db": 41.56935786475796
+      },
+      {
+        "frame": 3588,
+        "decoded_png_sha256": "a5f319f99a754b4cb3302fbcb12500758282e2f12e6b3891422aa8e39e63af6d",
+        "encode_vs_lossless_mean_absolute_error": 0.8856452703475952,
+        "encode_vs_lossless_psnr_db": 44.08693505262661
+      },
+      {
+        "frame": 3629,
+        "decoded_png_sha256": "430dc30d71c2f534aacc7b7a73b6ec6b7cfa8c15a2b6ad544d9a391bf47b0f27",
+        "encode_vs_lossless_mean_absolute_error": 0.884552001953125,
+        "encode_vs_lossless_psnr_db": 43.81450371152486
+      }
+    ]
+  },
+  "encoder_script_sha256": "1a5430d01095d052cdc005c157ca97a28ebfe32fbf7b2a41a5323d0ed87d06c4",
+  "verified_epoch": 1791820711.5098884,
+  "audio_remux": {
+    "encoded_video_input": "<REVISION_WORKSPACE>\\work\\trick-heart-two-character-pv-v10.rendering.mp4",
+    "encoded_video_input_preserved": true,
+    "remuxed_path_before_delivery": "<REVISION_WORKSPACE>\\work\\trick-heart-two-character-pv-v10.remuxed.mp4",
+    "video_reencoded": false,
+    "audio_source": "<ORIGINAL_WORKSPACE>\\work\\trick-heart-project\\runs\\white-sailor\\research\\source-audio.m4s",
+    "frames_v_or_shortest_used_in_remux": false,
+    "before_audio_packets": {
+      "packet_count": 7849,
+      "first_packet": "0,          0,          0,     1008,        3, 0b6d18223c34da1d7be76eb55fc5c5fea9059b7d7ffa7cd98a76b2a49eb888d8",
+      "last_packet": "0,    7534128,    7534128,      960,        3, 0b6d18223c34da1d7be76eb55fc5c5fea9059b7d7ffa7cd98a76b2a49eb888d8",
+      "packet_hash_list_sha256": "4ae89d30a3ffe3c4949aa786378949816facef2efefae6603a2f08ad71f89508"
+    },
+    "source_audio_packets": {
+      "packet_count": 7851,
+      "first_packet": "0,          0,          0,     1008,        3, 0b6d18223c34da1d7be76eb55fc5c5fea9059b7d7ffa7cd98a76b2a49eb888d8",
+      "last_packet": "0,    7536048,    7536048,      960,        3, 0b6d18223c34da1d7be76eb55fc5c5fea9059b7d7ffa7cd98a76b2a49eb888d8",
+      "packet_hash_list_sha256": "6d893afa94ba708f61e7ddb074ff96448f3f594993ab5fa20ec74594d507f06b"
+    },
+    "after_audio_packets": {
+      "packet_count": 7851,
+      "first_packet": "0,          0,          0,     1008,        3, 0b6d18223c34da1d7be76eb55fc5c5fea9059b7d7ffa7cd98a76b2a49eb888d8",
+      "last_packet": "0,    7536048,    7536048,      960,        3, 0b6d18223c34da1d7be76eb55fc5c5fea9059b7d7ffa7cd98a76b2a49eb888d8",
+      "packet_hash_list_sha256": "6d893afa94ba708f61e7ddb074ff96448f3f594993ab5fa20ec74594d507f06b"
+    },
+    "before_audio_copy_hash": "SHA256=c9ceccca7445cbbf6bc19e5466279853a886b0bc037d75cc892309c3b364330e",
+    "source_audio_copy_hash": "SHA256=97e467e12f1726df1c0ca400030f11baf4149bd4783f1dc061bdd4a5d79e9e89",
+    "after_audio_copy_hash": "SHA256=97e467e12f1726df1c0ca400030f11baf4149bd4783f1dc061bdd4a5d79e9e89",
+    "original_audio_copy_hash_restored": true,
+    "root_cause_assessment": "Initial encode -frames:v reached the video limit before the last audio packets were muxed; fewer packets are observed and complete original hash is restored by unlimited remux.",
+    "audio_packet_truncation_observed": true,
+    "remux_command": [
+      "<ORIGINAL_WORKSPACE>\\work\\python_lib\\imageio_ffmpeg\\binaries\\ffmpeg-win-x86_64-v7.1.exe",
+      "-v",
+      "error",
+      "-n",
+      "-i",
+      "<REVISION_WORKSPACE>\\work\\trick-heart-two-character-pv-v10.rendering.mp4",
+      "-i",
+      "<ORIGINAL_WORKSPACE>\\work\\trick-heart-project\\runs\\white-sailor\\research\\source-audio.m4s",
+      "-map",
+      "0:v:0",
+      "-map",
+      "1:a:0",
+      "-c:v",
+      "copy",
+      "-c:a",
+      "copy",
+      "-movflags",
+      "+faststart",
+      "<REVISION_WORKSPACE>\\work\\trick-heart-two-character-pv-v10.remuxed.mp4"
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "version": "v9",
+  "output": "<REVISION_WORKSPACE>\\outputs\\trick-heart-two-character-pv-v9.mp4",
+  "sha256": "7d9ba5968c0dc86d7031048c5dc1ebddd5f8ac265e151c79fb6549cca88e1ac4",
+  "technical": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 24.0,
+    "frames": 3768,
+    "duration": 157.0,
+    "audio": {
+      "description": "Stream #0:1[0x2](eng): Audio: opus (Opus / 0x7375704F), 48000 Hz, stereo, fltp, 135 kb/s (default)"
+    },
+    "method": "opencv-geometry-plus-strict-complete-ffmpeg-decode"
+  },
+  "audio_unchanged": true,
+  "v8_preserved": true,
+  "assets": [
+    {
+      "path": "<REVISION_WORKSPACE>\\work\\v9\\assets\\chin-neck.png",
+      "sha256": "16239130fffd34e9bbf5353c8a8e93824e5f07221f4032310bc1fd8e238655d2",
+      "dimensions": [
+        1635,
+        962
+      ]
+    },
+    {
+      "path": "<REVISION_WORKSPACE>\\work\\v9\\assets\\white-cup.png",
+      "sha256": "2c93e8903ad1be193e17af621abd71b5cbe613d9573d3329f100064cafce7f62",
+      "dimensions": [
+        1269,
+        1240
+      ]
+    }
+  ],
+  "art_method": "built-in image_gen image editing; selected originals retained",
+  "compositing": "source tracking; instance-aware masks; original timeline and typography preserved",
+  "review": {
+    "path": "<REVISION_WORKSPACE>\\outputs\\v9-revision-review.mp4",
+    "sha256": "d2bb7a92a60de4335940446c3dd2f2cdb9e4260e69f95f2792fdec7f4eb01ec4",
+    "frames": 471,
+    "duration": 19.625,
+    "audio": "silent",
+    "layout": "v8 left / v9 right",
+    "playback": [
+      "normal",
+      "half-speed"
+    ],
+    "segments": [
+      [
+        1630,
+        1709,
+        "Cup grip and black cuff"
+      ],
+      [
+        1849,
+        1879,
+        "Whole hand skin"
+      ],
+      [
+        3583,
+        3631,
+        "Short neck and soft chin"
+      ]
+    ],
+    "strict_complete_decode": true
+  },
+  "verification": "<REVISION_WORKSPACE>\\outputs\\v9-verification.json",
+  "prompts": "<REVISION_WORKSPACE>\\outputs\\v9-imagegen-prompts.json",
+  "manual_visual_review": "22 representative lossless keyframes, enlarged problem crops and final decoded comparison sheets. Automated full decode; no claim of full manual playback.",
+  "created_epoch": 1791815472.6966352
+}

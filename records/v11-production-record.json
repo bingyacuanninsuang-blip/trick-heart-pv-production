@@ -1,0 +1,101 @@
+{
+  "version": "v11",
+  "video": "<REVISION_WORKSPACE>\\outputs\\trick-heart-two-character-pv-v11.mp4",
+  "sha256": "20b47261345073a6cacec9762143d3ac230dab70756996df89cc3919ba6478f7",
+  "audio_unchanged": true,
+  "v10_preserved": true,
+  "assets": [
+    {
+      "path": "<REVISION_WORKSPACE>\\work\\v11\\assets\\full-3120.png",
+      "sha256": "0d02a893f1b27ee0c973b3d59f0a03ef810974ce413fa824cbf7410f4c461b88",
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "path": "<REVISION_WORKSPACE>\\work\\v11\\assets\\sofa-awake-v4.png",
+      "sha256": "f319fcc31ece5e60f43921a43f907343724249058044a02a31801054f3f7c10f",
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "path": "<REVISION_WORKSPACE>\\work\\v11\\assets\\sofa-front-v4.png",
+      "sha256": "c103cbb881a13252d06a58323edd9effaa9268e3e6550b678f1e4a7384bed8cd",
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "path": "<REVISION_WORKSPACE>\\work\\v11\\assets\\sofa-right-v4.png",
+      "sha256": "20465387ea8667192b426de2314c7b51b3671cf346291e62fd2a51a684c11711",
+      "dimensions": [
+        1920,
+        1080
+      ]
+    }
+  ],
+  "art_method": "Existing adopted image_gen cels reused; video compositor palette correction and complete sofa ownership masks. No new art generation.",
+  "palette": {
+    "base": [
+      255,
+      232,
+      219
+    ],
+    "shade": [
+      244,
+      203,
+      188
+    ]
+  },
+  "changes": [
+    "Three specified face shots, neck and hands graded to the same warm palette. Original blush and shadow retained.",
+    "Complete sleeping and awake sofa cels cover both arms, pillows, seat and right leg. Source cabinet, dog, captions, butterfly movement and curtain depth preserved."
+  ],
+  "review": {
+    "path": "<REVISION_WORKSPACE>\\outputs\\v11-revision-review.mp4",
+    "sha256": "2f174af5cffed4e7c45e5246dbc817b6af480e2c03cbc14db1b6ac687291264a",
+    "frames": 720,
+    "duration": 30.0,
+    "audio": "silent",
+    "layout": "v10 left / v11 right",
+    "playback": [
+      "normal",
+      "half-speed"
+    ],
+    "segments": [
+      [
+        1173,
+        1209,
+        "White portrait skin"
+      ],
+      [
+        2313,
+        2402,
+        "Black bouquet and close-up skin"
+      ],
+      [
+        3082,
+        3094,
+        "Sofa opening curtain"
+      ],
+      [
+        3144,
+        3204,
+        "Complete sofa sides"
+      ],
+      [
+        3355,
+        3398,
+        "Sofa awake poses"
+      ]
+    ],
+    "strict_complete_decode_passed": true
+  },
+  "validation": "<REVISION_WORKSPACE>\\outputs\\v11-verification.json",
+  "manual_visual_review": "Representative lossless frames, enlarged neck/couch details and final decoded keyframes checked. Full automatic decode; no claim of complete manual playback.",
+  "created_epoch": 1791882526.5508962
+}

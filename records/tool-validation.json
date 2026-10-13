@@ -1,0 +1,16 @@
+{
+  "export_smoke_test": {
+    "output": "smoke.mp4",
+    "sha256": "20b714038f8a1832757c0cb71b3d76dcf54670c235f4ccfde87504e1abb68cd9",
+    "frames": 24,
+    "fps": 24,
+    "video_duration": 1.0,
+    "width": 320,
+    "height": 180,
+    "strict_decode_passed": true,
+    "audio_copy_hash": "SHA256=279e397c5c8cf45301a0b3e01440aa2ede0949024825a429afcc2ab7ce3fb213",
+    "audio_unchanged": true
+  },
+  "overwrite_protection_passed": true,
+  "historical_python_snapshots_syntax_checked": true
+}

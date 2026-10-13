@@ -1,0 +1,120 @@
+{
+  "version": "v10",
+  "output": "<REVISION_WORKSPACE>\\outputs\\trick-heart-two-character-pv-v10.mp4",
+  "sha256": "0f3ce289ba63c42fe75f7308948d0db0936946edcc10bfc43b7e90fb2a61fa0e",
+  "technical": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 24.0,
+    "frames": 3768,
+    "duration": 157.0,
+    "audio": {
+      "description": "Stream #0:1[0x2](eng): Audio: opus (Opus / 0x7375704F), 48000 Hz, stereo, fltp, 135 kb/s (default)"
+    },
+    "method": "opencv-geometry-plus-strict-complete-ffmpeg-decode"
+  },
+  "audio_unchanged": true,
+  "v9_preserved": true,
+  "assets": [
+    {
+      "path": "<REVISION_WORKSPACE>\\work\\v10\\assets\\chin-neck-source.png",
+      "sha256": "16239130fffd34e9bbf5353c8a8e93824e5f07221f4032310bc1fd8e238655d2",
+      "dimensions": [
+        1635,
+        962
+      ]
+    },
+    {
+      "path": "<REVISION_WORKSPACE>\\work\\v10\\assets\\hand-546.png",
+      "sha256": "0a7f3c699bbee962e9161e5b9b42566ab028cd3578ce18145bcba90359a40aac",
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "path": "<REVISION_WORKSPACE>\\work\\v10\\assets\\hand-549.png",
+      "sha256": "200c3d754edd2db67bd1930e4765171435bdff1c1c6bc40409a5778e6f959622",
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "path": "<REVISION_WORKSPACE>\\work\\v10\\assets\\hand-552.png",
+      "sha256": "a5a48b817649c683260ffd48ae3940ade12a5bc3aa8366e190b10aa8d80a578d",
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "path": "<REVISION_WORKSPACE>\\work\\v10\\assets\\hand-555.png",
+      "sha256": "f9e3e15f59998e3880b683ee347e90ce043531bedb8e621528adc9e031a32de1",
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "path": "<REVISION_WORKSPACE>\\work\\v10\\assets\\hand-576.png",
+      "sha256": "59d03c964816aa61b203b16175cddc730120e3b015345e80c64e1e848d6d4364",
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "path": "<REVISION_WORKSPACE>\\work\\v10\\assets\\signature.png",
+      "sha256": "68a63eb1838744f1aa2ad5ffbf0735064e99006bc4f3269fb5a15d605c32e401",
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "path": "<REVISION_WORKSPACE>\\work\\v10\\assets\\warm-panel.png",
+      "sha256": "b48595d22a5992bab4371000f2620b5893e62ae122dd6152bcbe5569073b28eb",
+      "dimensions": [
+        1635,
+        962
+      ]
+    }
+  ],
+  "art_method": "Reused approved image_gen cels; whole-cel affine registration, source-coin compositing and color grade only",
+  "compositing": "source tracking; instance-aware masks; original timeline and typography preserved",
+  "review": {
+    "path": "<REVISION_WORKSPACE>\\outputs\\v10-revision-review.mp4",
+    "sha256": "8ed0ad012ecbb4d5ce94456b8b54e4f248e813f1334ee29326c6eab42c8a6575",
+    "frames": 624,
+    "duration": 26.0,
+    "audio": "silent",
+    "layout": "v9 left / v10 right",
+    "playback": [
+      "normal",
+      "half-speed"
+    ],
+    "segments": [
+      [
+        546,
+        621,
+        "Gesture replay and original coin"
+      ],
+      [
+        2701,
+        2786,
+        "Movie signature"
+      ],
+      [
+        3583,
+        3631,
+        "Natural warm skin"
+      ]
+    ],
+    "strict_complete_decode": true
+  },
+  "verification": "<REVISION_WORKSPACE>\\outputs\\v10-verification.json",
+  "prompts": "<REVISION_WORKSPACE>\\outputs\\v10-asset-reuse-record.json",
+  "manual_visual_review": "29 representative lossless keyframes, enlarged problem crops and final decoded comparison sheets. Automated full decode; no claim of full manual playback.",
+  "created_epoch": 1791820929.208638
+}

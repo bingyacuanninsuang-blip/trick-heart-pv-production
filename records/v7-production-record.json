@@ -1,0 +1,3613 @@
+{
+  "version": "v7",
+  "delivery": {
+    "path": "<REVISION_WORKSPACE>\\outputs\\trick-heart-two-character-pv-v7.mp4",
+    "sha256": "8a9d3b0f12cd2cf4b0542b01b841cbef4926f1e09204f214f77e430952a2918d",
+    "bytes": 43554855
+  },
+  "technical": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 24.0,
+    "frames": 3768,
+    "duration": 157.0,
+    "audio": {
+      "description": "Stream #0:1[0x2](eng): Audio: opus (Opus / 0x7375704F), 48000 Hz, stereo, fltp, 135 kb/s (default)"
+    },
+    "method": "opencv-geometry-plus-strict-complete-ffmpeg-decode"
+  },
+  "audio_unchanged": true,
+  "audio_hashes": {
+    "copy": {
+      "source": "SHA256=97e467e12f1726df1c0ca400030f11baf4149bd4783f1dc061bdd4a5d79e9e89",
+      "audio_input": "SHA256=97e467e12f1726df1c0ca400030f11baf4149bd4783f1dc061bdd4a5d79e9e89",
+      "v6": "SHA256=97e467e12f1726df1c0ca400030f11baf4149bd4783f1dc061bdd4a5d79e9e89",
+      "v7": "SHA256=97e467e12f1726df1c0ca400030f11baf4149bd4783f1dc061bdd4a5d79e9e89"
+    },
+    "pcm_s16le": {
+      "source": "SHA256=7da7185b91c5af1dd61cdca693a4b3cfc6f284215d2ba7815d39f22e2d1e689a",
+      "audio_input": "SHA256=7da7185b91c5af1dd61cdca693a4b3cfc6f284215d2ba7815d39f22e2d1e689a",
+      "v6": "SHA256=7da7185b91c5af1dd61cdca693a4b3cfc6f284215d2ba7815d39f22e2d1e689a",
+      "v7": "SHA256=7da7185b91c5af1dd61cdca693a4b3cfc6f284215d2ba7815d39f22e2d1e689a"
+    }
+  },
+  "audio_remux": {
+    "encoded_video_input": "<REVISION_WORKSPACE>\\work\\trick-heart-two-character-pv-v7.rendering.mp4",
+    "encoded_video_input_preserved": true,
+    "remuxed_path_before_delivery": "<REVISION_WORKSPACE>\\work\\trick-heart-two-character-pv-v7.remuxed.mp4",
+    "video_reencoded": false,
+    "audio_source": "<ORIGINAL_WORKSPACE>\\work\\trick-heart-project\\runs\\white-sailor\\research\\source-audio.m4s",
+    "frames_v_or_shortest_used_in_remux": false,
+    "before_audio_packets": {
+      "packet_count": 7849,
+      "first_packet": "0,          0,          0,     1008,        3, 0b6d18223c34da1d7be76eb55fc5c5fea9059b7d7ffa7cd98a76b2a49eb888d8",
+      "last_packet": "0,    7534128,    7534128,      960,        3, 0b6d18223c34da1d7be76eb55fc5c5fea9059b7d7ffa7cd98a76b2a49eb888d8",
+      "packet_hash_list_sha256": "4ae89d30a3ffe3c4949aa786378949816facef2efefae6603a2f08ad71f89508"
+    },
+    "source_audio_packets": {
+      "packet_count": 7851,
+      "first_packet": "0,          0,          0,     1008,        3, 0b6d18223c34da1d7be76eb55fc5c5fea9059b7d7ffa7cd98a76b2a49eb888d8",
+      "last_packet": "0,    7536048,    7536048,      960,        3, 0b6d18223c34da1d7be76eb55fc5c5fea9059b7d7ffa7cd98a76b2a49eb888d8",
+      "packet_hash_list_sha256": "6d893afa94ba708f61e7ddb074ff96448f3f594993ab5fa20ec74594d507f06b"
+    },
+    "after_audio_packets": {
+      "packet_count": 7851,
+      "first_packet": "0,          0,          0,     1008,        3, 0b6d18223c34da1d7be76eb55fc5c5fea9059b7d7ffa7cd98a76b2a49eb888d8",
+      "last_packet": "0,    7536048,    7536048,      960,        3, 0b6d18223c34da1d7be76eb55fc5c5fea9059b7d7ffa7cd98a76b2a49eb888d8",
+      "packet_hash_list_sha256": "6d893afa94ba708f61e7ddb074ff96448f3f594993ab5fa20ec74594d507f06b"
+    },
+    "before_audio_copy_hash": "SHA256=c9ceccca7445cbbf6bc19e5466279853a886b0bc037d75cc892309c3b364330e",
+    "source_audio_copy_hash": "SHA256=97e467e12f1726df1c0ca400030f11baf4149bd4783f1dc061bdd4a5d79e9e89",
+    "after_audio_copy_hash": "SHA256=97e467e12f1726df1c0ca400030f11baf4149bd4783f1dc061bdd4a5d79e9e89",
+    "original_audio_copy_hash_restored": true,
+    "root_cause_assessment": "Initial encode -frames:v reached the video limit before the last audio packets were muxed; fewer packets are observed and complete original hash is restored by unlimited remux.",
+    "audio_packet_truncation_observed": true,
+    "remux_command": [
+      "<ORIGINAL_WORKSPACE>\\work\\python_lib\\imageio_ffmpeg\\binaries\\ffmpeg-win-x86_64-v7.1.exe",
+      "-v",
+      "error",
+      "-n",
+      "-i",
+      "<REVISION_WORKSPACE>\\work\\trick-heart-two-character-pv-v7.rendering.mp4",
+      "-i",
+      "<ORIGINAL_WORKSPACE>\\work\\trick-heart-project\\runs\\white-sailor\\research\\source-audio.m4s",
+      "-map",
+      "0:v:0",
+      "-map",
+      "1:a:0",
+      "-c:v",
+      "copy",
+      "-c:a",
+      "copy",
+      "-movflags",
+      "+faststart",
+      "<REVISION_WORKSPACE>\\work\\trick-heart-two-character-pv-v7.remuxed.mp4"
+    ]
+  },
+  "immutable_original_inputs": {
+    "source": {
+      "path": "<ORIGINAL_WORKSPACE>\\work\\trick-heart-project\\research\\source-1080.mp4",
+      "sha256": "d78ca6d8e063d648d9f6f4f8cc6a2385d61b1e52252adb8b49a2f2d248a0faee",
+      "bytes": 38298318
+    },
+    "audio": {
+      "path": "<ORIGINAL_WORKSPACE>\\work\\trick-heart-project\\runs\\white-sailor\\research\\source-audio.m4s",
+      "sha256": "3d7838227634fd482dac4451087b1dae1728773c7ab2a5d23a58e746d2b1cb1c",
+      "bytes": 2696616
+    },
+    "v6": {
+      "path": "<ORIGINAL_WORKSPACE>\\outputs\\trick-heart-two-character-pv-v6.mp4",
+      "sha256": "27514bb6b6a3628205f2477fc2aaab23f863321bc77a98e7731fb62ded73c657",
+      "bytes": 43424053
+    }
+  },
+  "original_v6_preserved": true,
+  "character_reference_images": {
+    "white": {
+      "path": "<ORIGINAL_WORKSPACE>\\work\\trick-heart-project\\research\\character-white.png",
+      "sha256": "f22ba34f941bddca00a4d44e90864dcef4582eca1873dac0f8813d9f18587220",
+      "bytes": 1922158
+    },
+    "black": {
+      "path": "<ORIGINAL_WORKSPACE>\\work\\trick-heart-project\\research\\character-black.jpg",
+      "sha256": "43cbe4c543465e6f723547d5f5073584dd102a9af649e543293b177178e14efb",
+      "bytes": 165643
+    }
+  },
+  "character_mapping": {
+    "source_drill_twintails": "black hair with glasses",
+    "other_source_character": "long white hair sailor outfit"
+  },
+  "revision_intervals_left_closed_right_open": [
+    {
+      "start": 600,
+      "end": 621,
+      "label": "coin_hand",
+      "actual_pixel_changed_frames": 21
+    },
+    {
+      "start": 1082,
+      "end": 1091,
+      "label": "rabbit_hand",
+      "actual_pixel_changed_frames": 9
+    },
+    {
+      "start": 1401,
+      "end": 1467,
+      "label": "complete_ahoge",
+      "actual_pixel_changed_frames": 66
+    },
+    {
+      "start": 2139,
+      "end": 2169,
+      "label": "blow_action",
+      "actual_pixel_changed_frames": 10
+    },
+    {
+      "start": 2367,
+      "end": 2401,
+      "label": "face_hand_skin",
+      "actual_pixel_changed_frames": 34
+    },
+    {
+      "start": 3584,
+      "end": 3630,
+      "label": "simple_braid",
+      "actual_pixel_changed_frames": 46
+    },
+    {
+      "start": 3630,
+      "end": 3666,
+      "label": "back_hair_placement",
+      "actual_pixel_changed_frames": 36
+    }
+  ],
+  "frame_audit_summary": {
+    "frame_count": 3768,
+    "reused_v6_byte_identical": 3546,
+    "pixel_changed_count": 222,
+    "pixel_changed_intervals": [
+      {
+        "start": 600,
+        "end": 621
+      },
+      {
+        "start": 1082,
+        "end": 1091
+      },
+      {
+        "start": 1401,
+        "end": 1467
+      },
+      {
+        "start": 2147,
+        "end": 2157
+      },
+      {
+        "start": 2367,
+        "end": 2401
+      },
+      {
+        "start": 3584,
+        "end": 3666
+      }
+    ],
+    "file_hash_changed_count": 222,
+    "declared_intervals": [
+      {
+        "start": 600,
+        "end": 621
+      },
+      {
+        "start": 1082,
+        "end": 1091
+      },
+      {
+        "start": 1401,
+        "end": 1467
+      },
+      {
+        "start": 2139,
+        "end": 2169
+      },
+      {
+        "start": 2367,
+        "end": 2401
+      },
+      {
+        "start": 3584,
+        "end": 3630
+      },
+      {
+        "start": 3630,
+        "end": 3666
+      }
+    ],
+    "required_corrections": [
+      {
+        "label": "coin hand",
+        "start": 600,
+        "end": 621,
+        "changed_frames": 21
+      },
+      {
+        "label": "rabbit hand",
+        "start": 1082,
+        "end": 1091,
+        "changed_frames": 9
+      },
+      {
+        "label": "ahoge",
+        "start": 1440,
+        "end": 1441,
+        "changed_frames": 1
+      },
+      {
+        "label": "blowing",
+        "start": 2139,
+        "end": 2169,
+        "changed_frames": 10
+      },
+      {
+        "label": "skin ownership",
+        "start": 2367,
+        "end": 2401,
+        "changed_frames": 34
+      },
+      {
+        "label": "braid style",
+        "start": 3584,
+        "end": 3630,
+        "changed_frames": 46
+      },
+      {
+        "label": "rear hair accessories",
+        "start": 3630,
+        "end": 3666,
+        "changed_frames": 36
+      }
+    ],
+    "outside_declared_changes": [],
+    "protected_hat_segments_unchanged": true,
+    "manifest_sha256": "120c0214fa5b7a051e47a68b7083ce1c739afdb341756ea3f3fd0a0c7072f25e"
+  },
+  "adopted_local_asset_count": 6,
+  "adopted_local_assets": {
+    "back.png": {
+      "path": "<REVISION_WORKSPACE>\\work\\assets-v7\\back.png",
+      "sha256": "19282b043ae3db48f60a14af8d100708fd798941ce5b50b1c35c25729f79841a",
+      "bytes": 1551366
+    },
+    "blow.png": {
+      "path": "<REVISION_WORKSPACE>\\work\\assets-v7\\blow.png",
+      "sha256": "ebe3cd9141c51c71e56b2a87fed2286875750dbb71f73214ce474f11a854fbc4",
+      "bytes": 1539543
+    },
+    "braid.png": {
+      "path": "<REVISION_WORKSPACE>\\work\\assets-v7\\braid.png",
+      "sha256": "8c9d3db8e6aa84e57b5605ed8ece65177da4351f972910b5b5ab341ed89f90c5",
+      "bytes": 1462591
+    },
+    "hand-1084.png": {
+      "path": "<REVISION_WORKSPACE>\\work\\assets-v7\\hand-1084.png",
+      "sha256": "85a3e1387a38ce1e71eb8de978f667df307460cffb6fd2957a2b74342c7288ad",
+      "bytes": 350875
+    },
+    "hand-600.png": {
+      "path": "<REVISION_WORKSPACE>\\work\\assets-v7\\hand-600.png",
+      "sha256": "3d7f900d58a13773f4958bfb3653708d8f3c6f0851ef7a900de3f81093a55772",
+      "bytes": 493846
+    },
+    "inhale.png": {
+      "path": "<REVISION_WORKSPACE>\\work\\assets-v7\\inhale.png",
+      "sha256": "3dead67a04689768bfd5a10c4d1ac31383601d70738f00260ffb16f96f96548b",
+      "bytes": 1566005
+    }
+  },
+  "asset_manifests": {
+    "work/audit-mask/production-assets.json": {
+      "schema_version": "1.0",
+      "record_type": "v7_final_hand_assets_and_masks",
+      "created_at_utc": "2026-10-10T15:17:06Z",
+      "scope": "Read-only documentation of the locked final hand assets and rabbit mask; this task writes only this new record.",
+      "provenance": {
+        "exact_imagegen_call_history_available": false,
+        "imagegen_prompt_policy": "Both hand-1084 prompt records and reference sets are reconstructed from parent-agent conversation summaries. They are not exact tool prompts or recovered tool argument arrays.",
+        "parent_confirmation": "Parent explicitly instructed this record to continue with reconstructed_brief and summary-reconstructed reference_set; no tool-history recovery requested.",
+        "actual_implementation_sources": [
+          "<REVISION_WORKSPACE>/work/audit-mask/hand_fixes.py",
+          "<REVISION_WORKSPACE>/work/audit-mask/adopt_hands.py",
+          "<REVISION_WORKSPACE>/work/revision7_composite.py"
+        ],
+        "existing_scripts_or_assets_modified": false,
+        "no_image_generation_performed_for_this_record": true,
+        "frame_numbering": "Zero-based source frames at 24 fps; end frame is exclusive in every frames_half_open field.",
+        "preparation_record_correction": "Earlier inputs.json lists 612 as [612,621) and 1084 as [1084,1091); final locked mappings are [606,621) and [1082,1091). This record follows the locked compositor."
+      },
+      "final_assets": [
+        {
+          "asset_id": "hand-600",
+          "adopted_path": "<REVISION_WORKSPACE>/work/assets-v7/hand-600.png",
+          "sha256": "3d7f900d58a13773f4958bfb3653708d8f3c6f0851ef7a900de3f81093a55772",
+          "pixel_size": [
+            1247,
+            1261
+          ],
+          "mode": "RGBA",
+          "bytes": 493846,
+          "production_method": "Exact byte-for-byte copy of existing bare-612-v3.png; no newly generated hand600 was adopted.",
+          "source_path": "<ORIGINAL_WORKSPACE>/work/trick-heart-project/assets/white-sailor/bare-612-v3.png",
+          "source_sha256": "3d7f900d58a13773f4958bfb3653708d8f3c6f0851ef7a900de3f81093a55772",
+          "copy_hash_matches": true,
+          "authorization": {
+            "kind": "user_action_change_authorization_relayed_by_parent",
+            "text": "问题仍在，允许你在合理的情况下换个动作",
+            "direct_user_message_available_in_this_subagent": false,
+            "adopted_decision": "Use the validated existing bare612 open palm as a reasonable alternate action for frames600–602; preserve original coin motion and source wrist timing."
+          },
+          "rejected_candidates_adopted": false,
+          "frame_mapping_id": "coin-600-602",
+          "crop_reference_frame": 612,
+          "placement_crop_xyxy": [
+            960,
+            200,
+            1830,
+            1080
+          ],
+          "resized_canvas_size": [
+            870,
+            880
+          ],
+          "local_anatomical_deformation": false
+        },
+        {
+          "asset_id": "hand-603",
+          "adopted_path": "<ORIGINAL_WORKSPACE>/work/trick-heart-project/assets/white-sailor/bare-603-v3.png",
+          "sha256": "27edf23dcdf8ae5bb9c922ebe48f79d0b3144c044ae6b8aa5bdee7c2d6566fbd",
+          "pixel_size": [
+            1247,
+            1261
+          ],
+          "mode": "RGBA",
+          "bytes": 591807,
+          "production_method": "Retain existing original hand603 art; whole-cel skin grade and source tracking applied in compositing.",
+          "local_reference_copy": "<REVISION_WORKSPACE>/work/audit-mask/hand-603-original.png",
+          "frame_mapping_id": "coin-603-605",
+          "crop_reference_frame": 603,
+          "placement_crop_xyxy": [
+            960,
+            200,
+            1830,
+            1080
+          ],
+          "resized_canvas_size": [
+            870,
+            880
+          ],
+          "newly_generated_for_v7": false
+        },
+        {
+          "asset_id": "hand-612",
+          "adopted_path": "<ORIGINAL_WORKSPACE>/work/trick-heart-project/assets/white-sailor/bare-612-v3.png",
+          "sha256": "3d7f900d58a13773f4958bfb3653708d8f3c6f0851ef7a900de3f81093a55772",
+          "pixel_size": [
+            1247,
+            1261
+          ],
+          "mode": "RGBA",
+          "bytes": 493846,
+          "production_method": "Retain existing original hand612 art; whole-cel skin grade and source tracking applied in compositing.",
+          "local_reference_copy": "<REVISION_WORKSPACE>/work/audit-mask/hand-612-original.png",
+          "frame_mapping_id": "coin-606-620",
+          "crop_reference_frame": 612,
+          "placement_crop_xyxy": [
+            960,
+            200,
+            1830,
+            1080
+          ],
+          "resized_canvas_size": [
+            870,
+            880
+          ],
+          "newly_generated_for_v7": false
+        },
+        {
+          "asset_id": "hand-1084",
+          "adopted_path": "<REVISION_WORKSPACE>/work/assets-v7/hand-1084.png",
+          "sha256": "85a3e1387a38ce1e71eb8de978f667df307460cffb6fd2957a2b74342c7288ad",
+          "pixel_size": [
+            1280,
+            860
+          ],
+          "mode": "RGBA",
+          "bytes": 350875,
+          "production_method": "Two imagegen stages: source-aligned joint scene, followed by transparent completion of hand and cuff. Only the final completed transparent hand is adopted.",
+          "generation_stages": [
+            {
+              "stage_id": "1084-joint-scene",
+              "tool": "image_gen.imagegen",
+              "generated_original_path": "<CODEX_HOME>/generated_images/01a12612-48b8-76f1-a8ed-b1da38d8981f/exec-620385ba-ace0-4a0c-bb3d-d52cf5892d90.png",
+              "generated_original_sha256": "c6650add4816f844a7414368938251fe2986fc27296712243097cc0d5e4265ca",
+              "generated_pixel_size": [
+                1530,
+                1028
+              ],
+              "generated_mode": "RGB",
+              "prompt_record": {
+                "kind": "reconstructed_brief",
+                "exact_prompt_available": false,
+                "language": "zh",
+                "text": "以原PV第1084帧的裁剪图和完整帧为动作与兔子接触参照，把灰色手套替换为与既有角色一致的浅色裸手和黑色袖口。联合重绘手与兔子的接触关系：拇指处于兔子耳间缺口下方，三个上方承托手指自然并拢，加上小指共五指；手掌和手腕比例纤细、根部连接正确，保持原场景的姿态、兔子与手的比例、原兔子的形状和线条。既有hand1084仅提供袖口与画风参照。此文字是会话摘要重建，不是原始工具提示词。",
+                "evidence": "Parent summary: source-1084-crop/full plus existing hand1084 cuff style; joint cel has thumb below ear gap, three grouped supporting fingers and little finger, five total."
+              },
+              "reference_set": {
+                "provenance": "summary_reconstructed",
+                "exact_tool_argument_paths_available": false,
+                "entries": [
+                  {
+                    "path": "<REVISION_WORKSPACE>/work/audit-mask/source-1084-crop.png",
+                    "sha256": "fd74e8de0a3c4d1566323fb16d5dbe1d48a50602124a542193f796395fd01412",
+                    "pixel_size": [
+                      1280,
+                      860
+                    ],
+                    "role": "Original source pose, glove size, rabbit contact and crop composition",
+                    "source_frame": 1084,
+                    "source_crop_xyxy": [
+                      260,
+                      220,
+                      1540,
+                      1080
+                    ]
+                  },
+                  {
+                    "path": "<REVISION_WORKSPACE>/work/audit-mask/source-1084-full.png",
+                    "sha256": "fc42b0bfcd16efa79dda60220b4df1f14c3b3fbfefa46dd8b8750db324c78e54",
+                    "pixel_size": [
+                      1920,
+                      1080
+                    ],
+                    "role": "Original full-frame scale and scene composition",
+                    "source_frame": 1084
+                  },
+                  {
+                    "path": "<REVISION_WORKSPACE>/work/audit-mask/hand-1084-original.png",
+                    "sha256": "9fe475b60afed783b8507ff5f5fce9a5594c23665a3d364e563c14df947ad2ab",
+                    "original_path": "<ORIGINAL_WORKSPACE>/work/trick-heart-project/assets/paired-v6/hand-1084.png",
+                    "role": "Existing hand1084 sleeve/cuff drawing-style reference; the previous hand anatomy itself was rejected"
+                  }
+                ]
+              },
+              "adopted_as_final_sprite": false,
+              "subsequent_use": "Reference image for transparent-completion stage. The generated rabbit was not substituted for original PV rabbit."
+            },
+            {
+              "stage_id": "1084-transparent-completion",
+              "tool": "image_gen.imagegen",
+              "generated_original_path": "<CODEX_HOME>/generated_images/01a12612-48b8-76f1-a8ed-b1da38d8981f/exec-ad2fcd13-79e4-475b-8789-603060e9ac47.png",
+              "generated_original_sha256": "99b280ef9be002cfe175c15dcf3fe477fb28af59292b394a00a2a71d634c1761",
+              "generated_pixel_size": [
+                1530,
+                1028
+              ],
+              "generated_mode": "RGBA",
+              "prompt_record": {
+                "kind": "reconstructed_brief",
+                "exact_prompt_available": false,
+                "language": "zh",
+                "text": "以1084联合生成图为唯一场景几何参照，只保留浅色裸手和黑色袖口，输出透明背景。移除兔子、红色底色与黄色旧手，保留现有手掌、拇指与袖口的整体姿态。完整补出原被兔子挡住的三个上方圆头手指，让手指自然并拢且每个根部独立连接到手掌，拇指仍位于原兔子耳间缺口下方，手掌纤细，总计五指。不得留下被遮挡造成的平切指尖、兔子残片或背景色。此文字是会话摘要重建，不是原始工具提示词。",
+                "evidence": "Parent summary explicitly names exec-620385ba as reference and requests hand+cuff only, transparency, removal of rabbit/red background/yellow old hand, three complete upper rounded fingertips, thumb below original ear gap and five total fingers."
+              },
+              "reference_set": {
+                "provenance": "summary_reconstructed",
+                "exact_tool_argument_paths_available": false,
+                "entries": [
+                  {
+                    "path": "<CODEX_HOME>/generated_images/01a12612-48b8-76f1-a8ed-b1da38d8981f/exec-620385ba-ace0-4a0c-bb3d-d52cf5892d90.png",
+                    "sha256": "c6650add4816f844a7414368938251fe2986fc27296712243097cc0d5e4265ca",
+                    "role": "Previous source-aligned joint scene; preserve hand/cuff geometry and complete occluded fingers"
+                  }
+                ]
+              },
+              "adopted_as_final_sprite": true,
+              "transparent_background": "Confirmed RGBA generated output; exact original tool flag is unavailable.",
+              "alpha_expectation": "Transparent outside complete hand and black cuff; no rabbit, source coin, lyrics or scene background."
+            }
+          ],
+          "deterministic_postprocess": {
+            "source": "<CODEX_HOME>/generated_images/01a12612-48b8-76f1-a8ed-b1da38d8981f/exec-ad2fcd13-79e4-475b-8789-603060e9ac47.png",
+            "operations": [
+              {
+                "operation": "convert_to_RGBA"
+              },
+              {
+                "operation": "resize_whole_cel",
+                "size": [
+                  1280,
+                  860
+                ],
+                "filter": "PIL LANCZOS"
+              },
+              {
+                "operation": "translate_whole_RGBA_cel",
+                "matrix": [
+                  [
+                    1,
+                    0,
+                    0
+                  ],
+                  [
+                    0,
+                    1,
+                    100
+                  ]
+                ],
+                "output_size": [
+                  1280,
+                  860
+                ],
+                "implementation": "cv2.warpAffine",
+                "border_mode": "BORDER_REPLICATE"
+              }
+            ],
+            "placement_crop_xyxy": [
+              260,
+              220,
+              1540,
+              1080
+            ],
+            "rationale": "The transparent generation placed the hand upward relative to the joint scene; a single global vertical shift aligns thumb and supporting fingers to the source rabbit contact.",
+            "local_finger_or_palm_deformation": false,
+            "original_rabbit_restored_above_hand": true
+          },
+          "frame_mapping_id": "rabbit-1082-1090"
+        }
+      ],
+      "timeline_mapping": [
+        {
+          "mapping_id": "coin-600-602",
+          "frames_half_open": [
+            600,
+            603
+          ],
+          "frames_inclusive": [
+            600,
+            602
+          ],
+          "asset_id": "hand-600",
+          "asset_source_pose_frame": 612,
+          "placement_crop_xyxy": [
+            960,
+            200,
+            1830,
+            1080
+          ],
+          "registration": "Single whole-cel similarity transform between source612 coin+wrist anchors and each target source frame",
+          "source_coin_restored": true,
+          "whole_cel_skin_grade": true
+        },
+        {
+          "mapping_id": "coin-603-605",
+          "frames_half_open": [
+            603,
+            606
+          ],
+          "frames_inclusive": [
+            603,
+            605
+          ],
+          "asset_id": "hand-603",
+          "asset_source_pose_frame": 603,
+          "placement_crop_xyxy": [
+            960,
+            200,
+            1830,
+            1080
+          ],
+          "registration": "Existing source glove-bounds tracking with 35px margin; whole cel transformed",
+          "source_coin_restored": true,
+          "whole_cel_skin_grade": true
+        },
+        {
+          "mapping_id": "coin-606-620",
+          "frames_half_open": [
+            606,
+            621
+          ],
+          "frames_inclusive": [
+            606,
+            620
+          ],
+          "asset_id": "hand-612",
+          "asset_source_pose_frame": 612,
+          "placement_crop_xyxy": [
+            960,
+            200,
+            1830,
+            1080
+          ],
+          "registration": "Existing source glove-bounds tracking with 35px margin; whole cel transformed",
+          "source_coin_restored": true,
+          "whole_cel_skin_grade": true
+        },
+        {
+          "mapping_id": "rabbit-1082-1090",
+          "frames_half_open": [
+            1082,
+            1091
+          ],
+          "frames_inclusive": [
+            1082,
+            1090
+          ],
+          "asset_id": "hand-1084",
+          "asset_source_pose_frame": 1084,
+          "placement_crop_xyxy": [
+            260,
+            220,
+            1540,
+            1080
+          ],
+          "registration": "Source glove-bounds tracking, original rabbit restored from full canvas",
+          "whole_cel_skin_grade": true,
+          "visible_hand_frames_half_open": [
+            1082,
+            1089
+          ],
+          "source_only_zoom_frames_half_open": [
+            1089,
+            1091
+          ],
+          "source_only_reason": "Source glove mask contains fewer than350 pixels; the locked helper returns src.copy()."
+        }
+      ],
+      "source_registration": {
+        "alternative600": {
+          "transform_type": "Similarity, uniform scale plus rotation and translation",
+          "source_reference_frame": 612,
+          "target_frames": [
+            600,
+            601,
+            602
+          ],
+          "source_coin_anchor": "Centroid of yellow source coin within ROI [1120,440,1560,760], r>230,125<g<220,b<100",
+          "source_wrist_anchor": "Centroid of exposed source wrist within ROI [1200,760,1600,900],r>245,185<g<240,175<b<245",
+          "preserves_digit_roots_by_whole_cel_transform": true,
+          "source_coin_pixel_ownership": "Restore source yellow connected component hull and adjacent dark ink within7px, followed by 3px morphology; includes continuous source coin border.",
+          "previous600_generated_anatomy_used": false
+        },
+        "palette": "Whole generated hand cel is graded once with v6.grade over v6.skin(rgb) AND alpha>0; no rectangular partial hand recoloring.",
+        "source_props": "The original source coin and rabbit own their pixels above the replacement hand."
+      },
+      "rabbit_fullcanvas_validation": {
+        "corrected_interval_half_open": [
+          1082,
+          1091
+        ],
+        "earlier_failure": "Rabbit restoration ROI [600,0,1920,880] omitted the source rabbit during zoom, allowing a red erasure rectangle to clip its face/ears near1088.",
+        "final_algorithm": {
+          "canvas_size": [
+            1920,
+            1080
+          ],
+          "spatial_roi_clipping": false,
+          "white_instances": "Source min(R,G,B)>246 with connected components of at least200 pixels; old gray glove at<=246 excluded.",
+          "red_candidates": "r>160 AND g<125 AND b>45 AND r>1.6*g across full canvas",
+          "red_instance_ownership": "Keep connected red components area>100 touching the 11px dilated source white instance at more than20 pixels; source background red r≈140 is excluded.",
+          "outlines_and_eyes": "Restore source dark ink max(R,G,B)<110 within9px of the owned white/red body; binary_fill_holes preserves the complete source instance including eyes/interior and outline pixels.",
+          "colored_cuff_policy": "No global orange/cuff color restore; colored source prop restoration is constrained by source rabbit ownership.",
+          "zoom_with_no_hand": "Frames1089–1090 are exact source copies."
+        },
+        "earlier_evidence_path": "<REVISION_WORKSPACE>/work/audit-mask/rabbit-fullcanvas-verification.json",
+        "earlier_evidence_sha256": "974442ae05496a68fea5e73d46cf53a8fb9b6322aad69144ac21a0f4346d1a80",
+        "earlier_evidence_caveat": "Broad unfiltered white threshold comparison was false on1082–1088 because1–17 isolated unowned old-glove/antialias white pixels changed. Every retained rabbit white instance and complete owned rabbit matte was source-exact; this record does not claim all unfiltered white pixels were unchanged.",
+        "fresh_locked_final_frame_check": {
+          "performed_for_this_record": true,
+          "method": "Read each locked work/frames-v7/final PNG and original source, construct source_rabbit_mask without rendering/writing, compare pixel arrays within matte, retained white instances and owned red pixels, then compare full frame.",
+          "frames": [
+            {
+              "frame": 1082,
+              "path": "<REVISION_WORKSPACE>/work/frames-v7/final/01082.png",
+              "sha256": "26d833e4b90296cf47feb57bd6157b2f7b3dfeb3cf6e019d018d59217ada6142",
+              "rabbit_matte_source_exact": true,
+              "rabbit_white_instances_source_exact": true,
+              "rabbit_red_source_exact": true,
+              "fullframe_source_exact": false
+            },
+            {
+              "frame": 1083,
+              "path": "<REVISION_WORKSPACE>/work/frames-v7/final/01083.png",
+              "sha256": "8f1b51cbc2c28e93213fc2693a9922db6879681803105855fb69cad8cec86cd2",
+              "rabbit_matte_source_exact": true,
+              "rabbit_white_instances_source_exact": true,
+              "rabbit_red_source_exact": true,
+              "fullframe_source_exact": false
+            },
+            {
+              "frame": 1084,
+              "path": "<REVISION_WORKSPACE>/work/frames-v7/final/01084.png",
+              "sha256": "c99cd8a38db51ed8223f07759d33ef046980489a25fc126ebcab09a06babfb79",
+              "rabbit_matte_source_exact": true,
+              "rabbit_white_instances_source_exact": true,
+              "rabbit_red_source_exact": true,
+              "fullframe_source_exact": false
+            },
+            {
+              "frame": 1085,
+              "path": "<REVISION_WORKSPACE>/work/frames-v7/final/01085.png",
+              "sha256": "649ad956bb1c8eb926f22781609623184e76b7c38a9533fea57a9e68706f89fa",
+              "rabbit_matte_source_exact": true,
+              "rabbit_white_instances_source_exact": true,
+              "rabbit_red_source_exact": true,
+              "fullframe_source_exact": false
+            },
+            {
+              "frame": 1086,
+              "path": "<REVISION_WORKSPACE>/work/frames-v7/final/01086.png",
+              "sha256": "644d8e118fbef475f3b4f7f694aecd14eed4b0c0465769a43abf2908e0b17021",
+              "rabbit_matte_source_exact": true,
+              "rabbit_white_instances_source_exact": true,
+              "rabbit_red_source_exact": true,
+              "fullframe_source_exact": false
+            },
+            {
+              "frame": 1087,
+              "path": "<REVISION_WORKSPACE>/work/frames-v7/final/01087.png",
+              "sha256": "9960d34d84b9e28a7d341523ef52c64f2390b474ec59662802249788b204fba8",
+              "rabbit_matte_source_exact": true,
+              "rabbit_white_instances_source_exact": true,
+              "rabbit_red_source_exact": true,
+              "fullframe_source_exact": false
+            },
+            {
+              "frame": 1088,
+              "path": "<REVISION_WORKSPACE>/work/frames-v7/final/01088.png",
+              "sha256": "801e0f759c3b0564c6ebeb168f81af3ff685ba4f59d3aa2876a3ccf25dcc8071",
+              "rabbit_matte_source_exact": true,
+              "rabbit_white_instances_source_exact": true,
+              "rabbit_red_source_exact": true,
+              "fullframe_source_exact": false
+            },
+            {
+              "frame": 1089,
+              "path": "<REVISION_WORKSPACE>/work/frames-v7/final/01089.png",
+              "sha256": "85d55f8452cd097a8281bb028661b9e3e80deaeceeb1ba17f0ea4e69a8069d3c",
+              "rabbit_matte_source_exact": true,
+              "rabbit_white_instances_source_exact": true,
+              "rabbit_red_source_exact": true,
+              "fullframe_source_exact": true
+            },
+            {
+              "frame": 1090,
+              "path": "<REVISION_WORKSPACE>/work/frames-v7/final/01090.png",
+              "sha256": "733fa0fa9bb0928da6cfd22d7b4abd75882719c901a19998b297ea2a92910a69",
+              "rabbit_matte_source_exact": true,
+              "rabbit_white_instances_source_exact": true,
+              "rabbit_red_source_exact": true,
+              "fullframe_source_exact": true
+            }
+          ],
+          "all_nine_owned_rabbit_mattes_exact": true,
+          "all_nine_owned_white_and_red_instances_exact": true,
+          "fullframe_exact_frames": [
+            1089,
+            1090
+          ]
+        },
+        "actual_visual_review_samples": [
+          {
+            "frame": 1087,
+            "path": "<REVISION_WORKSPACE>/work/frames-v7/final/01087.png",
+            "sha256": "9960d34d84b9e28a7d341523ef52c64f2390b474ec59662802249788b204fba8",
+            "reviewed_by": "mask_audit",
+            "actual_viewed": true,
+            "scope": "Final locked lossless PNG viewed in this record task; full-frame still, not video playback.",
+            "conclusion": "Source rabbit face, eyes and ear outline intact; hand thumb web and supporting-finger contact visible. No red rectangular panel clips the rabbit."
+          },
+          {
+            "frame": 1088,
+            "path": "<REVISION_WORKSPACE>/work/frames-v7/final/01088.png",
+            "sha256": "801e0f759c3b0564c6ebeb168f81af3ff685ba4f59d3aa2876a3ccf25dcc8071",
+            "reviewed_by": "mask_audit",
+            "actual_viewed": true,
+            "scope": "Final locked lossless PNG viewed in this record task; full-frame still, not video playback.",
+            "conclusion": "Zoomed source rabbit ear/face outline intact; no red erasure rectangle clips the source foreground."
+          },
+          {
+            "frame": 1089,
+            "path": "<REVISION_WORKSPACE>/work/frames-v7/final/01089.png",
+            "sha256": "85d55f8452cd097a8281bb028661b9e3e80deaeceeb1ba17f0ea4e69a8069d3c",
+            "reviewed_by": "mask_audit",
+            "actual_viewed": true,
+            "scope": "Final locked lossless PNG viewed in this record task; full-frame still, not video playback.",
+            "conclusion": "Zoomed source rabbit ear/face outline intact; no red erasure rectangle clips the source foreground."
+          },
+          {
+            "frame": 1090,
+            "path": "<REVISION_WORKSPACE>/work/frames-v7/final/01090.png",
+            "sha256": "733fa0fa9bb0928da6cfd22d7b4abd75882719c901a19998b297ea2a92910a69",
+            "reviewed_by": "mask_audit",
+            "actual_viewed": true,
+            "scope": "Final locked lossless PNG viewed in this record task; full-frame still, not video playback.",
+            "conclusion": "Zoomed source rabbit ear/face outline intact; no red erasure rectangle clips the source foreground."
+          }
+        ],
+        "previous_hand_preview_samples": [
+          {
+            "frames": [
+              600,
+              603,
+              612
+            ],
+            "paths": [
+              "<REVISION_WORKSPACE>/work/audit-mask/handfix-00600.png",
+              "<REVISION_WORKSPACE>/work/audit-mask/handfix-00603.png",
+              "<REVISION_WORKSPACE>/work/audit-mask/handfix-00612.png"
+            ],
+            "scope": "Earlier actual visual inspection of adopted hand art, whole-cel grade and source coin contact."
+          },
+          {
+            "frames": [
+              1082,
+              1084
+            ],
+            "scope": "Earlier actual inspection of completed1084 hand registration/contact before the full-canvas rabbit fix; not claimed as fresh final-canvas inspection."
+          }
+        ],
+        "full_video_or_continuous_interval_manually_reviewed_by_this_agent": false
+      },
+      "rebuild_dependencies": {
+        "self_contained_without_old_v6_project": false,
+        "locked_local_files": {
+          "work/audit-mask/hand_fixes.py": "2b99e4f43db7c02ae5157414741f96b9352ea8f702efdbc905375797618cde57",
+          "work/audit-mask/mask_fixes.py": "5f1fb82e79f99c87141f32b464e1913981e81aa938de56a8ef1a1a612876fb48",
+          "work/audit-mask/rabbit-fullcanvas-verification.json": "974442ae05496a68fea5e73d46cf53a8fb9b6322aad69144ac21a0f4346d1a80",
+          "work/revision7_composite.py": "668a6e4508ced0fd7924f821c092808752a205dc0fcd55327f10c404f48c5ed1",
+          "work/assets-v7/hand-600.png": "3d7f900d58a13773f4958bfb3653708d8f3c6f0851ef7a900de3f81093a55772",
+          "work/assets-v7/hand-1084.png": "85a3e1387a38ce1e71eb8de978f667df307460cffb6fd2957a2b74342c7288ad"
+        },
+        "immutable_original_project_root": "<ORIGINAL_WORKSPACE>/work/trick-heart-project",
+        "required_saved_v6_base_frames": "<ORIGINAL_WORKSPACE>/work/trick-heart-project/runs/paired-v6/frames/final",
+        "source_frame_inputs": "<ORIGINAL_WORKSPACE>/work/trick-heart-project/runs/white-sailor/frames/source",
+        "original_hand_assets": [
+          "<ORIGINAL_WORKSPACE>/work/trick-heart-project/assets/white-sailor/bare-603-v3.png",
+          "<ORIGINAL_WORKSPACE>/work/trick-heart-project/assets/white-sailor/bare-612-v3.png"
+        ],
+        "source_tracking_and_grade_modules": "<ORIGINAL_WORKSPACE>/work/trick-heart-project/tools (revision6_composite and its local imports)",
+        "bundled_old_project_python_library": "<ORIGINAL_WORKSPACE>/work/trick-heart-project/../python_lib",
+        "dependency_policy": "Read-only inputs; the locked wrapper does not make a portable rebuild package independent of the original source, saved v6 frames, tool imports and assets.",
+        "current_record_only_creation": true
+      }
+    },
+    "work/audit-motion/production-assets.json": {
+      "schema_version": "1.0",
+      "record_type": "v7_adopted_motion_art",
+      "provenance": {
+        "source": "Root session summary plus verified local files; saved after the locked compositor and final MP4 verification.",
+        "exact_imagegen_call_history_available": false,
+        "briefs_are_not_complete_original_prompts": true,
+        "only_this_metadata_helper_and_record_created": true
+      },
+      "final_assets": [
+        {
+          "asset_id": "inhale",
+          "adopted_asset": {
+            "path": "<REVISION_WORKSPACE>\\work\\assets-v7\\inhale.png",
+            "sha256": "3dead67a04689768bfd5a10c4d1ac31383601d70738f00260ffb16f96f96548b",
+            "bytes": 1566005,
+            "pixel_size": [
+              1671,
+              941
+            ],
+            "mode": "RGB"
+          },
+          "generated_original": {
+            "path": "<CODEX_HOME>\\generated_images\\01a12612-48b8-76f1-a8ed-b1da38d8981f\\exec-7439fb51-5c5c-4538-a246-eb78f7e0813e.png",
+            "sha256": "3dead67a04689768bfd5a10c4d1ac31383601d70738f00260ffb16f96f96548b",
+            "bytes": 1566005,
+            "pixel_size": [
+              1671,
+              941
+            ],
+            "mode": "RGB"
+          },
+          "frames_half_open": [
+            2147,
+            2151
+          ],
+          "tool": "image_gen.imagegen",
+          "prompt_record": {
+            "kind": "reconstructed_brief",
+            "exact_prompt_available": false,
+            "text": "Edit the black-haired girl with glasses into a distinct inhaling preparation: eyes squeezed shut, head tilted back slightly, preserving her identity, existing linework and costume. Use source frame2148 for pose and existing target for character style."
+          },
+          "reference_set": {
+            "provenance": "reference_set_reconstructed_from_session_summary",
+            "exact_tool_argument_paths_available": false,
+            "entries": [
+              {
+                "path": "<REVISION_WORKSPACE>\\work\\audit-motion\\inhale-target.png",
+                "sha256": "a914d775612ac0e093f2931976943a5ea870a90728d6802c4c9521b7623e23d8",
+                "bytes": 570800,
+                "pixel_size": [
+                  1920,
+                  1080
+                ],
+                "mode": "RGB"
+              },
+              {
+                "path": "<REVISION_WORKSPACE>\\work\\audit-motion\\source-inhale.png",
+                "sha256": "72dd16c4c053b9eefea2b5459ec2487d9c1cbb4c7d31e3cbb41f7ee3d5131cfb",
+                "bytes": 212798,
+                "pixel_size": [
+                  1920,
+                  1080
+                ],
+                "mode": "RGB"
+              },
+              {
+                "path": "<REVISION_WORKSPACE>\\work\\audit-motion\\black-reference.jpg",
+                "sha256": "43cbe4c543465e6f723547d5f5073584dd102a9af649e543293b177178e14efb",
+                "bytes": 165643,
+                "pixel_size": [
+                  1080,
+                  1350
+                ],
+                "mode": "RGB"
+              }
+            ]
+          },
+          "whole_cel_normalization": [
+            1920,
+            1080
+          ],
+          "local_anatomical_deformation": false
+        },
+        {
+          "asset_id": "blow",
+          "adopted_asset": {
+            "path": "<REVISION_WORKSPACE>\\work\\assets-v7\\blow.png",
+            "sha256": "ebe3cd9141c51c71e56b2a87fed2286875750dbb71f73214ce474f11a854fbc4",
+            "bytes": 1539543,
+            "pixel_size": [
+              1672,
+              941
+            ],
+            "mode": "RGB"
+          },
+          "generated_original": {
+            "path": "<CODEX_HOME>\\generated_images\\01a12612-48b8-76f1-a8ed-b1da38d8981f\\exec-bf2b4e1f-2e22-4ac6-9aa6-175e12cfcb73.png",
+            "sha256": "ebe3cd9141c51c71e56b2a87fed2286875750dbb71f73214ce474f11a854fbc4",
+            "bytes": 1539543,
+            "pixel_size": [
+              1672,
+              941
+            ],
+            "mode": "RGB"
+          },
+          "frames_half_open": [
+            2151,
+            2157
+          ],
+          "tool": "image_gen.imagegen",
+          "prompt_record": {
+            "kind": "reconstructed_brief",
+            "exact_prompt_available": false,
+            "text": "Edit the black-haired girl into a visible blowing action: small pursed oo lips, cheeks and head moved forward naturally, preserve identity, glasses and costume. Follow source frame2154 timing; do not add artificial breath."
+          },
+          "reference_set": {
+            "provenance": "reference_set_reconstructed_from_session_summary",
+            "exact_tool_argument_paths_available": false,
+            "entries": [
+              {
+                "path": "<REVISION_WORKSPACE>\\work\\audit-motion\\blow-target.png",
+                "sha256": "48b10b73d9e3edaab2762324c32b6f97af83501f5c578666fc67e9fc2af07f24",
+                "bytes": 644177,
+                "pixel_size": [
+                  1920,
+                  1080
+                ],
+                "mode": "RGB"
+              },
+              {
+                "path": "<REVISION_WORKSPACE>\\work\\audit-motion\\source-blow.png",
+                "sha256": "e64c01c021b2c3e749a905943266aac94264919e03c7087aec31720b846af6f6",
+                "bytes": 319557,
+                "pixel_size": [
+                  1920,
+                  1080
+                ],
+                "mode": "RGB"
+              },
+              {
+                "path": "<REVISION_WORKSPACE>\\work\\audit-motion\\black-reference.jpg",
+                "sha256": "43cbe4c543465e6f723547d5f5073584dd102a9af649e543293b177178e14efb",
+                "bytes": 165643,
+                "pixel_size": [
+                  1080,
+                  1350
+                ],
+                "mode": "RGB"
+              }
+            ]
+          },
+          "whole_cel_normalization": [
+            1920,
+            1080
+          ],
+          "local_anatomical_deformation": false
+        },
+        {
+          "asset_id": "braid",
+          "adopted_asset": {
+            "path": "<REVISION_WORKSPACE>\\work\\assets-v7\\braid.png",
+            "sha256": "8c9d3db8e6aa84e57b5605ed8ece65177da4351f972910b5b5ab341ed89f90c5",
+            "bytes": 1462591,
+            "pixel_size": [
+              1672,
+              941
+            ],
+            "mode": "RGB"
+          },
+          "generated_original": {
+            "path": "<CODEX_HOME>\\generated_images\\01a12612-48b8-76f1-a8ed-b1da38d8981f\\exec-597f0a4d-b1cc-4f47-898f-6feb635bcc32.png",
+            "sha256": "8c9d3db8e6aa84e57b5605ed8ece65177da4351f972910b5b5ab341ed89f90c5",
+            "bytes": 1462591,
+            "pixel_size": [
+              1672,
+              941
+            ],
+            "mode": "RGB"
+          },
+          "frames_half_open": [
+            3584,
+            3630
+          ],
+          "tool": "image_gen.imagegen",
+          "prompt_record": {
+            "kind": "reconstructed_brief",
+            "exact_prompt_available": false,
+            "text": "Simplify the white-haired sailor character braid in the existing ending panel: broad braid segments, fewer hair details, flat anime colors and linework matching source frame3588. Preserve character identity and the existing central panel action."
+          },
+          "reference_set": {
+            "provenance": "reference_set_reconstructed_from_session_summary",
+            "exact_tool_argument_paths_available": false,
+            "entries": [
+              {
+                "path": "<REVISION_WORKSPACE>\\work\\audit-motion\\braid-target.png",
+                "sha256": "f6f6088cc255e2e3a64bbf76ef0ea3bdb5355912bfbfb3b49866f0da279a246c",
+                "bytes": 684990,
+                "pixel_size": [
+                  1920,
+                  1080
+                ],
+                "mode": "RGB"
+              },
+              {
+                "path": "<REVISION_WORKSPACE>\\work\\audit-motion\\source-braid.png",
+                "sha256": "ffdf38beec02a84d56d2443f00e185eaac22dca9177214e04488ed01df7f62bc",
+                "bytes": 338388,
+                "pixel_size": [
+                  1920,
+                  1080
+                ],
+                "mode": "RGB"
+              },
+              {
+                "path": "<REVISION_WORKSPACE>\\work\\audit-motion\\white-reference.png",
+                "sha256": "f22ba34f941bddca00a4d44e90864dcef4582eca1873dac0f8813d9f18587220",
+                "bytes": 1922158,
+                "pixel_size": [
+                  1024,
+                  1536
+                ],
+                "mode": "RGB"
+              }
+            ]
+          },
+          "whole_cel_normalization": [
+            1920,
+            1080
+          ],
+          "local_anatomical_deformation": false
+        },
+        {
+          "asset_id": "back",
+          "adopted_asset": {
+            "path": "<REVISION_WORKSPACE>\\work\\assets-v7\\back.png",
+            "sha256": "19282b043ae3db48f60a14af8d100708fd798941ce5b50b1c35c25729f79841a",
+            "bytes": 1551366,
+            "pixel_size": [
+              1671,
+              941
+            ],
+            "mode": "RGB"
+          },
+          "generated_original": {
+            "path": "<CODEX_HOME>\\generated_images\\01a12612-48b8-76f1-a8ed-b1da38d8981f\\exec-005cbc2a-e21d-4348-8523-1f23c8a69cf9.png",
+            "sha256": "19282b043ae3db48f60a14af8d100708fd798941ce5b50b1c35c25729f79841a",
+            "bytes": 1551366,
+            "pixel_size": [
+              1671,
+              941
+            ],
+            "mode": "RGB"
+          },
+          "frames_half_open": [
+            3630,
+            3666
+          ],
+          "tool": "image_gen.imagegen",
+          "prompt_record": {
+            "kind": "reconstructed_brief",
+            "exact_prompt_available": false,
+            "text": "Correct the back-view white-haired sailor character: braid and triangular clips on character-left, viewer-left; braid toward the front shoulder. Preserve original bag position and motion without mirroring the whole character. Simplify style and keep the complete ahoge, following source frame3640."
+          },
+          "reference_set": {
+            "provenance": "reference_set_reconstructed_from_session_summary",
+            "exact_tool_argument_paths_available": false,
+            "entries": [
+              {
+                "path": "<REVISION_WORKSPACE>\\work\\audit-motion\\back-target.png",
+                "sha256": "2705dcfdd246b83d608237e42c78b770d8441437af0571f018158c667777f4a5",
+                "bytes": 521517,
+                "pixel_size": [
+                  1920,
+                  1080
+                ],
+                "mode": "RGB"
+              },
+              {
+                "path": "<REVISION_WORKSPACE>\\work\\audit-motion\\source-back.png",
+                "sha256": "f3c07f6ec1a67a2c90c9d40eaa0b79a0f750365a59bab01d2481dadf2f3a5d63",
+                "bytes": 377154,
+                "pixel_size": [
+                  1920,
+                  1080
+                ],
+                "mode": "RGB"
+              },
+              {
+                "path": "<REVISION_WORKSPACE>\\work\\audit-motion\\white-reference.png",
+                "sha256": "f22ba34f941bddca00a4d44e90864dcef4582eca1873dac0f8813d9f18587220",
+                "bytes": 1922158,
+                "pixel_size": [
+                  1024,
+                  1536
+                ],
+                "mode": "RGB"
+              }
+            ]
+          },
+          "whole_cel_normalization": [
+            1920,
+            1080
+          ],
+          "local_anatomical_deformation": false
+        }
+      ],
+      "locked_compositor": {
+        "path": "<REVISION_WORKSPACE>\\work\\audit-motion\\motion_patch.py",
+        "sha256": "d60657928034251570bf56dc54284ef62af1ad0ddc63d12fe69776442485089a",
+        "bytes": 4337
+      },
+      "state_timeline": {
+        "prepare_existing_v6": [
+          2139,
+          2147
+        ],
+        "inhale": [
+          2147,
+          2151
+        ],
+        "pursed_blow": [
+          2151,
+          2157
+        ],
+        "relax_existing_v6": [
+          2157,
+          2169
+        ]
+      },
+      "source_ownership": "Original moving paper, lyrics, ending panel motion, background and butterflies are retained by compositor masks; generated paper is excluded.",
+      "implementation_evidence": [
+        "<REVISION_WORKSPACE>\\work\\audit-motion\\motion_patch.py",
+        "<REVISION_WORKSPACE>\\work\\audit-motion\\preview\\records.json"
+      ],
+      "visual_review_evidence": [
+        "<REVISION_WORKSPACE>\\work\\v7-visual-review-log.json",
+        "<REVISION_WORKSPACE>\\outputs\\v7-comparison-late.jpg"
+      ],
+      "manual_full_video_playback_claim": false
+    }
+  },
+  "all_local_new_script_hashes": {
+    "work/audit-mask/adopt_hands.py": {
+      "path": "<REVISION_WORKSPACE>\\work\\audit-mask\\adopt_hands.py",
+      "sha256": "081fa706d6acc376e80ee6503431b21e2c8711d7296438ac5c6134e78533fa90",
+      "bytes": 2491
+    },
+    "work/audit-mask/fix_full_rabbit.py": {
+      "path": "<REVISION_WORKSPACE>\\work\\audit-mask\\fix_full_rabbit.py",
+      "sha256": "3242421319dc82bb9190cb0ccf90d9afb3dd2c1cd150eabdb48c731a723228da",
+      "bytes": 1160
+    },
+    "work/audit-mask/hand_fixes.py": {
+      "path": "<REVISION_WORKSPACE>\\work\\audit-mask\\hand_fixes.py",
+      "sha256": "2b99e4f43db7c02ae5157414741f96b9352ea8f702efdbc905375797618cde57",
+      "bytes": 5287
+    },
+    "work/audit-mask/inspect_rabbit.py": {
+      "path": "<REVISION_WORKSPACE>\\work\\audit-mask\\inspect_rabbit.py",
+      "sha256": "b2752941d30218ecb634f1db97bddb299d1eb77d495ad5a718f7750ad45ab821",
+      "bytes": 843
+    },
+    "work/audit-mask/inspect_white_instances.py": {
+      "path": "<REVISION_WORKSPACE>\\work\\audit-mask\\inspect_white_instances.py",
+      "sha256": "5af83cb498e2b0a95f72151946247f9721329e02043a383df2097213014dbe91",
+      "bytes": 1260
+    },
+    "work/audit-mask/isolate1084.py": {
+      "path": "<REVISION_WORKSPACE>\\work\\audit-mask\\isolate1084.py",
+      "sha256": "66a325fa943194ec107a179370af9458d4e2fb1ecf4204dd71e46eaaff407d2d",
+      "bytes": 3194
+    },
+    "work/audit-mask/mask_fixes.py": {
+      "path": "<REVISION_WORKSPACE>\\work\\audit-mask\\mask_fixes.py",
+      "sha256": "5f1fb82e79f99c87141f32b464e1913981e81aa938de56a8ef1a1a612876fb48",
+      "bytes": 2660
+    },
+    "work/audit-mask/prepare_inputs.py": {
+      "path": "<REVISION_WORKSPACE>\\work\\audit-mask\\prepare_inputs.py",
+      "sha256": "c69a7662a446c642293cc4827f5907d903c1ae0cda5ef1448561a21bac108b0b",
+      "bytes": 2048
+    },
+    "work/audit-mask/verify_rabbit_full.py": {
+      "path": "<REVISION_WORKSPACE>\\work\\audit-mask\\verify_rabbit_full.py",
+      "sha256": "ccb78b9f3d952f9716b14d0b1c1853aabe7f8834cc74a07cc04b24af9d12b6cf",
+      "bytes": 1492
+    },
+    "work/audit-motion/anchors.py": {
+      "path": "<REVISION_WORKSPACE>\\work\\audit-motion\\anchors.py",
+      "sha256": "d93e12d0fbd3beb938dcbdf4d68740efd88af28d00a2e0081caf314be3f8938a",
+      "bytes": 789
+    },
+    "work/audit-motion/collar_anchors.py": {
+      "path": "<REVISION_WORKSPACE>\\work\\audit-motion\\collar_anchors.py",
+      "sha256": "a74f0b3bd709cf04dbce9ebe5ccb7c0eac93fa091cb87ba952a462c3d012ebab",
+      "bytes": 754
+    },
+    "work/audit-motion/motion_patch.py": {
+      "path": "<REVISION_WORKSPACE>\\work\\audit-motion\\motion_patch.py",
+      "sha256": "d60657928034251570bf56dc54284ef62af1ad0ddc63d12fe69776442485089a",
+      "bytes": 4337
+    },
+    "work/audit-motion/preview.py": {
+      "path": "<REVISION_WORKSPACE>\\work\\audit-motion\\preview.py",
+      "sha256": "30fdad6ea5886f256eb796a042da68e5c86cb13ecf2164f2560ab330cff1169f",
+      "bytes": 1301
+    },
+    "work/audit-motion/write_production_record.py": {
+      "path": "<REVISION_WORKSPACE>\\work\\audit-motion\\write_production_record.py",
+      "sha256": "30606b8fdbf29f0c3cd2af371e8e183cd75ee4abe7eaa89f01d23da4670547f9",
+      "bytes": 3996
+    },
+    "work/encode_v7.py": {
+      "path": "<REVISION_WORKSPACE>\\work\\encode_v7.py",
+      "sha256": "5f0731f91f71e5a9fed39aa93a35a2af6d83758028a0a45faba48935eec358b5",
+      "bytes": 15809
+    },
+    "work/finalize_v7.py": {
+      "path": "<REVISION_WORKSPACE>\\work\\finalize_v7.py",
+      "sha256": "0220f30a2bf5ac3e0a35c319fc1c13db28e56df937b137919f3aab67426db5e4",
+      "bytes": 16127
+    },
+    "work/inspect_project.py": {
+      "path": "<REVISION_WORKSPACE>\\work\\inspect_project.py",
+      "sha256": "882120062d513e77778a2eb3cf81fa29b38f54afeeba6d2528d6dc13a5dbf474",
+      "bytes": 1338
+    },
+    "work/patch_audio_remux.py": {
+      "path": "<REVISION_WORKSPACE>\\work\\patch_audio_remux.py",
+      "sha256": "00dfc24483724c90aef17e8e19b3a17a8186b521ad5c2b201009cf0c43461c9b",
+      "bytes": 4432
+    },
+    "work/qa_rabbit_encoded.py": {
+      "path": "<REVISION_WORKSPACE>\\work\\qa_rabbit_encoded.py",
+      "sha256": "fbc75899b2ce82028c20f660c4ce3dddbb84e15bd7769062ee83dea9966e0ade",
+      "bytes": 870
+    },
+    "work/review_v7.py": {
+      "path": "<REVISION_WORKSPACE>\\work\\review_v7.py",
+      "sha256": "1ce15a8f62b120c684f55fcfc6d21c7311beb654bb0b674760da6848f0761dbb",
+      "bytes": 6217
+    },
+    "work/revision7_composite.py": {
+      "path": "<REVISION_WORKSPACE>\\work\\revision7_composite.py",
+      "sha256": "668a6e4508ced0fd7924f821c092808752a205dc0fcd55327f10c404f48c5ed1",
+      "bytes": 3958
+    },
+    "work/test_encoder_helper.py": {
+      "path": "<REVISION_WORKSPACE>\\work\\test_encoder_helper.py",
+      "sha256": "a0a1be17e968f11ffc10bbbb09a2689b13398e62eaea4b85b42c1adcec556f21",
+      "bytes": 204
+    }
+  },
+  "readonly_original_dependencies": {
+    "tools_snapshots": {
+      "adapt_white_sailor.py": {
+        "path": "<ORIGINAL_WORKSPACE>\\work\\trick-heart-project\\tools\\adapt_white_sailor.py",
+        "sha256": "d3a719f53075cfde0d9cd3763a9b5b2bbce86ce1d81aefdb2e94fce2c0a5ae78",
+        "bytes": 7825
+      },
+      "build.py": {
+        "path": "<ORIGINAL_WORKSPACE>\\work\\trick-heart-project\\tools\\build.py",
+        "sha256": "c9629118fc476201e0223e74772045a1587d10ea5285cdccb6595bd91bc91ab7",
+        "bytes": 3369
+      },
+      "build_character.py": {
+        "path": "<ORIGINAL_WORKSPACE>\\work\\trick-heart-project\\tools\\build_character.py",
+        "sha256": "90332f2bb81f2a922e3c224b786767b8acb06d5ae5244d994db1db5e60e46479",
+        "bytes": 14643
+      },
+      "character_profile.py": {
+        "path": "<ORIGINAL_WORKSPACE>\\work\\trick-heart-project\\tools\\character_profile.py",
+        "sha256": "5e16d375b4eccb26572569eba5f57e453243408b9c30b919348f1353bac0eceb",
+        "bytes": 621
+      },
+      "check_juggle_character.py": {
+        "path": "<ORIGINAL_WORKSPACE>\\work\\trick-heart-project\\tools\\check_juggle_character.py",
+        "sha256": "0ce55b21cd5b03b40be756af82343fca3cc46ac4094bc8996d2dafd83913d2cf",
+        "bytes": 1260
+      },
+      "check_public.py": {
+        "path": "<ORIGINAL_WORKSPACE>\\work\\trick-heart-project\\tools\\check_public.py",
+        "sha256": "cea57a748dcdf760e8c4bc06283f31d2fc797c9e5ba04e07de38f11521a3effc",
+        "bytes": 2076
+      },
+      "chinese_subtitles.py": {
+        "path": "<ORIGINAL_WORKSPACE>\\work\\trick-heart-project\\tools\\chinese_subtitles.py",
+        "sha256": "a8a13dab37dbbeeabb8f984bd4c679fe51734403fdc0338c8bac422419f16a90",
+        "bytes": 8134
+      },
+      "composite.py": {
+        "path": "<ORIGINAL_WORKSPACE>\\work\\trick-heart-project\\tools\\composite.py",
+        "sha256": "cc9ea6941d88022c614cf726aeb0db71843ffc559232c76505b9bd5f78890713",
+        "bytes": 18590
+      },
+      "finish_character_configuration.py": {
+        "path": "<ORIGINAL_WORKSPACE>\\work\\trick-heart-project\\tools\\finish_character_configuration.py",
+        "sha256": "84b5034a69fb7060060d0678b17267acb5cfc8df5381afe9ed38b5c8378fae79",
+        "bytes": 2172
+      },
+      "finish_juggle_configuration.py": {
+        "path": "<ORIGINAL_WORKSPACE>\\work\\trick-heart-project\\tools\\finish_juggle_configuration.py",
+        "sha256": "fe34479831dc9467bd685ba6e93d4b7f801d00ac12eb4f128cfe2239ec1fcf63",
+        "bytes": 831
+      },
+      "full_composite.py": {
+        "path": "<ORIGINAL_WORKSPACE>\\work\\trick-heart-project\\tools\\full_composite.py",
+        "sha256": "5919bb4b0ac206c13aad1d86d43b90c078d782899061c0897953a47a41c221ae",
+        "bytes": 23626
+      },
+      "media_encode.py": {
+        "path": "<ORIGINAL_WORKSPACE>\\work\\trick-heart-project\\tools\\media_encode.py",
+        "sha256": "4ab6678d625521d979299fd3862e63b5e9350b07fbacaf2f930612447954e3df",
+        "bytes": 540
+      },
+      "media_verify.py": {
+        "path": "<ORIGINAL_WORKSPACE>\\work\\trick-heart-project\\tools\\media_verify.py",
+        "sha256": "fb35ddeeb16f8ea87c53e69781aa3b07b5e81bff1e5607fe9d13b53f9a3f2fca",
+        "bytes": 609
+      },
+      "package_release.py": {
+        "path": "<ORIGINAL_WORKSPACE>\\work\\trick-heart-project\\tools\\package_release.py",
+        "sha256": "95cfe505b2f8da37019163a4e486f452705809a5fc5e19bd7059a8450c7dbe61",
+        "bytes": 1941
+      },
+      "prepare.py": {
+        "path": "<ORIGINAL_WORKSPACE>\\work\\trick-heart-project\\tools\\prepare.py",
+        "sha256": "7d20808d2baced58dd50702a080c3df7dbb711c33eb41b912797aa7c52b3e7d3",
+        "bytes": 2978
+      },
+      "prepare_full.py": {
+        "path": "<ORIGINAL_WORKSPACE>\\work\\trick-heart-project\\tools\\prepare_full.py",
+        "sha256": "bc7869056c5802b4818f5cdd66c3d9d915ecf36d7c77e011be82523aad10888c",
+        "bytes": 1775
+      },
+      "prepare_v3_hands.py": {
+        "path": "<ORIGINAL_WORKSPACE>\\work\\trick-heart-project\\tools\\prepare_v3_hands.py",
+        "sha256": "e33c25a7c54067b1f597f692517f74521449f35e394b1b666b7548e2630e1141",
+        "bytes": 1759
+      },
+      "review_server.py": {
+        "path": "<ORIGINAL_WORKSPACE>\\work\\trick-heart-project\\tools\\review_server.py",
+        "sha256": "cc5127c21886d918e4bd0b9a5f417e0ef44b60d3e7fe65328ec3994fc7b6ac73",
+        "bytes": 2834
+      },
+      "revision3_composite.py": {
+        "path": "<ORIGINAL_WORKSPACE>\\work\\trick-heart-project\\tools\\revision3_composite.py",
+        "sha256": "e756efe10fa321860ec34cd05420ee7d00eddc0ae8f69987a60a74f658187a05",
+        "bytes": 13544
+      },
+      "revision3_verify.py": {
+        "path": "<ORIGINAL_WORKSPACE>\\work\\trick-heart-project\\tools\\revision3_verify.py",
+        "sha256": "21589e1949158a15505bf836b32d44be5636d1d15e34a9b49dffd6131a3fdaf9",
+        "bytes": 4715
+      },
+      "revision4_composite.py": {
+        "path": "<ORIGINAL_WORKSPACE>\\work\\trick-heart-project\\tools\\revision4_composite.py",
+        "sha256": "41eb40649dfc3f3f839223d0551b2d19f5c288556914edf836bb97bfb294c051",
+        "bytes": 12680
+      },
+      "revision4_juggle.py": {
+        "path": "<ORIGINAL_WORKSPACE>\\work\\trick-heart-project\\tools\\revision4_juggle.py",
+        "sha256": "e98ec0ed85a2afb4cb726e3a62f666d0f70142746d114944ba04580a36e6f9d8",
+        "bytes": 7928
+      },
+      "revision4_layers.py": {
+        "path": "<ORIGINAL_WORKSPACE>\\work\\trick-heart-project\\tools\\revision4_layers.py",
+        "sha256": "b84dee3cee93937a06047cc2aea016defd69158b3e4c83b4e3b4c249ebf363a0",
+        "bytes": 387
+      },
+      "revision4_verify.py": {
+        "path": "<ORIGINAL_WORKSPACE>\\work\\trick-heart-project\\tools\\revision4_verify.py",
+        "sha256": "b0854c126d9d327389d331a1d52eeacdd7c0c14f4a2971964b2ea7fb59496578",
+        "bytes": 6025
+      },
+      "revision5_composite.py": {
+        "path": "<ORIGINAL_WORKSPACE>\\work\\trick-heart-project\\tools\\revision5_composite.py",
+        "sha256": "35ca8b773c88a3052c2952c477d86cb211e35ebb4a63a60b27940fec76eebc70",
+        "bytes": 12667
+      },
+      "revision6_composite.py": {
+        "path": "<ORIGINAL_WORKSPACE>\\work\\trick-heart-project\\tools\\revision6_composite.py",
+        "sha256": "4e8c59c8a91cf3b9f250c6ab4439fbd01d0965b539aa943bc985e265602291cd",
+        "bytes": 13378
+      },
+      "revision_composite.py": {
+        "path": "<ORIGINAL_WORKSPACE>\\work\\trick-heart-project\\tools\\revision_composite.py",
+        "sha256": "849311a902cfe76b979868e32e23ad43fb1fbe7a662f63c032b5b1c1e2973291",
+        "bytes": 9807
+      },
+      "revision_encode.py": {
+        "path": "<ORIGINAL_WORKSPACE>\\work\\trick-heart-project\\tools\\revision_encode.py",
+        "sha256": "c8dd4a36ed5aff93bd47a6701c577a256a865fd35013c07dbeca04f38ff6725c",
+        "bytes": 4556
+      },
+      "runtime.py": {
+        "path": "<ORIGINAL_WORKSPACE>\\work\\trick-heart-project\\tools\\runtime.py",
+        "sha256": "eba5d4ff6025448ed315431506762e2f7266258ccde9c7a98389ba0c145bab7a",
+        "bytes": 1033
+      },
+      "test_public_files.py": {
+        "path": "<ORIGINAL_WORKSPACE>\\work\\trick-heart-project\\tools\\test_public_files.py",
+        "sha256": "5bbe3289d7dda1508a502f54f80719bacd3cc87c9215296a46b06e21c0478a15",
+        "bytes": 1202
+      },
+      "test_review_server.py": {
+        "path": "<ORIGINAL_WORKSPACE>\\work\\trick-heart-project\\tools\\test_review_server.py",
+        "sha256": "f57125353bb1e86621ca758ec8bbe44a8b2eefc8d817ba78316d33ede607dfc9",
+        "bytes": 2271
+      },
+      "test_revision4.py": {
+        "path": "<ORIGINAL_WORKSPACE>\\work\\trick-heart-project\\tools\\test_revision4.py",
+        "sha256": "209163cdbc208d76dba80c5610ee82cdad894e3f7010c91dff24ae722a88b886",
+        "bytes": 2759
+      },
+      "verify_chinese_subtitles.py": {
+        "path": "<ORIGINAL_WORKSPACE>\\work\\trick-heart-project\\tools\\verify_chinese_subtitles.py",
+        "sha256": "7d1e19f3522df021630e619d392755bf0233d7db1aeb6425b33c59717fd7c9b3",
+        "bytes": 2975
+      },
+      "verify_migration.py": {
+        "path": "<ORIGINAL_WORKSPACE>\\work\\trick-heart-project\\tools\\verify_migration.py",
+        "sha256": "2e3d69a4dc72e3e45c1512a84d9bf0a6bb9980561d04d239fbd3405e79dccd9a",
+        "bytes": 1536
+      }
+    },
+    "execution_policy": "Snapshots for recovery/inspection only; do not execute old entrypoints",
+    "external_inputs_required": [
+      "saved v6 lossless frames",
+      "source frame cache",
+      "original source/audio",
+      "old adopted assets",
+      "old work/python_lib"
+    ]
+  },
+  "hand600_action_substitution": {
+    "authorized": true,
+    "authorization_summary": "User allowed a reasonable alternative hand action; recorded in hand asset manifest and actual visual review log.",
+    "authorization_original_wording_if_manifest_contains_it": "问题仍在，允许你在合理的情况下换个动作",
+    "range": [
+      600,
+      603
+    ],
+    "adopted_pose": "open palm, existing bare-612-v3 artwork",
+    "asset_source": "<ORIGINAL_WORKSPACE>\\work\\trick-heart-project\\assets\\white-sailor\\bare-612-v3.png",
+    "registration_reference_frame": 612,
+    "tracking": "whole-hand similarity transform from original coin and wrist anchors",
+    "continuation_mapping": [
+      {
+        "range": [
+          603,
+          606
+        ],
+        "original_asset": "bare-603-v3.png"
+      },
+      {
+        "range": [
+          606,
+          621
+        ],
+        "original_asset": "bare-612-v3.png"
+      }
+    ],
+    "coin_ownership": "original source foreground and ink edge"
+  },
+  "generation_prompt_recording": {
+    "tool": "built-in image_gen.imagegen",
+    "detail_records": "asset_manifests",
+    "brief_policy": "Reconstructed briefs are descriptions of adopted generation stages, not complete original prompt transcripts.",
+    "raw_original_prompt_completeness": "See each agent manifest; no complete prompt transcript is inferred."
+  },
+  "failed_candidates_and_reasons": {
+    "source": "agent asset manifests and visual audit logs",
+    "include_in_adopted_assets": false,
+    "render_audit": {
+      "file": {
+        "path": "<REVISION_WORKSPACE>\\work\\audit-render-visual-log.json",
+        "sha256": "85b44ebc410a1809d8ecbaea271a7044abeb42690f15949cf500f1cbc93d26d9",
+        "bytes": 13970
+      },
+      "data": {
+        "audit_version": "v7",
+        "reviewer": "render_verify subagent",
+        "review_scope": "Key-frame and generated-candidate visual inspection only",
+        "full_video_manual_playback": false,
+        "continuous_window_manual_playback": false,
+        "final_encoded_mp4_visually_reviewed": false,
+        "source_reference_samples": [
+          {
+            "frame": 600,
+            "time_seconds": 25,
+            "path": "<ORIGINAL_WORKSPACE>/work/trick-heart-project/runs/white-sailor/frames/source/00600.png",
+            "purpose": "Original hand action, proportion, coin contact and drawing-style reference"
+          },
+          {
+            "frame": 1084,
+            "time_seconds": 45.166666666666664,
+            "path": "<ORIGINAL_WORKSPACE>/work/trick-heart-project/runs/white-sailor/frames/source/01084.png",
+            "purpose": "Original glove proportion, rabbit contact and simple-line reference"
+          }
+        ],
+        "generation_candidate_audits": [
+          {
+            "target_frame": 600,
+            "path": "<CODEX_HOME>/generated_images/01a12612-48b8-76f1-a8ed-b1da38d8981f/exec-9dca7258-ee7f-4ec4-9f9b-3ecf3d807a15.png",
+            "conclusion": "Rejected: curled outer digit began too far down palm; bulky thumb/palm. Coin edge and palm contact were coherent.",
+            "superseded": true
+          },
+          {
+            "target_frame": 1084,
+            "path": "<CODEX_HOME>/generated_images/01a12612-48b8-76f1-a8ed-b1da38d8981f/exec-620385ba-ace0-4a0c-bb3d-d52cf5892d90.png",
+            "conclusion": "Connected five roots and readable thumb web/rabbit contact; broad palm and parallel support fingers required evaluation at final scale.",
+            "superseded_by_final_sample": true
+          },
+          {
+            "target_frame": 600,
+            "path": "<CODEX_HOME>/generated_images/01a12612-48b8-76f1-a8ed-b1da38d8981f/exec-b78d7a10-09f9-4bb3-8b5a-5816097f07d3.png",
+            "conclusion": "Rejected: ring root unclear near inner edge of raised finger; little root too low; raised index longer than adjacent middle. Counting five tips was insufficient.",
+            "superseded": true
+          }
+        ],
+        "rendered_keyframe_samples": [
+          {
+            "frame": 600,
+            "time_seconds": 25,
+            "path": "<REVISION_WORKSPACE>/work/frames-v7/final/00600.png",
+            "scope": "Lossless composited key frame, viewed at full-frame scale",
+            "conclusion": "Current newer open-palm art has five connected roots and coherent knuckle order; no branched curled-finger defect visible. Coin edge continuous and rests on palm. No visible rectangular patch boundary.",
+            "result": "pass_for_this_sample",
+            "viewed_png_sha256": "faa7d7e8b123829d9747c910063215108ad8a1c4c60e0b0d6b515d1d6ba3e1a5"
+          },
+          {
+            "frame": 1084,
+            "time_seconds": 45.166666666666664,
+            "path": "<REVISION_WORKSPACE>/work/frames-v7/final/01084.png",
+            "scope": "Lossless composited key frame, viewed at full-frame scale",
+            "conclusion": "Five connected digits and readable thumb web; original rabbit foot contacts supporting finger area. Palm remains broad and straight fingers close together, but no duplicated/disconnected finger visible at registered frame scale.",
+            "result": "pass_for_this_sample",
+            "viewed_png_sha256": "c99cd8a38db51ed8223f07759d33ef046980489a25fc126ebcab09a06babfb79"
+          }
+        ],
+        "helper_field_audit": {
+          "manifest_records": 3768,
+          "manifest_fields": [
+            "version",
+            "frame_count",
+            "records",
+            "changed_intervals"
+          ],
+          "accepted_schema": true,
+          "declared_intervals": [
+            [
+              600,
+              621
+            ],
+            [
+              1082,
+              1091
+            ],
+            [
+              1401,
+              1467
+            ],
+            [
+              2139,
+              2169
+            ],
+            [
+              2367,
+              2401
+            ],
+            [
+              3584,
+              3630
+            ],
+            [
+              3630,
+              3666
+            ]
+          ],
+          "encoder_requires_no_pixel_changes_outside_declared_intervals": true,
+          "protected_hat_intervals": [
+            [
+              849,
+              862
+            ],
+            [
+              1244,
+              1281
+            ],
+            [
+              1281,
+              1308
+            ]
+          ],
+          "required_correction_gate_limit": "Each family must contain at least one changed frame. Ahoge required gate checks frame1440 only. Inspect actual pixel_changed_intervals and family counts for full coverage.",
+          "review_manual_log_path": "work/v7-visual-review-log.json",
+          "this_audit_log_is_not_automatically_imported_by_review_helper": true
+        },
+        "final_encoding_evidence_checklist": {
+          "verification": "outputs/v7-verification.json:1920x1080,24fps,3768frames,157s,strict_decode,audio_unchanged,read_only_inputs_unchanged",
+          "audio": "Encoded copy and pcm_s16le hashes match original source, source-audio.m4s, v6 and v7",
+          "pixel_coverage": "work/v7-frame-audit.json: actual changed intervals/counts match seven declared correction ranges; unchanged protected hats",
+          "decoded_keyframes": [
+            600,
+            603,
+            612,
+            1084,
+            1440,
+            2148,
+            2154,
+            2380,
+            3588,
+            3640
+          ],
+          "comparisons": [
+            "outputs/v7-comparison-early.jpg",
+            "outputs/v7-comparison-late.jpg",
+            "outputs/v7-comparison.jpg"
+          ],
+          "review": "outputs/v7-revision-review.mp4:1920x570,24fps,1002frames,41.75s,silent;334unique sourceframes,normal and half-speed",
+          "review_notes": "outputs/v7-review-notes.json: separate actual visual sample scope from automated window coverage",
+          "contact_boundaries_to_inspect": [
+            599,
+            600,
+            602,
+            603,
+            605,
+            606,
+            611,
+            612,
+            620,
+            621,
+            1081,
+            1082,
+            1090,
+            1091
+          ],
+          "remaining_visual_topics": [
+            "Full ahoge near frame1440",
+            "Blow action states2148/2154 and continuous window",
+            "Uniform face/hand/ear skin at2380",
+            "Simple braid3588",
+            "Back braid and clips3640"
+          ],
+          "producer_record": "outputs/v7-production-record.json should point to actual adopted asset/script hashes and final MP4 hash"
+        }
+      }
+    }
+  },
+  "actual_visual_review_log": [
+    {
+      "reviewer": "root",
+      "method": "visually_inspected_lossless_keyframe_comparison_sheets",
+      "samples": [
+        599,
+        600,
+        602,
+        603,
+        605,
+        606,
+        612,
+        620,
+        621,
+        1081,
+        1082,
+        1084,
+        1088,
+        1090,
+        1091,
+        1401,
+        1440,
+        1466,
+        2146,
+        2147,
+        2148,
+        2150,
+        2151,
+        2154,
+        2156,
+        2157,
+        2166,
+        2367,
+        2388,
+        2400,
+        3584,
+        3588,
+        3629,
+        3630,
+        3640,
+        3665
+      ],
+      "evidence": [
+        "work/v7-review/compare-1.jpg",
+        "work/v7-review/compare-2.jpg",
+        "work/v7-review/compare-3.jpg",
+        "work/v7-review/compare-4.jpg",
+        "work/v7-review/compare-5.jpg",
+        "work/v7-review/01088.png"
+      ],
+      "findings": "Open-palm substitution adopted for coin hand after user-authorized action change. Five-digit hand structure reviewed. Full-canvas rabbit at1088 restored; complete ahoge, distinct inhale/blow, unified skin and corrected simplified ending hair checked.",
+      "limitations": "Keyframe visual inspection only; no claim of full-video manual playback."
+    },
+    {
+      "reviewer": "root",
+      "method": "visually_inspected_final_decoded_MP4_keyframes",
+      "samples": [
+        600,
+        603,
+        612,
+        1084,
+        1088,
+        1440,
+        2148,
+        2154,
+        2380,
+        3588,
+        3640
+      ],
+      "evidence": [
+        "outputs/v7-comparison-early.jpg",
+        "outputs/v7-comparison-late.jpg",
+        "work/v7-decoded-extra/01088.png"
+      ],
+      "findings": "Reviewed adopted open-palm coin hand, rabbit hand, preserved zoom, complete ahoge, inhale/blow, common skin tone and corrected simplified hair in decoded MP4 samples. Final frame1088 decoded PNG matches the reviewed pre-remux video track hash.",
+      "limitations": "Keyframe review and automated strict complete decode; no assertion of full-video manual playback."
+    }
+  ],
+  "agent_audit_logs": {
+    "work/audit-render-visual-log.json": {
+      "file": {
+        "path": "<REVISION_WORKSPACE>\\work\\audit-render-visual-log.json",
+        "sha256": "85b44ebc410a1809d8ecbaea271a7044abeb42690f15949cf500f1cbc93d26d9",
+        "bytes": 13970
+      },
+      "data": {
+        "audit_version": "v7",
+        "reviewer": "render_verify subagent",
+        "review_scope": "Key-frame and generated-candidate visual inspection only",
+        "full_video_manual_playback": false,
+        "continuous_window_manual_playback": false,
+        "final_encoded_mp4_visually_reviewed": false,
+        "source_reference_samples": [
+          {
+            "frame": 600,
+            "time_seconds": 25,
+            "path": "<ORIGINAL_WORKSPACE>/work/trick-heart-project/runs/white-sailor/frames/source/00600.png",
+            "purpose": "Original hand action, proportion, coin contact and drawing-style reference"
+          },
+          {
+            "frame": 1084,
+            "time_seconds": 45.166666666666664,
+            "path": "<ORIGINAL_WORKSPACE>/work/trick-heart-project/runs/white-sailor/frames/source/01084.png",
+            "purpose": "Original glove proportion, rabbit contact and simple-line reference"
+          }
+        ],
+        "generation_candidate_audits": [
+          {
+            "target_frame": 600,
+            "path": "<CODEX_HOME>/generated_images/01a12612-48b8-76f1-a8ed-b1da38d8981f/exec-9dca7258-ee7f-4ec4-9f9b-3ecf3d807a15.png",
+            "conclusion": "Rejected: curled outer digit began too far down palm; bulky thumb/palm. Coin edge and palm contact were coherent.",
+            "superseded": true
+          },
+          {
+            "target_frame": 1084,
+            "path": "<CODEX_HOME>/generated_images/01a12612-48b8-76f1-a8ed-b1da38d8981f/exec-620385ba-ace0-4a0c-bb3d-d52cf5892d90.png",
+            "conclusion": "Connected five roots and readable thumb web/rabbit contact; broad palm and parallel support fingers required evaluation at final scale.",
+            "superseded_by_final_sample": true
+          },
+          {
+            "target_frame": 600,
+            "path": "<CODEX_HOME>/generated_images/01a12612-48b8-76f1-a8ed-b1da38d8981f/exec-b78d7a10-09f9-4bb3-8b5a-5816097f07d3.png",
+            "conclusion": "Rejected: ring root unclear near inner edge of raised finger; little root too low; raised index longer than adjacent middle. Counting five tips was insufficient.",
+            "superseded": true
+          }
+        ],
+        "rendered_keyframe_samples": [
+          {
+            "frame": 600,
+            "time_seconds": 25,
+            "path": "<REVISION_WORKSPACE>/work/frames-v7/final/00600.png",
+            "scope": "Lossless composited key frame, viewed at full-frame scale",
+            "conclusion": "Current newer open-palm art has five connected roots and coherent knuckle order; no branched curled-finger defect visible. Coin edge continuous and rests on palm. No visible rectangular patch boundary.",
+            "result": "pass_for_this_sample",
+            "viewed_png_sha256": "faa7d7e8b123829d9747c910063215108ad8a1c4c60e0b0d6b515d1d6ba3e1a5"
+          },
+          {
+            "frame": 1084,
+            "time_seconds": 45.166666666666664,
+            "path": "<REVISION_WORKSPACE>/work/frames-v7/final/01084.png",
+            "scope": "Lossless composited key frame, viewed at full-frame scale",
+            "conclusion": "Five connected digits and readable thumb web; original rabbit foot contacts supporting finger area. Palm remains broad and straight fingers close together, but no duplicated/disconnected finger visible at registered frame scale.",
+            "result": "pass_for_this_sample",
+            "viewed_png_sha256": "c99cd8a38db51ed8223f07759d33ef046980489a25fc126ebcab09a06babfb79"
+          }
+        ],
+        "helper_field_audit": {
+          "manifest_records": 3768,
+          "manifest_fields": [
+            "version",
+            "frame_count",
+            "records",
+            "changed_intervals"
+          ],
+          "accepted_schema": true,
+          "declared_intervals": [
+            [
+              600,
+              621
+            ],
+            [
+              1082,
+              1091
+            ],
+            [
+              1401,
+              1467
+            ],
+            [
+              2139,
+              2169
+            ],
+            [
+              2367,
+              2401
+            ],
+            [
+              3584,
+              3630
+            ],
+            [
+              3630,
+              3666
+            ]
+          ],
+          "encoder_requires_no_pixel_changes_outside_declared_intervals": true,
+          "protected_hat_intervals": [
+            [
+              849,
+              862
+            ],
+            [
+              1244,
+              1281
+            ],
+            [
+              1281,
+              1308
+            ]
+          ],
+          "required_correction_gate_limit": "Each family must contain at least one changed frame. Ahoge required gate checks frame1440 only. Inspect actual pixel_changed_intervals and family counts for full coverage.",
+          "review_manual_log_path": "work/v7-visual-review-log.json",
+          "this_audit_log_is_not_automatically_imported_by_review_helper": true
+        },
+        "final_encoding_evidence_checklist": {
+          "verification": "outputs/v7-verification.json:1920x1080,24fps,3768frames,157s,strict_decode,audio_unchanged,read_only_inputs_unchanged",
+          "audio": "Encoded copy and pcm_s16le hashes match original source, source-audio.m4s, v6 and v7",
+          "pixel_coverage": "work/v7-frame-audit.json: actual changed intervals/counts match seven declared correction ranges; unchanged protected hats",
+          "decoded_keyframes": [
+            600,
+            603,
+            612,
+            1084,
+            1440,
+            2148,
+            2154,
+            2380,
+            3588,
+            3640
+          ],
+          "comparisons": [
+            "outputs/v7-comparison-early.jpg",
+            "outputs/v7-comparison-late.jpg",
+            "outputs/v7-comparison.jpg"
+          ],
+          "review": "outputs/v7-revision-review.mp4:1920x570,24fps,1002frames,41.75s,silent;334unique sourceframes,normal and half-speed",
+          "review_notes": "outputs/v7-review-notes.json: separate actual visual sample scope from automated window coverage",
+          "contact_boundaries_to_inspect": [
+            599,
+            600,
+            602,
+            603,
+            605,
+            606,
+            611,
+            612,
+            620,
+            621,
+            1081,
+            1082,
+            1090,
+            1091
+          ],
+          "remaining_visual_topics": [
+            "Full ahoge near frame1440",
+            "Blow action states2148/2154 and continuous window",
+            "Uniform face/hand/ear skin at2380",
+            "Simple braid3588",
+            "Back braid and clips3640"
+          ],
+          "producer_record": "outputs/v7-production-record.json should point to actual adopted asset/script hashes and final MP4 hash"
+        }
+      }
+    },
+    "work/audit-mask/non-art-fix-review.json": {
+      "file": {
+        "path": "<REVISION_WORKSPACE>\\work\\audit-mask\\non-art-fix-review.json",
+        "sha256": "2e8faab5231f08d9fab7092879ae230b299299ec2368f0824ffdcff9dfd31757",
+        "bytes": 1407
+      },
+      "data": [
+        {
+          "ahoge_roi_expanded": true,
+          "roi": [
+            1080,
+            0,
+            1920,
+            1080
+          ],
+          "adopted_joint_cup_cel": true,
+          "hand_pixels": 16964,
+          "frame": 1401,
+          "changed_pixels": 2290,
+          "changed_below_y110": 0
+        },
+        {
+          "ahoge_roi_expanded": true,
+          "roi": [
+            1080,
+            0,
+            1920,
+            1080
+          ],
+          "adopted_joint_cup_cel": true,
+          "hand_pixels": 17094,
+          "frame": 1440,
+          "changed_pixels": 2313,
+          "changed_below_y110": 0
+        },
+        {
+          "ahoge_roi_expanded": true,
+          "roi": [
+            1080,
+            0,
+            1920,
+            1080
+          ],
+          "adopted_joint_cup_cel": true,
+          "hand_pixels": 17094,
+          "frame": 1466,
+          "changed_pixels": 2313,
+          "changed_below_y110": 0
+        },
+        {
+          "rebuilt_before_rectangular_grade": true,
+          "character_skin_shared_palette": true,
+          "skin_pixels": 230130,
+          "frame": 2367,
+          "changed_pixels": 127824,
+          "changed_below_y110": null
+        },
+        {
+          "rebuilt_before_rectangular_grade": true,
+          "character_skin_shared_palette": true,
+          "skin_pixels": 229642,
+          "frame": 2388,
+          "changed_pixels": 126980,
+          "changed_below_y110": null
+        },
+        {
+          "rebuilt_before_rectangular_grade": true,
+          "character_skin_shared_palette": true,
+          "skin_pixels": 229618,
+          "frame": 2400,
+          "changed_pixels": 126974,
+          "changed_below_y110": null
+        }
+      ]
+    },
+    "work/audit-mask/hand-fix-records.json": {
+      "file": {
+        "path": "<REVISION_WORKSPACE>\\work\\audit-mask\\hand-fix-records.json",
+        "sha256": "637d1c950f44f07b7b0b66fbc54f5acba46ebe224438e8850ed78b807d235445",
+        "bytes": 1475
+      },
+      "data": [
+        {
+          "hand_reference": 1084,
+          "sprite_crop_reference": 1084,
+          "hand_pixels": 168395,
+          "whole_cel_grade": true,
+          "source_prop_full_ink_mask": true,
+          "tracking": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ]
+          ],
+          "frame": 1082
+        },
+        {
+          "hand_reference": 1084,
+          "sprite_crop_reference": 1084,
+          "hand_pixels": 168395,
+          "whole_cel_grade": true,
+          "source_prop_full_ink_mask": true,
+          "tracking": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ]
+          ],
+          "frame": 1084
+        },
+        {
+          "hand_reference": 1084,
+          "sprite_crop_reference": 1084,
+          "hand_pixels": 168395,
+          "whole_cel_grade": true,
+          "source_prop_full_ink_mask": true,
+          "tracking": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ]
+          ],
+          "frame": 1087
+        },
+        {
+          "hand_reference": 1084,
+          "sprite_crop_reference": 1084,
+          "hand_pixels": 168395,
+          "whole_cel_grade": true,
+          "source_prop_full_ink_mask": true,
+          "tracking": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ]
+          ],
+          "frame": 1088
+        },
+        {
+          "hand_visible": false,
+          "frame": 1089
+        },
+        {
+          "hand_visible": false,
+          "frame": 1090
+        }
+      ]
+    },
+    "work/audit-motion/preview/records.json": {
+      "file": {
+        "path": "<REVISION_WORKSPACE>\\work\\audit-motion\\preview\\records.json",
+        "sha256": "a32947c307436aac3028fa6d9b48bc361c52f981ec19533c5de917a2a4963ddd",
+        "bytes": 3713
+      },
+      "data": [
+        {
+          "frame": 2139,
+          "source_lyric_animation": true,
+          "static_paper_fragment_removed": true,
+          "blow_state": "prepare",
+          "source_pose": 2139
+        },
+        {
+          "frame": 2146,
+          "source_lyric_animation": true,
+          "static_paper_fragment_removed": true,
+          "blow_state": "prepare",
+          "source_pose": 2139
+        },
+        {
+          "frame": 2147,
+          "blow_state": "inhale",
+          "source_pose": 2148,
+          "registration_ref": 2145,
+          "matrix": [
+            [
+              1.0000005960464478,
+              1.2478595579068497e-07,
+              24.34527015686035
+            ],
+            [
+              -1.2478595579068497e-07,
+              1.0000005960464478,
+              -0.7589831352233887
+            ]
+          ],
+          "source_lyric_animation": true
+        },
+        {
+          "frame": 2150,
+          "blow_state": "inhale",
+          "source_pose": 2148,
+          "registration_ref": 2145,
+          "matrix": [
+            [
+              1.0,
+              4.804734009115302e-18,
+              24.3463134765625
+            ],
+            [
+              -4.804734009115302e-18,
+              1.0,
+              -0.75860595703125
+            ]
+          ],
+          "source_lyric_animation": true
+        },
+        {
+          "frame": 2151,
+          "blow_state": "blow",
+          "source_pose": 2151,
+          "registration_ref": 2145,
+          "matrix": [
+            [
+              1.0,
+              0.0,
+              -2.61669921875
+            ],
+            [
+              0.0,
+              1.0,
+              -23.454345703125
+            ]
+          ],
+          "source_lyric_animation": true
+        },
+        {
+          "frame": 2154,
+          "blow_state": "blow",
+          "source_pose": 2151,
+          "registration_ref": 2145,
+          "matrix": [
+            [
+              0.9999988079071045,
+              -4.420724621923e-07,
+              -2.614349365234375
+            ],
+            [
+              4.420724621923e-07,
+              0.9999988079071045,
+              -23.453956604003906
+            ]
+          ],
+          "source_lyric_animation": true
+        },
+        {
+          "frame": 2156,
+          "blow_state": "blow",
+          "source_pose": 2151,
+          "registration_ref": 2145,
+          "matrix": [
+            [
+              1.0215427875518799,
+              0.007329929154366255,
+              -46.669883728027344
+            ],
+            [
+              -0.007329929154366255,
+              1.0215427875518799,
+              -28.95551872253418
+            ]
+          ],
+          "source_lyric_animation": true
+        },
+        {
+          "frame": 2157,
+          "source_lyric_animation": true,
+          "static_paper_fragment_removed": true,
+          "blow_state": "relax",
+          "source_pose": 2166
+        },
+        {
+          "frame": 2168,
+          "source_lyric_animation": true,
+          "static_paper_fragment_removed": true,
+          "blow_state": "relax",
+          "source_pose": 2166
+        },
+        {
+          "frame": 3584,
+          "braid_simple_cel": true,
+          "panel_bounds": [
+            579,
+            316,
+            791,
+            476
+          ]
+        },
+        {
+          "frame": 3588,
+          "braid_simple_cel": true,
+          "panel_bounds": [
+            579,
+            316,
+            791,
+            476
+          ]
+        },
+        {
+          "frame": 3600,
+          "braid_simple_cel": true,
+          "panel_bounds": [
+            579,
+            316,
+            791,
+            476
+          ]
+        },
+        {
+          "frame": 3629,
+          "braid_simple_cel": true,
+          "panel_bounds": [
+            579,
+            317,
+            791,
+            477
+          ]
+        },
+        {
+          "frame": 3630,
+          "back_braid_side": "character_left/viewer_left",
+          "back_clips_side": "character_left/viewer_left",
+          "back_simple_cel": true,
+          "original_typography_preserved": true
+        },
+        {
+          "frame": 3640,
+          "back_braid_side": "character_left/viewer_left",
+          "back_clips_side": "character_left/viewer_left",
+          "back_simple_cel": true,
+          "original_typography_preserved": true
+        },
+        {
+          "frame": 3665,
+          "back_braid_side": "character_left/viewer_left",
+          "back_clips_side": "character_left/viewer_left",
+          "back_simple_cel": true,
+          "original_typography_preserved": true
+        }
+      ]
+    }
+  },
+  "visual_review_scope": "Recorded key frames and source/generated/decoded samples; no claim of full-video manual playback.",
+  "rabbit_fullcanvas_validation": {
+    "data": [
+      {
+        "hand_reference": 1084,
+        "sprite_crop_reference": 1084,
+        "hand_pixels": 168395,
+        "whole_cel_grade": true,
+        "source_prop_full_ink_mask": true,
+        "tracking": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ],
+        "frame": 1082,
+        "rabbit_matte_source_exact": true,
+        "white_source_exact": false,
+        "rabbit_red_source_exact": true,
+        "fullframe_source_exact": false,
+        "rabbit_white_instances_source_exact": true,
+        "tiny_unowned_white_pixels_changed": 7,
+        "tiny_unowned_white_bounds": [
+          707,
+          655,
+          1205,
+          978
+        ]
+      },
+      {
+        "hand_reference": 1084,
+        "sprite_crop_reference": 1084,
+        "hand_pixels": 168395,
+        "whole_cel_grade": true,
+        "source_prop_full_ink_mask": true,
+        "tracking": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ],
+        "frame": 1083,
+        "rabbit_matte_source_exact": true,
+        "white_source_exact": false,
+        "rabbit_red_source_exact": true,
+        "fullframe_source_exact": false,
+        "rabbit_white_instances_source_exact": true,
+        "tiny_unowned_white_pixels_changed": 8,
+        "tiny_unowned_white_bounds": [
+          707,
+          655,
+          1205,
+          978
+        ]
+      },
+      {
+        "hand_reference": 1084,
+        "sprite_crop_reference": 1084,
+        "hand_pixels": 168395,
+        "whole_cel_grade": true,
+        "source_prop_full_ink_mask": true,
+        "tracking": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ],
+        "frame": 1084,
+        "rabbit_matte_source_exact": true,
+        "white_source_exact": false,
+        "rabbit_red_source_exact": true,
+        "fullframe_source_exact": false,
+        "rabbit_white_instances_source_exact": true,
+        "tiny_unowned_white_pixels_changed": 17,
+        "tiny_unowned_white_bounds": [
+          662,
+          403,
+          1506,
+          1008
+        ]
+      },
+      {
+        "hand_reference": 1084,
+        "sprite_crop_reference": 1084,
+        "hand_pixels": 168395,
+        "whole_cel_grade": true,
+        "source_prop_full_ink_mask": true,
+        "tracking": [
+          [
+            1.0000029802322388,
+            3.579225449357182e-07,
+            -0.003266063751652837
+          ],
+          [
+            -3.579225449357182e-07,
+            1.0000029802322388,
+            -0.0019479726906865835
+          ]
+        ],
+        "frame": 1085,
+        "rabbit_matte_source_exact": true,
+        "white_source_exact": false,
+        "rabbit_red_source_exact": true,
+        "fullframe_source_exact": false,
+        "rabbit_white_instances_source_exact": true,
+        "tiny_unowned_white_pixels_changed": 17,
+        "tiny_unowned_white_bounds": [
+          662,
+          403,
+          1506,
+          1008
+        ]
+      },
+      {
+        "hand_reference": 1084,
+        "sprite_crop_reference": 1084,
+        "hand_pixels": 168395,
+        "whole_cel_grade": true,
+        "source_prop_full_ink_mask": true,
+        "tracking": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ],
+        "frame": 1086,
+        "rabbit_matte_source_exact": true,
+        "white_source_exact": false,
+        "rabbit_red_source_exact": true,
+        "fullframe_source_exact": false,
+        "rabbit_white_instances_source_exact": true,
+        "tiny_unowned_white_pixels_changed": 2,
+        "tiny_unowned_white_bounds": [
+          785,
+          712,
+          1179,
+          811
+        ]
+      },
+      {
+        "hand_reference": 1084,
+        "sprite_crop_reference": 1084,
+        "hand_pixels": 168395,
+        "whole_cel_grade": true,
+        "source_prop_full_ink_mask": true,
+        "tracking": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ],
+        "frame": 1087,
+        "rabbit_matte_source_exact": true,
+        "white_source_exact": false,
+        "rabbit_red_source_exact": true,
+        "fullframe_source_exact": false,
+        "rabbit_white_instances_source_exact": true,
+        "tiny_unowned_white_pixels_changed": 1,
+        "tiny_unowned_white_bounds": [
+          1179,
+          811,
+          1179,
+          811
+        ]
+      },
+      {
+        "hand_reference": 1084,
+        "sprite_crop_reference": 1084,
+        "hand_pixels": 168395,
+        "whole_cel_grade": true,
+        "source_prop_full_ink_mask": true,
+        "tracking": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ],
+        "frame": 1088,
+        "rabbit_matte_source_exact": true,
+        "white_source_exact": false,
+        "rabbit_red_source_exact": true,
+        "fullframe_source_exact": false,
+        "rabbit_white_instances_source_exact": true,
+        "tiny_unowned_white_pixels_changed": 1,
+        "tiny_unowned_white_bounds": [
+          1384,
+          1048,
+          1384,
+          1048
+        ]
+      },
+      {
+        "hand_visible": false,
+        "zoom_source_exact": true,
+        "frame": 1089,
+        "rabbit_matte_source_exact": true,
+        "white_source_exact": true,
+        "rabbit_red_source_exact": true,
+        "fullframe_source_exact": true,
+        "rabbit_white_instances_source_exact": true,
+        "tiny_unowned_white_pixels_changed": 0,
+        "tiny_unowned_white_bounds": null
+      },
+      {
+        "hand_visible": false,
+        "zoom_source_exact": true,
+        "frame": 1090,
+        "rabbit_matte_source_exact": true,
+        "white_source_exact": true,
+        "rabbit_red_source_exact": true,
+        "fullframe_source_exact": true,
+        "rabbit_white_instances_source_exact": true,
+        "tiny_unowned_white_pixels_changed": 0,
+        "tiny_unowned_white_bounds": null
+      }
+    ],
+    "file": {
+      "path": "<REVISION_WORKSPACE>\\work\\audit-mask\\rabbit-fullcanvas-verification.json",
+      "sha256": "974442ae05496a68fea5e73d46cf53a8fb9b6322aad69144ac21a0f4346d1a80",
+      "bytes": 5593
+    },
+    "all_rabbit_instance_mattes_and_red_parts_source_exact": true,
+    "tiny_unowned_white_pixels_changed_total": 53
+  },
+  "final_encoded_evidence": {
+    "files": [
+      "<REVISION_WORKSPACE>\\outputs\\v7-comparison-early.jpg",
+      "<REVISION_WORKSPACE>\\outputs\\v7-comparison-late.jpg",
+      "<REVISION_WORKSPACE>\\outputs\\v7-comparison.jpg"
+    ],
+    "picks": [
+      600,
+      603,
+      612,
+      1084,
+      1440,
+      2148,
+      2154,
+      2380,
+      3588,
+      3640
+    ],
+    "panels_are_decoded_mp4_frames": true,
+    "frame_checks": [
+      {
+        "frame": 600,
+        "decoded_png_sha256": "aa20f50ab97f9811670c7961851148c7a1e82c5a63b551416cc7272266538cc3",
+        "encode_vs_lossless_mean_absolute_error": 0.7949064373970032,
+        "encode_vs_lossless_psnr_db": 46.07888753918886
+      },
+      {
+        "frame": 603,
+        "decoded_png_sha256": "80252d18e395f8c56f9f198704212cb925542446174d8cf991d3742b3f829399",
+        "encode_vs_lossless_mean_absolute_error": 0.8149279952049255,
+        "encode_vs_lossless_psnr_db": 45.88255060085235
+      },
+      {
+        "frame": 612,
+        "decoded_png_sha256": "f6c4c36071261c704cdeb4c3b37f9b58fffc446e88d18107d4392fcd0f2df1dd",
+        "encode_vs_lossless_mean_absolute_error": 0.7839980125427246,
+        "encode_vs_lossless_psnr_db": 46.515577701531605
+      },
+      {
+        "frame": 1084,
+        "decoded_png_sha256": "6aa56b9f732b43bf4da17080f068d7acb5eecf6d30c2099a4aefda3245a21696",
+        "encode_vs_lossless_mean_absolute_error": 0.8820140361785889,
+        "encode_vs_lossless_psnr_db": 44.37748824592539
+      },
+      {
+        "frame": 1440,
+        "decoded_png_sha256": "d56ec1d9d720ff318f767c007f7c2a8c5d5e6645fd28acbf2f3f54561741c665",
+        "encode_vs_lossless_mean_absolute_error": 0.936355471611023,
+        "encode_vs_lossless_psnr_db": 43.14386160808511
+      },
+      {
+        "frame": 2148,
+        "decoded_png_sha256": "82988545749d6698820104987ea0a06cc3896d1980fe208ca62977bd5d30af35",
+        "encode_vs_lossless_mean_absolute_error": 0.821092963218689,
+        "encode_vs_lossless_psnr_db": 45.580975703423476
+      },
+      {
+        "frame": 2154,
+        "decoded_png_sha256": "f9f2ad1bbef554aee311ff9132cbac08477b289eb8a57a13ae8d7be48f3469bf",
+        "encode_vs_lossless_mean_absolute_error": 0.8969674110412598,
+        "encode_vs_lossless_psnr_db": 44.74593361839777
+      },
+      {
+        "frame": 2380,
+        "decoded_png_sha256": "50c75bb478688fef2a403815667078bf3ecc5db62e8e64d4361c760fc807bb61",
+        "encode_vs_lossless_mean_absolute_error": 1.1524019241333008,
+        "encode_vs_lossless_psnr_db": 41.01807014387972
+      },
+      {
+        "frame": 3588,
+        "decoded_png_sha256": "b5e92fa695e9a12f07ab8fdcb5c1264ec544deec85f016d99bb48488803c2ebc",
+        "encode_vs_lossless_mean_absolute_error": 0.8718439936637878,
+        "encode_vs_lossless_psnr_db": 44.83133296575659
+      },
+      {
+        "frame": 3640,
+        "decoded_png_sha256": "2dbbc6219753de11fa96f2ca1d84e671f4885c35c0beb7f830a60b78382b9aea",
+        "encode_vs_lossless_mean_absolute_error": 0.9068491458892822,
+        "encode_vs_lossless_psnr_db": 43.54704457780546
+      }
+    ]
+  },
+  "review_clip": {
+    "file": {
+      "path": "<REVISION_WORKSPACE>\\outputs\\v7-revision-review.mp4",
+      "sha256": "75180746d7d72c6768dc174adf1b2e835cdb9c1628ddffc61299e031dffdeb93",
+      "bytes": 7815914
+    },
+    "notes": {
+      "version": "v7",
+      "review_video": "<REVISION_WORKSPACE>\\outputs\\v7-revision-review.mp4",
+      "review_sha256": "75180746d7d72c6768dc174adf1b2e835cdb9c1628ddffc61299e031dffdeb93",
+      "technical": {
+        "width": 1920,
+        "height": 570,
+        "fps": 24.0,
+        "frames": 1002,
+        "duration": 41.75,
+        "audio_streams": 0,
+        "strict_complete_decode": true
+      },
+      "purpose": "Silent visual comparison; the full PV retains the original music.",
+      "layout": {
+        "v6": "left",
+        "v7": "right",
+        "panel_geometry": [
+          960,
+          540
+        ],
+        "header_height": 30
+      },
+      "windows_are_left_closed_right_open": true,
+      "timeline": [
+        {
+          "label": "coin fingers",
+          "source_start": 592,
+          "source_end": 629,
+          "speed": "normal",
+          "review_start": 0,
+          "review_end": 37
+        },
+        {
+          "label": "coin fingers",
+          "source_start": 592,
+          "source_end": 629,
+          "speed": "half speed",
+          "review_start": 37,
+          "review_end": 111
+        },
+        {
+          "label": "rabbit hand",
+          "source_start": 1074,
+          "source_end": 1099,
+          "speed": "normal",
+          "review_start": 111,
+          "review_end": 136
+        },
+        {
+          "label": "rabbit hand",
+          "source_start": 1074,
+          "source_end": 1099,
+          "speed": "half speed",
+          "review_start": 136,
+          "review_end": 186
+        },
+        {
+          "label": "complete ahoge",
+          "source_start": 1393,
+          "source_end": 1475,
+          "speed": "normal",
+          "review_start": 186,
+          "review_end": 268
+        },
+        {
+          "label": "complete ahoge",
+          "source_start": 1393,
+          "source_end": 1475,
+          "speed": "half speed",
+          "review_start": 268,
+          "review_end": 432
+        },
+        {
+          "label": "continuous blow",
+          "source_start": 2133,
+          "source_end": 2175,
+          "speed": "normal",
+          "review_start": 432,
+          "review_end": 474
+        },
+        {
+          "label": "continuous blow",
+          "source_start": 2133,
+          "source_end": 2175,
+          "speed": "half speed",
+          "review_start": 474,
+          "review_end": 558
+        },
+        {
+          "label": "skin ownership",
+          "source_start": 2359,
+          "source_end": 2409,
+          "speed": "normal",
+          "review_start": 558,
+          "review_end": 608
+        },
+        {
+          "label": "skin ownership",
+          "source_start": 2359,
+          "source_end": 2409,
+          "speed": "half speed",
+          "review_start": 608,
+          "review_end": 708
+        },
+        {
+          "label": "braid and rear hair",
+          "source_start": 3576,
+          "source_end": 3674,
+          "speed": "normal",
+          "review_start": 708,
+          "review_end": 806
+        },
+        {
+          "label": "braid and rear hair",
+          "source_start": 3576,
+          "source_end": 3674,
+          "speed": "half speed",
+          "review_start": 806,
+          "review_end": 1002
+        }
+      ],
+      "automated_coverage": {
+        "unique_pv_frames": 334,
+        "compiled_review_frames": 1002,
+        "all_requested_window_frames_included": true,
+        "normal_speed": 1.0,
+        "half_speed": 0.5,
+        "output_fps": 24
+      },
+      "actual_visual_review_samples": [
+        {
+          "reviewer": "root",
+          "method": "visually_inspected_lossless_keyframe_comparison_sheets",
+          "samples": [
+            599,
+            600,
+            602,
+            603,
+            605,
+            606,
+            612,
+            620,
+            621,
+            1081,
+            1082,
+            1084,
+            1088,
+            1090,
+            1091,
+            1401,
+            1440,
+            1466,
+            2146,
+            2147,
+            2148,
+            2150,
+            2151,
+            2154,
+            2156,
+            2157,
+            2166,
+            2367,
+            2388,
+            2400,
+            3584,
+            3588,
+            3629,
+            3630,
+            3640,
+            3665
+          ],
+          "evidence": [
+            "work/v7-review/compare-1.jpg",
+            "work/v7-review/compare-2.jpg",
+            "work/v7-review/compare-3.jpg",
+            "work/v7-review/compare-4.jpg",
+            "work/v7-review/compare-5.jpg",
+            "work/v7-review/01088.png"
+          ],
+          "findings": "Open-palm substitution adopted for coin hand after user-authorized action change. Five-digit hand structure reviewed. Full-canvas rabbit at1088 restored; complete ahoge, distinct inhale/blow, unified skin and corrected simplified ending hair checked.",
+          "limitations": "Keyframe visual inspection only; no claim of full-video manual playback."
+        },
+        {
+          "reviewer": "root",
+          "method": "visually_inspected_final_decoded_MP4_keyframes",
+          "samples": [
+            600,
+            603,
+            612,
+            1084,
+            1088,
+            1440,
+            2148,
+            2154,
+            2380,
+            3588,
+            3640
+          ],
+          "evidence": [
+            "outputs/v7-comparison-early.jpg",
+            "outputs/v7-comparison-late.jpg",
+            "work/v7-decoded-extra/01088.png"
+          ],
+          "findings": "Reviewed adopted open-palm coin hand, rabbit hand, preserved zoom, complete ahoge, inhale/blow, common skin tone and corrected simplified hair in decoded MP4 samples. Final frame1088 decoded PNG matches the reviewed pre-remux video track hash.",
+          "limitations": "Keyframe review and automated strict complete decode; no assertion of full-video manual playback."
+        }
+      ],
+      "actual_visual_review_status": "recorded",
+      "automated_checks_do_not_assert_anatomy_or_art_style": true,
+      "input_png_sha256": {
+        "v6/00592": "21f7d45e8beaf2dce271f8e270260d547f8f9409882dc8826c000368a0d7723e",
+        "v7/00592": "21f7d45e8beaf2dce271f8e270260d547f8f9409882dc8826c000368a0d7723e",
+        "v6/00593": "21f7d45e8beaf2dce271f8e270260d547f8f9409882dc8826c000368a0d7723e",
+        "v7/00593": "21f7d45e8beaf2dce271f8e270260d547f8f9409882dc8826c000368a0d7723e",
+        "v6/00594": "a716f3d4adfa96c97d607598fe6a7d3ed1a4178dbae956939d08c7b5eff0606b",
+        "v7/00594": "a716f3d4adfa96c97d607598fe6a7d3ed1a4178dbae956939d08c7b5eff0606b",
+        "v6/00595": "1588cd38722e7240a9819f29fbe19415d2800435a1fe9fcf51f23023d2b2365e",
+        "v7/00595": "1588cd38722e7240a9819f29fbe19415d2800435a1fe9fcf51f23023d2b2365e",
+        "v6/00596": "3602a77723ae06b255c988d818be9a7a558e810fa7b214205aaccc61bdb521dd",
+        "v7/00596": "3602a77723ae06b255c988d818be9a7a558e810fa7b214205aaccc61bdb521dd",
+        "v6/00597": "be46adb572776c16449de9681ed23cb1422c278a02d8dd287ae3df2cb78ac8ee",
+        "v7/00597": "be46adb572776c16449de9681ed23cb1422c278a02d8dd287ae3df2cb78ac8ee",
+        "v6/00598": "be46adb572776c16449de9681ed23cb1422c278a02d8dd287ae3df2cb78ac8ee",
+        "v7/00598": "be46adb572776c16449de9681ed23cb1422c278a02d8dd287ae3df2cb78ac8ee",
+        "v6/00599": "33e38b7d5f28930dbefa48dece2276553a129b6820703da1de5c1cf315cd757b",
+        "v7/00599": "33e38b7d5f28930dbefa48dece2276553a129b6820703da1de5c1cf315cd757b",
+        "v6/00600": "e297f0d51d32d91ccf703113bebe9b64f1dfafab90e21f805e9c00434a97a392",
+        "v7/00600": "faa7d7e8b123829d9747c910063215108ad8a1c4c60e0b0d6b515d1d6ba3e1a5",
+        "v6/00601": "971441b39fa69f920e755872310d37e89928a5037f1cf85d8f598dbf7e30462a",
+        "v7/00601": "5a9ae4dd49acf2266f2d9ae5bae7a1880299f3601bcbeaf99e62d95a86dfedb9",
+        "v6/00602": "9cff5d23dfaa4b7fc3b1003a7ab2a690ce0e9fc7d90eea3500fb4d31b3812788",
+        "v7/00602": "e22141e44403f45093a31f065d5c0799509f6f2999a1a43e2b55fb6824d63383",
+        "v6/00603": "01bcf766296b43840761a08b049ef316f0463c0a8605089b5855add50a8e8d65",
+        "v7/00603": "6599b5f8d0f765fb265d804b4edc44874f7b156a79a8ddba6afbe320b026b374",
+        "v6/00604": "714ca2849d6129bb258b72976f2dfefe4c5f1fe0d43247dc5c4770a3d7645e54",
+        "v7/00604": "9aff7b1dccc1457713c3d717cd8ba599dc3f527fa89821570a4c2fb45785696f",
+        "v6/00605": "3c047cb26cf77384e31ea2fb3895b92b6a472eaa980607a83d6da5b57fbe00f7",
+        "v7/00605": "4d91ed734f197950a27255771991cbc2840bbb5aba2a0e8313907490860919de",
+        "v6/00606": "b16747972ea2c9c6a4e8ae27070c403b4f96ae2f1c6cba81d46bbf98aaea5748",
+        "v7/00606": "2a2611acfabcb1c0a3e468c4e3c12729e278d84c0f8e424d8ae1fb42379b46c4",
+        "v6/00607": "f83b435073a1e7f7624c7f6bace0b846f1c76b2b973239659487bea20872c556",
+        "v7/00607": "e130ef90bb974de898ae535ccc65f0d587dbf5293cd59027cd2fcc242414b48a",
+        "v6/00608": "06922bdf39f9b36bb6b58c33ef008dea7cdbe27a0a02eae3de4b91b079593865",
+        "v7/00608": "d12b5d46260e8526d0bd6ca9875fbd4fd70e806a1fc74025ebb60ca84163c6fd",
+        "v6/00609": "06922bdf39f9b36bb6b58c33ef008dea7cdbe27a0a02eae3de4b91b079593865",
+        "v7/00609": "d12b5d46260e8526d0bd6ca9875fbd4fd70e806a1fc74025ebb60ca84163c6fd",
+        "v6/00610": "baa6ea23aedd62a837b6eb4823361276aac80fbcee9cf29475f76d4dd3aacfb8",
+        "v7/00610": "a47e504a447e0ba9a099ad4e5f03cf72e3108e210dc0ea3b1e7399efe9411189",
+        "v6/00611": "baa6ea23aedd62a837b6eb4823361276aac80fbcee9cf29475f76d4dd3aacfb8",
+        "v7/00611": "a47e504a447e0ba9a099ad4e5f03cf72e3108e210dc0ea3b1e7399efe9411189",
+        "v6/00612": "baa6ea23aedd62a837b6eb4823361276aac80fbcee9cf29475f76d4dd3aacfb8",
+        "v7/00612": "a47e504a447e0ba9a099ad4e5f03cf72e3108e210dc0ea3b1e7399efe9411189",
+        "v6/00613": "baa6ea23aedd62a837b6eb4823361276aac80fbcee9cf29475f76d4dd3aacfb8",
+        "v7/00613": "a47e504a447e0ba9a099ad4e5f03cf72e3108e210dc0ea3b1e7399efe9411189",
+        "v6/00614": "baa6ea23aedd62a837b6eb4823361276aac80fbcee9cf29475f76d4dd3aacfb8",
+        "v7/00614": "a47e504a447e0ba9a099ad4e5f03cf72e3108e210dc0ea3b1e7399efe9411189",
+        "v6/00615": "baa6ea23aedd62a837b6eb4823361276aac80fbcee9cf29475f76d4dd3aacfb8",
+        "v7/00615": "a47e504a447e0ba9a099ad4e5f03cf72e3108e210dc0ea3b1e7399efe9411189",
+        "v6/00616": "47b438e8b80a55750f33afb6850fe33fd5fe58e4d23175ef2cb2636d8af8352a",
+        "v7/00616": "6be886ba05599d987131403e94f7aeeef50f6d14ec43b3ef6b48fd5dce4a15fe",
+        "v6/00617": "47b438e8b80a55750f33afb6850fe33fd5fe58e4d23175ef2cb2636d8af8352a",
+        "v7/00617": "6be886ba05599d987131403e94f7aeeef50f6d14ec43b3ef6b48fd5dce4a15fe",
+        "v6/00618": "47b438e8b80a55750f33afb6850fe33fd5fe58e4d23175ef2cb2636d8af8352a",
+        "v7/00618": "6be886ba05599d987131403e94f7aeeef50f6d14ec43b3ef6b48fd5dce4a15fe",
+        "v6/00619": "47b438e8b80a55750f33afb6850fe33fd5fe58e4d23175ef2cb2636d8af8352a",
+        "v7/00619": "6be886ba05599d987131403e94f7aeeef50f6d14ec43b3ef6b48fd5dce4a15fe",
+        "v6/00620": "47b438e8b80a55750f33afb6850fe33fd5fe58e4d23175ef2cb2636d8af8352a",
+        "v7/00620": "6be886ba05599d987131403e94f7aeeef50f6d14ec43b3ef6b48fd5dce4a15fe",
+        "v6/00621": "db0ab52057a99365f5d836b62cc4e4e66e7f351d6735e90b7bbd007dc0ba870a",
+        "v7/00621": "db0ab52057a99365f5d836b62cc4e4e66e7f351d6735e90b7bbd007dc0ba870a",
+        "v6/00622": "db0ab52057a99365f5d836b62cc4e4e66e7f351d6735e90b7bbd007dc0ba870a",
+        "v7/00622": "db0ab52057a99365f5d836b62cc4e4e66e7f351d6735e90b7bbd007dc0ba870a",
+        "v6/00623": "db0ab52057a99365f5d836b62cc4e4e66e7f351d6735e90b7bbd007dc0ba870a",
+        "v7/00623": "db0ab52057a99365f5d836b62cc4e4e66e7f351d6735e90b7bbd007dc0ba870a",
+        "v6/00624": "2dcdb1235e77b3d01421ec14811bacec3b0a7db9d846252c5f328ca56e7d2809",
+        "v7/00624": "2dcdb1235e77b3d01421ec14811bacec3b0a7db9d846252c5f328ca56e7d2809",
+        "v6/00625": "eaad7d21401edf612a42640ff401fdaf88ba1e1bd88a75e680efda2f0c859546",
+        "v7/00625": "eaad7d21401edf612a42640ff401fdaf88ba1e1bd88a75e680efda2f0c859546",
+        "v6/00626": "ca8215ed9d8417868192f0ed81e0b3dd700fb32eff1db177cb24341f8de72100",
+        "v7/00626": "ca8215ed9d8417868192f0ed81e0b3dd700fb32eff1db177cb24341f8de72100",
+        "v6/00627": "2920b893c2a8347e6d87e862b551d9f974c9dde8682ed8e883a2a7e71063492e",
+        "v7/00627": "2920b893c2a8347e6d87e862b551d9f974c9dde8682ed8e883a2a7e71063492e",
+        "v6/00628": "e6150660eb653f91c2966f7cb3a2c6107ab5e16b240b74036a861913d32283e2",
+        "v7/00628": "e6150660eb653f91c2966f7cb3a2c6107ab5e16b240b74036a861913d32283e2",
+        "v6/01074": "cec08d36228bf307e0f6789c81e35d6cbac222b5270c6196fd0150e015b8edd9",
+        "v7/01074": "cec08d36228bf307e0f6789c81e35d6cbac222b5270c6196fd0150e015b8edd9",
+        "v6/01075": "e2989b8273c1686daabd152e8faae6b8f90a50ee9c6a5520fb4bbfd29e5faff3",
+        "v7/01075": "e2989b8273c1686daabd152e8faae6b8f90a50ee9c6a5520fb4bbfd29e5faff3",
+        "v6/01076": "69785b50ef1d09d47d1b322dc8f72e43e107ab5f2089dd24b41a6694d0d41c89",
+        "v7/01076": "69785b50ef1d09d47d1b322dc8f72e43e107ab5f2089dd24b41a6694d0d41c89",
+        "v6/01077": "9bb4c375b593915ed727e9caec5ab10f2afd48e8a020a0ff974e43c09f96e20d",
+        "v7/01077": "9bb4c375b593915ed727e9caec5ab10f2afd48e8a020a0ff974e43c09f96e20d",
+        "v6/01078": "a171a7e059694ad36ddc1faf246c70918744182a24e32622c8f191727b504dc3",
+        "v7/01078": "a171a7e059694ad36ddc1faf246c70918744182a24e32622c8f191727b504dc3",
+        "v6/01079": "eefc47784ab69cfb1b9c2545eb48d0b0fae206c7e8a1f6058c99f0c2c3595065",
+        "v7/01079": "eefc47784ab69cfb1b9c2545eb48d0b0fae206c7e8a1f6058c99f0c2c3595065",
+        "v6/01080": "19f3b11249275f6599421a9d9ae82dcdae433f8fb3f4b2c1a9931da1e8286847",
+        "v7/01080": "19f3b11249275f6599421a9d9ae82dcdae433f8fb3f4b2c1a9931da1e8286847",
+        "v6/01081": "74da9a3c8b8dcddf57068839e40e6da6a0ec51708efc09e3bf8842f3e5d7d0f1",
+        "v7/01081": "74da9a3c8b8dcddf57068839e40e6da6a0ec51708efc09e3bf8842f3e5d7d0f1",
+        "v6/01082": "6beefd3bde8321b409797af961cba9b773b00b4b426fa4410faefcbfbd2112f6",
+        "v7/01082": "26d833e4b90296cf47feb57bd6157b2f7b3dfeb3cf6e019d018d59217ada6142",
+        "v6/01083": "5f5f552b283d89d63007567abe90f5d831e44d74795224f4077130945dedc5bb",
+        "v7/01083": "8f1b51cbc2c28e93213fc2693a9922db6879681803105855fb69cad8cec86cd2",
+        "v6/01084": "49ef98d7318e04236af4326c70cc7a9e2f703d09709fc8b53865b0a28cce38ad",
+        "v7/01084": "c99cd8a38db51ed8223f07759d33ef046980489a25fc126ebcab09a06babfb79",
+        "v6/01085": "f3f4fe26fd1d34e4f4fecda5ffaf663307148b8579f23c9d8d756ea4654c3a61",
+        "v7/01085": "649ad956bb1c8eb926f22781609623184e76b7c38a9533fea57a9e68706f89fa",
+        "v6/01086": "3ed8e53fcef23297990cf34756dbfc15f49d081849b4444948c8be5e8f0e2df6",
+        "v7/01086": "644d8e118fbef475f3b4f7f694aecd14eed4b0c0465769a43abf2908e0b17021",
+        "v6/01087": "228904034769eca3a1fd5b11e019ebb488c27d599b8c2c6f0ff401a0bdfbb14a",
+        "v7/01087": "9960d34d84b9e28a7d341523ef52c64f2390b474ec59662802249788b204fba8",
+        "v6/01088": "31ceac4354167a62bccaa43ddafda9d2cc19efb0bd1c2dfe8c544f30fd6899ba",
+        "v7/01088": "801e0f759c3b0564c6ebeb168f81af3ff685ba4f59d3aa2876a3ccf25dcc8071",
+        "v6/01089": "6cd15c896226f00c97756b9d51cfd819f33711f4d9fe2e85b5cdd4c320526b4a",
+        "v7/01089": "85d55f8452cd097a8281bb028661b9e3e80deaeceeb1ba17f0ea4e69a8069d3c",
+        "v6/01090": "d78ba9196d517a7c7727e977e8f36ba1a1841a0ec72404465d173f449e455208",
+        "v7/01090": "733fa0fa9bb0928da6cfd22d7b4abd75882719c901a19998b297ea2a92910a69",
+        "v6/01091": "00c529291c59f5d7f536b551564b169d401a3e123bdd9eaa1c436b13482ccd55",
+        "v7/01091": "00c529291c59f5d7f536b551564b169d401a3e123bdd9eaa1c436b13482ccd55",
+        "v6/01092": "dc786c10ae7bd70b013dd593c93938c654a8b9f69e9b35b92b49b707cb0b1e13",
+        "v7/01092": "dc786c10ae7bd70b013dd593c93938c654a8b9f69e9b35b92b49b707cb0b1e13",
+        "v6/01093": "50d682b9da2ebfe976c6203ad4f2a920a0890b80ba9afa02320d2942027e01ff",
+        "v7/01093": "50d682b9da2ebfe976c6203ad4f2a920a0890b80ba9afa02320d2942027e01ff",
+        "v6/01094": "2b3aaf1828a5a0abc5a468e6a30d91dcea1bad2769e3023e6cc9fae770545c9f",
+        "v7/01094": "2b3aaf1828a5a0abc5a468e6a30d91dcea1bad2769e3023e6cc9fae770545c9f",
+        "v6/01095": "5f8cf57e60cec69ace4dc4aba372f157c1758b179bcdaecbef25177099bcc251",
+        "v7/01095": "5f8cf57e60cec69ace4dc4aba372f157c1758b179bcdaecbef25177099bcc251",
+        "v6/01096": "87bf5d6d460ed1b260b3a26d2adc720d4e02c469e429a54750749132257bd565",
+        "v7/01096": "87bf5d6d460ed1b260b3a26d2adc720d4e02c469e429a54750749132257bd565",
+        "v6/01097": "578f47d5732d2559586088acad2c31322489e3892cb9d627a8a488296a5799a4",
+        "v7/01097": "578f47d5732d2559586088acad2c31322489e3892cb9d627a8a488296a5799a4",
+        "v6/01098": "e10643c5992c1e514f85132f28038053a349c1404db2375f2fa14f1db8bd20d3",
+        "v7/01098": "e10643c5992c1e514f85132f28038053a349c1404db2375f2fa14f1db8bd20d3",
+        "v6/01393": "f0a1eab9440c8b1b40ea03c5f6b14566950d0b4f0fb943dd6c095b2132adda65",
+        "v7/01393": "f0a1eab9440c8b1b40ea03c5f6b14566950d0b4f0fb943dd6c095b2132adda65",
+        "v6/01394": "578ca6f151911f2510374546b620c3cc98942e7a92e863d577618759dfd006c9",
+        "v7/01394": "578ca6f151911f2510374546b620c3cc98942e7a92e863d577618759dfd006c9",
+        "v6/01395": "9251a6fcd43291b067e011176589141ec57bcbb1ce23d361900be843ad42f53f",
+        "v7/01395": "9251a6fcd43291b067e011176589141ec57bcbb1ce23d361900be843ad42f53f",
+        "v6/01396": "36d67cf208a3969855fecc10aa875826d3df466e632b70251ca150a4942810aa",
+        "v7/01396": "36d67cf208a3969855fecc10aa875826d3df466e632b70251ca150a4942810aa",
+        "v6/01397": "087675189009a4af66e1411e0660d48924e258e2ce6a100d69f5031f82b84809",
+        "v7/01397": "087675189009a4af66e1411e0660d48924e258e2ce6a100d69f5031f82b84809",
+        "v6/01398": "087675189009a4af66e1411e0660d48924e258e2ce6a100d69f5031f82b84809",
+        "v7/01398": "087675189009a4af66e1411e0660d48924e258e2ce6a100d69f5031f82b84809",
+        "v6/01399": "98b7b8a4bbc0df9dfcabd16f152e86dac5b3e05bf01a3a12d1d086d92bf43c9c",
+        "v7/01399": "98b7b8a4bbc0df9dfcabd16f152e86dac5b3e05bf01a3a12d1d086d92bf43c9c",
+        "v6/01400": "ae7f46d6266a864b75c3fee6311c885984c3ad17c4953a6c833fafc747aeb748",
+        "v7/01400": "ae7f46d6266a864b75c3fee6311c885984c3ad17c4953a6c833fafc747aeb748",
+        "v6/01401": "382e5d712e093b9fa85079d1bc3fb0b258bfb6c44b318620e10c54346dc51fc6",
+        "v7/01401": "afa7e7b9ef17f407084fda5308eeeeea0633471da8931eb8b8330212f6a9f5db",
+        "v6/01402": "d9d8bcc6e91d6bb71344b8bad1923b6a3a4cb42ba14f6a7ff748ac19cac8760c",
+        "v7/01402": "f5a15872ba1b34fbe1b1f5b72f6b46270a2e7663815a4171523122ca7aad60fd",
+        "v6/01403": "07381216bbb2ccb0eb33b80fd24c66dfd4570a73a7e4085f961715d371e39d76",
+        "v7/01403": "ece2d4971ba14fccd66b1bc3e78ed46808a58759f53c836c9cb8326432f005ef",
+        "v6/01404": "38e6b911c42cd61ea24a8cf1b103307d52b08dc7cae4b88a3d4211930356dfe5",
+        "v7/01404": "7677806ea86289541548daa0933b0f6776c162102a02069ca832d5d9e7fb061a",
+        "v6/01405": "3dae1c5905304772779f895813866aba57f4333b9e0af32fe3af2f915cdf874a",
+        "v7/01405": "a9686c73ab60e291d82dd963e49b4b99c0a3db2df69f8318813624748dea796a",
+        "v6/01406": "b469fd11dd84fa90350d45a6a4e9695f083ce4047a8246a7eb7eaaaa8d2597fa",
+        "v7/01406": "4acdd35b52bd4b68d7e63f458d0ded9f99762958765e694fd0390df1086f4270",
+        "v6/01407": "c717c532f37d76bbd29ae71fea9ca1b93317ee37cc997549a98f452cf5c3babf",
+        "v7/01407": "78ca760591a123d9660f0873ae2711016a85a2de31aee2bf941838a20351db59",
+        "v6/01408": "4c1821fa3d873dbd55fb29bece26f20d0128bca3af2f97b145cf1290e160c57f",
+        "v7/01408": "b5b60f50f9922d77194563a265e6b1c03adca3912cc90c4de054a96e02dd776e",
+        "v6/01409": "5b89abe639d09fb5e42f96be12bd20e231537a06751ed1669df17a9ee476f0d6",
+        "v7/01409": "1d5362fe4b7b759be265716666d927e940af4fc191701e69a016ff97cb02bc5e",
+        "v6/01410": "924aabfe7e2f88ce4ef8f015488bd7923a920128a4ca1f374b80c1b977384dc9",
+        "v7/01410": "78ae98733751b7ac9ba49d98369781979b016da604a146ed6fae33b08637275c",
+        "v6/01411": "774d837bfec3dd0d3e5f87b66a78e51b432a4b4744659fcf8da97aef1a93a4d4",
+        "v7/01411": "a49968d87a00162b21b5c4b4755293d3e7912393c580f00163f297673701bbaf",
+        "v6/01412": "e3d1c24c1f9e984896da038dc2b62e6c4678901183f3d39ab66ff7ab6e25d2f4",
+        "v7/01412": "fa77ab69a45d278769e6623856d1fcc1ffa17184c6c4c3ca661f0e04eebc9f92",
+        "v6/01413": "fb444ecef4947b7a00411ef94f546470773944a922515d966c413ccde8d6f783",
+        "v7/01413": "06dbd64b9a9a1cc19bd0aed198833052de8d4208af06bc804c655a9c4f73e4e7",
+        "v6/01414": "cb0e2f7d9ab5924c2b0657726698485cfe436c1662c19393b8f0014c16c024d1",
+        "v7/01414": "b5f561c61036c7f45a5bac5514dfb282827479b5b2e1d25b64a33af94fe26cb5",
+        "v6/01415": "17f7fb7749321a418ba951299c6ace81feb1e0fe4f297be8e8cbe424a7efffdc",
+        "v7/01415": "1b0ab731b71b9561c888426026e4c5db8032396a90f6688aa28c882eeb1bb5a6",
+        "v6/01416": "c25c1042186130abaf50f3d2cfb247d1092eaa91ef1e0552864e3f647a28bcda",
+        "v7/01416": "6240b28c47806b02d8074e4ef30521579c242d955f1e3be80f5d5cff800a2e23",
+        "v6/01417": "292271d104917afef8c8aea3f1d2c839f1635b79879b45d9c5feaa29cdcfc095",
+        "v7/01417": "95bcb659a46892140fad568af4b0837fc68e041e3e3563104d6e3086ca8bbe77",
+        "v6/01418": "292271d104917afef8c8aea3f1d2c839f1635b79879b45d9c5feaa29cdcfc095",
+        "v7/01418": "95bcb659a46892140fad568af4b0837fc68e041e3e3563104d6e3086ca8bbe77",
+        "v6/01419": "a11423ff3d651aa53040ec828baa0bbe7d57d966881e6d215ce913390135cd08",
+        "v7/01419": "1fa768ee0b521fdb1690984156be0d3ee458f58327d4f7ab35c0788664ce4b9b",
+        "v6/01420": "8e9fda2f50ace63ddc167265e04feb08f76ec638f91b8eb5350fb6dc441696ab",
+        "v7/01420": "e5f5989f33ed6d528d47b213db5215a0fef54aa0637f18875b8a6eac7652c1b1",
+        "v6/01421": "11d674494e01cee277402c398a53658899df1e4ca88dfc7ecfa4b80f6688928d",
+        "v7/01421": "33c1803d68bd17143920913277b1627db4ca7d77818c050cc167c2b82902f19a",
+        "v6/01422": "5befadfadaa111c3947c677c8a2c1015079685631ba6e1ac1832687906db0f66",
+        "v7/01422": "bfb913bb707a1b49c8193cb6e1f96f462526c0aa74c48e72bc566cc342b08b28",
+        "v6/01423": "7a8e338b6821c22c3dacf1e56a9e7d880b0adc04916d1d2c60f14be83892bcd4",
+        "v7/01423": "71ace29e919f9845a7d01fc8df1f8c677911a9a7a8d8f1df870f14cde4decebd",
+        "v6/01424": "b26b72786b8d99dd862a40b11d5d6bdd5ae1d8e190ff9b582409289bdeacc339",
+        "v7/01424": "5a99c016c7073caaea74d038ff260de37c20c6d475f2c024976d3e06f2d3329c",
+        "v6/01425": "db5664bb771702b7e6a5d74d86ae172f7265f9baa4aa5d5d1166c3baa7920a86",
+        "v7/01425": "f4794827818f0baa23b23448133c43d1c3c5b7ad28c3a4010b520e70ef6c0195",
+        "v6/01426": "d6f67d5a3aec2096572d118d3a00d72ee71460906d01f2fc19cb1e613a6dd9cc",
+        "v7/01426": "258b22a5c02bb17c119753afb23a2fb9a66d556a74f926938184ce76fd689989",
+        "v6/01427": "0eb6e238881250e4b0c3265a8ecc900172b73b69a5ced6931532526098f63f6a",
+        "v7/01427": "63402248f6d32729df83943a44999c226a5912099b104a6473aec1b505d4ec0a",
+        "v6/01428": "0eb6e238881250e4b0c3265a8ecc900172b73b69a5ced6931532526098f63f6a",
+        "v7/01428": "63402248f6d32729df83943a44999c226a5912099b104a6473aec1b505d4ec0a",
+        "v6/01429": "e9f4f8e3cb0339e86398b1104f1537456eaacba6496b35b49620218c1346ac1d",
+        "v7/01429": "e2fc1a7ade75ae4082887a49b0d7f2bf07a0648a01df1d307d93f11ce16f6708",
+        "v6/01430": "e9f4f8e3cb0339e86398b1104f1537456eaacba6496b35b49620218c1346ac1d",
+        "v7/01430": "e2fc1a7ade75ae4082887a49b0d7f2bf07a0648a01df1d307d93f11ce16f6708",
+        "v6/01431": "e9f4f8e3cb0339e86398b1104f1537456eaacba6496b35b49620218c1346ac1d",
+        "v7/01431": "e2fc1a7ade75ae4082887a49b0d7f2bf07a0648a01df1d307d93f11ce16f6708",
+        "v6/01432": "407bffd7499763b4ffd4437305d30052c4fe3e041a1a118a615b5b97daf6a324",
+        "v7/01432": "20f7bfda9c03ea41e232bb49f638811c6d51ccd68ddd708e05f8ba6ae20ae25c",
+        "v6/01433": "b547b719b7b98b37e9004d880812817d0054892335f80257eee27c60962bd5ab",
+        "v7/01433": "8012598d9cba2baaa7f33ecf600581ec680bd53e936ed5e2d3f1f5b815e5a6d1",
+        "v6/01434": "52af374c7e5f3c23c442979e8eaa7677898e3369738a1a9ff00babf8b3392fd8",
+        "v7/01434": "f23c2b388bfe81f06ad0c9150b82f1c5ce365e47f1b21adb2e0f70610bffb3c7",
+        "v6/01435": "6717b345338563bf7db6caf17ca35c901c4d5bb41d22dfe95b2f558babd9bc3e",
+        "v7/01435": "21f19716fa0377921bd098de4877d28b3c059fd5ca7fd4db81670775afd901a9",
+        "v6/01436": "7090ef97b0a8e57c2bb51b1aeae050973eab6e1d8acbad82c97f241448f63044",
+        "v7/01436": "cc7738b6c73dbb32f099dde10b9469953304fc0c0516439a55c8a1185d5cf9ee",
+        "v6/01437": "5cbcc4b34a8ba26bfadb9b10089fa47f163f4b8eefbdceba017939f144e625f8",
+        "v7/01437": "7ecfcde7ff59f6a4ecf38309aa7ac7d3333dde317fe2d5746e4ac031c9845d3e",
+        "v6/01438": "7f55133e4b6fe97907ec9723e0b920329a5c4cd6f4a8a9773bb093a3d3a72960",
+        "v7/01438": "06496a54cb11c88fb15239a8308f716c7b6a72b52784a77af9ec1d6f85294331",
+        "v6/01439": "87f89a2dd6b4865517c841698ebb4185b6b4fdc742bf23cb4e2f74bdecb93722",
+        "v7/01439": "5a592e003527376b994268c473fca37cfd301e18a55dad3ed63994d7c3d1b08b",
+        "v6/01440": "87bca4bfa4c5829115902f0835acab2e15d61b8cc45c4b4f218e5e5de9c901f9",
+        "v7/01440": "d61e3616e0dcfdb713fdeb33cba47bb264f0e3f1ae2d38c350145cade01343cf",
+        "v6/01441": "87bca4bfa4c5829115902f0835acab2e15d61b8cc45c4b4f218e5e5de9c901f9",
+        "v7/01441": "d61e3616e0dcfdb713fdeb33cba47bb264f0e3f1ae2d38c350145cade01343cf",
+        "v6/01442": "87bca4bfa4c5829115902f0835acab2e15d61b8cc45c4b4f218e5e5de9c901f9",
+        "v7/01442": "d61e3616e0dcfdb713fdeb33cba47bb264f0e3f1ae2d38c350145cade01343cf",
+        "v6/01443": "509545daecbb6c03036d24c200fb891499b6dd72fb38a04dc6cd1a206fda4d71",
+        "v7/01443": "c9f46ba615cd8159f2d0c097ecf954e35d34fb155ae60b18b1d123c7d801a418",
+        "v6/01444": "e2e9686d96107043b7bc68e2de0da98599948cedafaf443d4c803ac77b35939f",
+        "v7/01444": "fb4abc2ad4f51cabf261ade6e5146e5086cf3bef8e36482d3742a6c5c597352d",
+        "v6/01445": "5a9d30b4d2963cd932aa5efadd6eea8190405c9259da286fe9621dfe4d9dd637",
+        "v7/01445": "ac40bca19e6dfd39dba399508c898dd46c4e36cf5b045dda53075c68af8412b0",
+        "v6/01446": "52ece0553e967388c18dc5e8cdbe8e7d498dd8e7fbee356e50319a01679f3ef4",
+        "v7/01446": "a104d804955abb6bb18ab17fd50cf5dad827b8270a5986b497d531f1a54702c3",
+        "v6/01447": "d8508cd47c4056b973c22e207d275b77f408bce6ab75f2ae990313a753f866e2",
+        "v7/01447": "9b1a4d07258c6ac00723e8fc3051a1fa16e1c2c8f714ea534e0bde5c3262399d",
+        "v6/01448": "84c28bae965da4bfeb03869861361f9ff8dfb98167b1928aa7d81222947045bb",
+        "v7/01448": "b8cbb9f7ab28c53353c96ad779c7f104b92358cbe7630425d1e6ed4be59d68da",
+        "v6/01449": "1f57eb045f8f30383fff1377b27bfdb044ef3c422ccd98a842cb8660363e347a",
+        "v7/01449": "578c66f683e3e56028c07d140ea138c29e54f3e1f1ed1708996682004c0db0b5",
+        "v6/01450": "a69dbc768d07f9c4cec69dd612e8fad2b96d3575893eb38a1046a74c2875b894",
+        "v7/01450": "f2a2ecba84c8441d93a03cca222e4940d1815f6e09f692d201a5a3fdfa471c29",
+        "v6/01451": "3a172dc00d6e11b239c4dc306ed9f9099493fb7bc85bcb77be16d370f02b259a",
+        "v7/01451": "0c670b37bc71a16346ec115d8e72619a8de83e2c2e1bc1af7c9a25ca7bd473a8",
+        "v6/01452": "3a172dc00d6e11b239c4dc306ed9f9099493fb7bc85bcb77be16d370f02b259a",
+        "v7/01452": "0c670b37bc71a16346ec115d8e72619a8de83e2c2e1bc1af7c9a25ca7bd473a8",
+        "v6/01453": "3a172dc00d6e11b239c4dc306ed9f9099493fb7bc85bcb77be16d370f02b259a",
+        "v7/01453": "0c670b37bc71a16346ec115d8e72619a8de83e2c2e1bc1af7c9a25ca7bd473a8",
+        "v6/01454": "3a172dc00d6e11b239c4dc306ed9f9099493fb7bc85bcb77be16d370f02b259a",
+        "v7/01454": "0c670b37bc71a16346ec115d8e72619a8de83e2c2e1bc1af7c9a25ca7bd473a8",
+        "v6/01455": "4640d05bcfea213ca339cd9a9db58e6c772a5e42c50856344a139ab0552b904b",
+        "v7/01455": "616f5f0dd9a1174457930ab99e3cd4f459543f8583d65feafb7fd628772159f4",
+        "v6/01456": "c5d2313bef3a888d79d427e7432cb6577b3658171cefb16c29889549702f99a1",
+        "v7/01456": "e9e29fbee387b5da49102e24113eaef7bc0e6ef1dff016d3c96ca0e861a1bbe4",
+        "v6/01457": "c31909ba47512052c95b14a70d256db70021fa23288cb3a1f4a3805a26f254c5",
+        "v7/01457": "87990543c29a73dc335042c3403bb387bdb0081fd4d9f5ed839b68ff9a1a3828",
+        "v6/01458": "a923c14463f33e8e955efd1313e58322cd71a86937a1fa07664cdab42c4cc679",
+        "v7/01458": "1ba9696975f7f545b06e7b6db07a5bf901c42c42e2917c063c957f2aeb725fdc",
+        "v6/01459": "c25ae8fd93a6fda3d831d80c647b1f081f4d5782cc2c4d24491ff8130fcf7285",
+        "v7/01459": "c609d0e00b1277b2292a53fc70d58665a258bc48935d37d660203ab201c4de13",
+        "v6/01460": "d0db1d09834aefa2c755b8b5ade18534473a451173ee5453afcdc54f5d0336dc",
+        "v7/01460": "6781cb4fed1d670df06ab900e517a6ce23b7a4e95f31c087c1f3719cfdc302ef",
+        "v6/01461": "ff829f6e9b68e3d27ea970bde2595f1ccc0171cbd4a0f01f2abd2fd2c1b55d51",
+        "v7/01461": "b7f7403dd447d647d35213805c87d43fa67cb2d26312f183e66f8d2217ca2dbf",
+        "v6/01462": "9de0bac5bcbf430a279ea871ff01db9ee632cfe26d3959ebe7cbe1f63bfb2758",
+        "v7/01462": "972545f4277f30afb71b44e1aaa876a249ac006b6d979152833a54fb968e95ac",
+        "v6/01463": "3b6bf3c7b65549126b117868a1e54e049399b599b32841111301e07db1a48492",
+        "v7/01463": "d27b113c4eb41437c9e1d01b4da99a579fe4dda3b9a60d03946d67597e3a9b50",
+        "v6/01464": "4c392667b884697af21dda3364ed464ee005b417eaab97bd2029f23a5f3a3a70",
+        "v7/01464": "e90f43166ad7abb5fccd41779c240bf887f8c6211da7f631e7441acb4b03e7f8",
+        "v6/01465": "f3a80c8703665585389d1c0ead7bf4c34aae5498c3dd300cb6b84f4d546973d4",
+        "v7/01465": "ec4776dc3783ffbac47e8efd3e605a18a237426d41a8df0f3f4f91feabdd6b91",
+        "v6/01466": "f3a80c8703665585389d1c0ead7bf4c34aae5498c3dd300cb6b84f4d546973d4",
+        "v7/01466": "ec4776dc3783ffbac47e8efd3e605a18a237426d41a8df0f3f4f91feabdd6b91",
+        "v6/01467": "507bfd9d0c4292d0098124ed30b61b29032b6c031775b02ce2f9e462c5017466",
+        "v7/01467": "507bfd9d0c4292d0098124ed30b61b29032b6c031775b02ce2f9e462c5017466",
+        "v6/01468": "507bfd9d0c4292d0098124ed30b61b29032b6c031775b02ce2f9e462c5017466",
+        "v7/01468": "507bfd9d0c4292d0098124ed30b61b29032b6c031775b02ce2f9e462c5017466",
+        "v6/01469": "cfede033d8062b1f79b102a6c47c9b8735cd108a5c95a5bea57b2aa96faf4183",
+        "v7/01469": "cfede033d8062b1f79b102a6c47c9b8735cd108a5c95a5bea57b2aa96faf4183",
+        "v6/01470": "3f3780aeb435c034f6a39daf6a9cece83aca909bfd509000cc939416829c3d9a",
+        "v7/01470": "3f3780aeb435c034f6a39daf6a9cece83aca909bfd509000cc939416829c3d9a",
+        "v6/01471": "6b9978ba58d652c25ddc8d7938e8c98fbf20b7452b51a5525fe9800b0f538f59",
+        "v7/01471": "6b9978ba58d652c25ddc8d7938e8c98fbf20b7452b51a5525fe9800b0f538f59",
+        "v6/01472": "8bcf9b9ecacdcbe1d2357220bd19f9d55c756281b69ec0e4823de547d8dca37a",
+        "v7/01472": "8bcf9b9ecacdcbe1d2357220bd19f9d55c756281b69ec0e4823de547d8dca37a",
+        "v6/01473": "4c400b2ae9d8d9c1371f99d2f4df586a6b4ccad144f4af662f740ee4af10a3a6",
+        "v7/01473": "4c400b2ae9d8d9c1371f99d2f4df586a6b4ccad144f4af662f740ee4af10a3a6",
+        "v6/01474": "a8923664173778b69263aa2ab4d93a5be83c87405df7afb1b06d9f64ac8a67a8",
+        "v7/01474": "a8923664173778b69263aa2ab4d93a5be83c87405df7afb1b06d9f64ac8a67a8",
+        "v6/02133": "a616f28debd3c03324ada84d85deb0f84ce5dadf55a157a78937f3a71d115ff1",
+        "v7/02133": "a616f28debd3c03324ada84d85deb0f84ce5dadf55a157a78937f3a71d115ff1",
+        "v6/02134": "8bd7fd8467da41899850b5e2a217545b8f2b0df00b7864b88c02c10a57074ab8",
+        "v7/02134": "8bd7fd8467da41899850b5e2a217545b8f2b0df00b7864b88c02c10a57074ab8",
+        "v6/02135": "91973d81ad5a48bb0b7439d5478516cd187604d177ef814f5f2d72bd0595a025",
+        "v7/02135": "91973d81ad5a48bb0b7439d5478516cd187604d177ef814f5f2d72bd0595a025",
+        "v6/02136": "178345abb0410f6bde0395cf050cf02d6040e7effbec8c63247f2e40b72ac786",
+        "v7/02136": "178345abb0410f6bde0395cf050cf02d6040e7effbec8c63247f2e40b72ac786",
+        "v6/02137": "178345abb0410f6bde0395cf050cf02d6040e7effbec8c63247f2e40b72ac786",
+        "v7/02137": "178345abb0410f6bde0395cf050cf02d6040e7effbec8c63247f2e40b72ac786",
+        "v6/02138": "91973d81ad5a48bb0b7439d5478516cd187604d177ef814f5f2d72bd0595a025",
+        "v7/02138": "91973d81ad5a48bb0b7439d5478516cd187604d177ef814f5f2d72bd0595a025",
+        "v6/02139": "6ac311a0494ec7b94760d4aca171e31d6dbf00f1f07eb4b35fa0409deb04a43d",
+        "v7/02139": "6ac311a0494ec7b94760d4aca171e31d6dbf00f1f07eb4b35fa0409deb04a43d",
+        "v6/02140": "6ac311a0494ec7b94760d4aca171e31d6dbf00f1f07eb4b35fa0409deb04a43d",
+        "v7/02140": "6ac311a0494ec7b94760d4aca171e31d6dbf00f1f07eb4b35fa0409deb04a43d",
+        "v6/02141": "6ac311a0494ec7b94760d4aca171e31d6dbf00f1f07eb4b35fa0409deb04a43d",
+        "v7/02141": "6ac311a0494ec7b94760d4aca171e31d6dbf00f1f07eb4b35fa0409deb04a43d",
+        "v6/02142": "6ac311a0494ec7b94760d4aca171e31d6dbf00f1f07eb4b35fa0409deb04a43d",
+        "v7/02142": "6ac311a0494ec7b94760d4aca171e31d6dbf00f1f07eb4b35fa0409deb04a43d",
+        "v6/02143": "3596b5a69baec31fa8ece9499e0a65186179d9bc0edd35ccac5c8f44e54cb287",
+        "v7/02143": "3596b5a69baec31fa8ece9499e0a65186179d9bc0edd35ccac5c8f44e54cb287",
+        "v6/02144": "8f1487eb7a4f252edd4a3e62b31c716ff248d169583227f3edb8f5c58685601c",
+        "v7/02144": "8f1487eb7a4f252edd4a3e62b31c716ff248d169583227f3edb8f5c58685601c",
+        "v6/02145": "0c88fafc5d728ca4ae29d6d3d0cfd57996a5751d9182a6620af9842652519249",
+        "v7/02145": "0c88fafc5d728ca4ae29d6d3d0cfd57996a5751d9182a6620af9842652519249",
+        "v6/02146": "ab55014748af9aad3adc53bf3bf43990c314a24e17e342bf6ad61fc4205c6f32",
+        "v7/02146": "ab55014748af9aad3adc53bf3bf43990c314a24e17e342bf6ad61fc4205c6f32",
+        "v6/02147": "a914d775612ac0e093f2931976943a5ea870a90728d6802c4c9521b7623e23d8",
+        "v7/02147": "df414b8af2bd5404a9b4897d5270413cb31d4417b7f664c46f47fb07bdfa68f5",
+        "v6/02148": "a914d775612ac0e093f2931976943a5ea870a90728d6802c4c9521b7623e23d8",
+        "v7/02148": "9e8bd0f2a0922fa23905520ab7e2247295ed23d2b3accb607ca7425f4742ae74",
+        "v6/02149": "b36e00ebb8d18f4b5acb2dfcaf33defe0be830288e7c150de10aef011eb58f92",
+        "v7/02149": "eb61e8e43825dc317985c99a8811bddbd9b5db604ab177ae472448daeb06c6c6",
+        "v6/02150": "1f0c9bacaf97d3a28df9ead8c357042cf9eda4aaf0a95cd423be1ed09a9e03d8",
+        "v7/02150": "64557cc054f0d2c8b80009436d52fb3a524793a3a60c614135639519fc45660b",
+        "v6/02151": "48b10b73d9e3edaab2762324c32b6f97af83501f5c578666fc67e9fc2af07f24",
+        "v7/02151": "013f95e86dd870eb9f4c884396d0d2ebadba4f9a1a22d72de0e400256933a7e1",
+        "v6/02152": "7fc5cbb121a30b055986fe7eee6f39f46a8c8fcf04d8d0ffeffba1757cd0c100",
+        "v7/02152": "c189f56e9b30bee6d80a24f817e695868d745e77fd92dc24607c91814772e16d",
+        "v6/02153": "212365ca7ecdae25a33af2d6fc6d17837d9cd1c9ab49eebd2526b1c26ed9927b",
+        "v7/02153": "a3ac3d55869af2526760ce3f7dda3d3138b9872f16608870731b88c6d92f3c87",
+        "v6/02154": "1c1a489e8f3904a6412ca64b774a928f1d9d2fbf4b7836bbd6067fbcb863a31a",
+        "v7/02154": "c5c5188ca24285d91fd4893511ec4dba1ab2b3e203d40df566fc2a96d35af21d",
+        "v6/02155": "e1885082b25b77d0c2b38c4105c187632374b5434afd9eed4a5568c1cb314fa3",
+        "v7/02155": "1c24742870c61c9b9030f66b7540b8523b1d78e71f4864182b33ae31d0cdc5ea",
+        "v6/02156": "2edaf217633edc66b5ae49ed32d9a46cc2413976b4f26b5545a62dbccda9e8ca",
+        "v7/02156": "820759ba80f1e9ed7023a6e3e447102031c4496143a176b81771ac631176d2e9",
+        "v6/02157": "8b77d8686f693f89a117daafe262047c8385a9d30854e5e5c8808f1be4be66fa",
+        "v7/02157": "8b77d8686f693f89a117daafe262047c8385a9d30854e5e5c8808f1be4be66fa",
+        "v6/02158": "69e52b6c70315b30f73fd7b230d347c4bf3bf7c87f82340a4ad47bc08781abfd",
+        "v7/02158": "69e52b6c70315b30f73fd7b230d347c4bf3bf7c87f82340a4ad47bc08781abfd",
+        "v6/02159": "33f0c306b56a842f2a37f556b9cebb5c7ab264a1730840eacec96e4991566aa3",
+        "v7/02159": "33f0c306b56a842f2a37f556b9cebb5c7ab264a1730840eacec96e4991566aa3",
+        "v6/02160": "33f0c306b56a842f2a37f556b9cebb5c7ab264a1730840eacec96e4991566aa3",
+        "v7/02160": "33f0c306b56a842f2a37f556b9cebb5c7ab264a1730840eacec96e4991566aa3",
+        "v6/02161": "f1b75db433186d8970053787732fded1a55ef5107a73cd2a8911ffc7f0becb4b",
+        "v7/02161": "f1b75db433186d8970053787732fded1a55ef5107a73cd2a8911ffc7f0becb4b",
+        "v6/02162": "f1b75db433186d8970053787732fded1a55ef5107a73cd2a8911ffc7f0becb4b",
+        "v7/02162": "f1b75db433186d8970053787732fded1a55ef5107a73cd2a8911ffc7f0becb4b",
+        "v6/02163": "1955cfd38a66821459610f4fdb18f7bb834c31b112dcc05b257c1140339504c3",
+        "v7/02163": "1955cfd38a66821459610f4fdb18f7bb834c31b112dcc05b257c1140339504c3",
+        "v6/02164": "c6d833f90ebad9d74835720ef9e7e2def2cb0792bc82810db2e8348385c25743",
+        "v7/02164": "c6d833f90ebad9d74835720ef9e7e2def2cb0792bc82810db2e8348385c25743",
+        "v6/02165": "13cf861068654089f513f4794c36750637e56d9e39263fddb4582ff12fbed4be",
+        "v7/02165": "13cf861068654089f513f4794c36750637e56d9e39263fddb4582ff12fbed4be",
+        "v6/02166": "13cf861068654089f513f4794c36750637e56d9e39263fddb4582ff12fbed4be",
+        "v7/02166": "13cf861068654089f513f4794c36750637e56d9e39263fddb4582ff12fbed4be",
+        "v6/02167": "33a2f5eeb1eb03b91de047f5b49b6b30ce967d8646576b4e2c00b41dce2931bf",
+        "v7/02167": "33a2f5eeb1eb03b91de047f5b49b6b30ce967d8646576b4e2c00b41dce2931bf",
+        "v6/02168": "adeee2d5e37c003273275d3c62aa657ce64e7039aa5f84c084cba1187c22b894",
+        "v7/02168": "adeee2d5e37c003273275d3c62aa657ce64e7039aa5f84c084cba1187c22b894",
+        "v6/02169": "4031eae379a7d9138e79f6006e44f04bfbbf96575a09b6ab45f09e96bc4c22e1",
+        "v7/02169": "4031eae379a7d9138e79f6006e44f04bfbbf96575a09b6ab45f09e96bc4c22e1",
+        "v6/02170": "8b84c8c0588347b4a910bc1198e51eac76d993874b493c9fd6d97956209d34bc",
+        "v7/02170": "8b84c8c0588347b4a910bc1198e51eac76d993874b493c9fd6d97956209d34bc",
+        "v6/02171": "8b84c8c0588347b4a910bc1198e51eac76d993874b493c9fd6d97956209d34bc",
+        "v7/02171": "8b84c8c0588347b4a910bc1198e51eac76d993874b493c9fd6d97956209d34bc",
+        "v6/02172": "b0da39d89d6cbefcb8e5176fe5ee23fc63f3ae01232b140222e8487394caeda6",
+        "v7/02172": "b0da39d89d6cbefcb8e5176fe5ee23fc63f3ae01232b140222e8487394caeda6",
+        "v6/02173": "0b72468e9f77fcb82b6650cc3dbc4d79e13cf26aa1598dda5c800225e03919de",
+        "v7/02173": "0b72468e9f77fcb82b6650cc3dbc4d79e13cf26aa1598dda5c800225e03919de",
+        "v6/02174": "0ddb89f9cb788fde9d88a0bb1b8b35ae94612a3a53bfb9601e7d13bc11633b09",
+        "v7/02174": "0ddb89f9cb788fde9d88a0bb1b8b35ae94612a3a53bfb9601e7d13bc11633b09",
+        "v6/02359": "5d78b0f6f6347a2b4bddad37c89759649b8ed607305144cc6ac005db2b2ff881",
+        "v7/02359": "5d78b0f6f6347a2b4bddad37c89759649b8ed607305144cc6ac005db2b2ff881",
+        "v6/02360": "8f8560fc4122d90672363a3708782d506f97f39602c0c983d39843736842af27",
+        "v7/02360": "8f8560fc4122d90672363a3708782d506f97f39602c0c983d39843736842af27",
+        "v6/02361": "5d78b0f6f6347a2b4bddad37c89759649b8ed607305144cc6ac005db2b2ff881",
+        "v7/02361": "5d78b0f6f6347a2b4bddad37c89759649b8ed607305144cc6ac005db2b2ff881",
+        "v6/02362": "a1178aa45a65ad79adaa86e56eefdac6e7efb991b559fc263e098942bade01d7",
+        "v7/02362": "a1178aa45a65ad79adaa86e56eefdac6e7efb991b559fc263e098942bade01d7",
+        "v6/02363": "4e3bd3c232f145c4236b74ce8d177b889646e1a0856fe2115f96052f23911fd8",
+        "v7/02363": "4e3bd3c232f145c4236b74ce8d177b889646e1a0856fe2115f96052f23911fd8",
+        "v6/02364": "55101e19aa7833bf848e49910efb89b70de22190f7ceb381c625484f5e318dbb",
+        "v7/02364": "55101e19aa7833bf848e49910efb89b70de22190f7ceb381c625484f5e318dbb",
+        "v6/02365": "55101e19aa7833bf848e49910efb89b70de22190f7ceb381c625484f5e318dbb",
+        "v7/02365": "55101e19aa7833bf848e49910efb89b70de22190f7ceb381c625484f5e318dbb",
+        "v6/02366": "28d16ea48d43c388750a9fdf6ed662818cc4758a10c7dd6c19404cb94d9cd775",
+        "v7/02366": "28d16ea48d43c388750a9fdf6ed662818cc4758a10c7dd6c19404cb94d9cd775",
+        "v6/02367": "f16e9016089106cd8342aa69e0cd600f4282f4a858ca5cb840ac3c0c01dcb3db",
+        "v7/02367": "c3ed588c47407db30d7e0d2c54ad6f898b234b20a76c1fe86f95dad3cc9f84f1",
+        "v6/02368": "f262f8835476fa41ce2ac9c9acd5312ac13b79ae86aa063b7de26c404066b363",
+        "v7/02368": "c51ee26ba4e269f098f74b5ecce97008d0a7ecb11f2364b62e8a4ec34badd1a3",
+        "v6/02369": "d32d4e1f8e097440806b706993206ae26615663e94b942ad84b86d7ed5d196af",
+        "v7/02369": "15a9109412aed1aaa19857b9d06361f0f103e8a6246bd39f7770ac5deca7fbaf",
+        "v6/02370": "d32d4e1f8e097440806b706993206ae26615663e94b942ad84b86d7ed5d196af",
+        "v7/02370": "15a9109412aed1aaa19857b9d06361f0f103e8a6246bd39f7770ac5deca7fbaf",
+        "v6/02371": "d32d4e1f8e097440806b706993206ae26615663e94b942ad84b86d7ed5d196af",
+        "v7/02371": "15a9109412aed1aaa19857b9d06361f0f103e8a6246bd39f7770ac5deca7fbaf",
+        "v6/02372": "d32d4e1f8e097440806b706993206ae26615663e94b942ad84b86d7ed5d196af",
+        "v7/02372": "15a9109412aed1aaa19857b9d06361f0f103e8a6246bd39f7770ac5deca7fbaf",
+        "v6/02373": "9ff5a04d499ebc82e1ef45fa53f71638a812e3bdfa62ae8366c0b9180b863975",
+        "v7/02373": "aca59edfc2e54be90b27a2ca139bc3f41616a4a2ded69e70edf9177f742ac6c0",
+        "v6/02374": "9ff5a04d499ebc82e1ef45fa53f71638a812e3bdfa62ae8366c0b9180b863975",
+        "v7/02374": "aca59edfc2e54be90b27a2ca139bc3f41616a4a2ded69e70edf9177f742ac6c0",
+        "v6/02375": "9ff5a04d499ebc82e1ef45fa53f71638a812e3bdfa62ae8366c0b9180b863975",
+        "v7/02375": "aca59edfc2e54be90b27a2ca139bc3f41616a4a2ded69e70edf9177f742ac6c0",
+        "v6/02376": "9ff5a04d499ebc82e1ef45fa53f71638a812e3bdfa62ae8366c0b9180b863975",
+        "v7/02376": "aca59edfc2e54be90b27a2ca139bc3f41616a4a2ded69e70edf9177f742ac6c0",
+        "v6/02377": "ea5d926ef67ab0a58e3dec663f5fb4210c9ec6577dd0dc0415de41579f72cc1d",
+        "v7/02377": "f6e40099260998ba4c17e9fab9e50786620b0ad3b64717f9088ac1676565add5",
+        "v6/02378": "f78c29bfd9f718f49123708be5b9caef3edafa4469b9abf109b3caec3fb6b4e3",
+        "v7/02378": "1f901eb9671c1c35e3dd19cbc3ba73ee41d739c5cb7cb7582ca9d39995c8f12f",
+        "v6/02379": "9720bc41b9710b9d005bc80b72bd3e50d2a2ace2b96ffa7bf8d96daef1356fb6",
+        "v7/02379": "c4f2570927086496f5d4945fe640d4fdfb136e32bdb30f4f95a7fe32ac14789a",
+        "v6/02380": "bdb7edae9fda2f305ca738efa798d38b6ca014e342be66010f59f266bd0098ef",
+        "v7/02380": "4fc1b13ea5993d71e3e0087a9254602bd7f387e02a3c849d821dc3e7726c6986",
+        "v6/02381": "7ba5642c2f1b34455e15044579b8f9aeeab0c6ddb2a5dbce5efb930b38fffec0",
+        "v7/02381": "9076cdd0aa0d239c3cf5a27d394fa82c06b135e90c6a43439b9a5dbc7ce3507a",
+        "v6/02382": "10ba84339624e88167d58e15bc31e123fa5331446ff066152f7f68be829c7974",
+        "v7/02382": "7e01bf4b8f54a9e1c717681ba5868ab5d5c6e592e483905716ac5dbd57379cdc",
+        "v6/02383": "61b2a9225c761c1d31e989ce9ce38bfe816127646d4a243c537c1ac5600ed8aa",
+        "v7/02383": "c492ca3249d83958ad6c083dc06bc2d05c254432ee935c887bda9bbbba396fbe",
+        "v6/02384": "73a0b3fe46bb3b8f6d10bd2c396099e7ebb8762458b44beb3f0ecf3289857bbc",
+        "v7/02384": "16e31fa75ef2f969999bac3e50b404f5c8ee2b0856d7f19119e437d11ea3ab73",
+        "v6/02385": "1c727f644d51514fa0945719dbbf02ff88f07b7b12a8e68b885e09cef7ba20ce",
+        "v7/02385": "f607c2e36a4524c9659a871998c03d1085d20919d883046b995ca4da712717a5",
+        "v6/02386": "1c727f644d51514fa0945719dbbf02ff88f07b7b12a8e68b885e09cef7ba20ce",
+        "v7/02386": "f607c2e36a4524c9659a871998c03d1085d20919d883046b995ca4da712717a5",
+        "v6/02387": "1c727f644d51514fa0945719dbbf02ff88f07b7b12a8e68b885e09cef7ba20ce",
+        "v7/02387": "f607c2e36a4524c9659a871998c03d1085d20919d883046b995ca4da712717a5",
+        "v6/02388": "1c727f644d51514fa0945719dbbf02ff88f07b7b12a8e68b885e09cef7ba20ce",
+        "v7/02388": "f607c2e36a4524c9659a871998c03d1085d20919d883046b995ca4da712717a5",
+        "v6/02389": "14d6c9a4e45c2b8912444f36ab06d36fe14fccb841a267665a42381a279ca3bd",
+        "v7/02389": "b8091e5976fa4ae8eab56df64fd0bf6bab342911cf51fd5d374b4df3201eddc1",
+        "v6/02390": "14d6c9a4e45c2b8912444f36ab06d36fe14fccb841a267665a42381a279ca3bd",
+        "v7/02390": "b8091e5976fa4ae8eab56df64fd0bf6bab342911cf51fd5d374b4df3201eddc1",
+        "v6/02391": "242bd1bd6ec73c4e7e777c156913fbcb63d88efaf475fe266e12d7639d65ac69",
+        "v7/02391": "0448e2ac6df811164ae3a5a05882e875d6277744ffabe9679dd9578b0222998e",
+        "v6/02392": "2b16eb0bd2e005275c093837d2746069a03df9f95cd97b914c969585b289a93d",
+        "v7/02392": "17ee09a92f75e247b5e5b5abb7fca7bb9e94ccac998e14b6913445d0ad658e7f",
+        "v6/02393": "87ab4ff57abac239657d25e162fa63136ff19fc0911863c9196dab917f2c1a73",
+        "v7/02393": "fb73d9929839af7f0edd5699d04384437925742babdc93296bcd266d04a95800",
+        "v6/02394": "039b252ea889e8415b67fc43e2c474810bf725081ba4a95789532fe3a088e828",
+        "v7/02394": "1185c41aaea465252cf55b52e976be2cd931d65d1503663c16982e486f5c9ae8",
+        "v6/02395": "5cd97b202c28ec505d3075e9b5bb31d924c0c2bacce4e73b19fcc9903fcc9db6",
+        "v7/02395": "73035631242dbb6cf194defdeadcb3e080d1e6287efd12d4d99f582ea9a0ef7c",
+        "v6/02396": "9e2388ffaeb5ecc9fe5d5feaef929336718e89e3dc9cbab3a685c9ee5ddae21f",
+        "v7/02396": "9defa160f69472ea8830a1627521b44223c65af9efe36f2621903a3588128933",
+        "v6/02397": "336cd59fbcc61466265b8925aa86a4bc4fcd376adc66ba2ed4f3ca90387813cd",
+        "v7/02397": "3f0828ac81b22d472b0b89afd72b00a8e2663fbac4887d16fc23babf92abd075",
+        "v6/02398": "47b1c8619990237c3765fd4ee08a71d83b2d3a8b1525c7974369712da08fa306",
+        "v7/02398": "9f0d06990ff4e4e12ef66148384b0185405089769162e5dad61bbe3d5c6605fd",
+        "v6/02399": "47b1c8619990237c3765fd4ee08a71d83b2d3a8b1525c7974369712da08fa306",
+        "v7/02399": "9f0d06990ff4e4e12ef66148384b0185405089769162e5dad61bbe3d5c6605fd",
+        "v6/02400": "cbd005a5fd8d410592fe0e7ecd82595d5670930d7f68a398c51901d78ba76fc2",
+        "v7/02400": "059c1553c44e216c27f46d1544814db1d7e9f5f23282bb7a03c6da545d20ce4b",
+        "v6/02401": "b55b96a6f8361ec0a598039808dfc54a4b814b8dbc7114f57d494e5b7511dcb3",
+        "v7/02401": "b55b96a6f8361ec0a598039808dfc54a4b814b8dbc7114f57d494e5b7511dcb3",
+        "v6/02402": "b55b96a6f8361ec0a598039808dfc54a4b814b8dbc7114f57d494e5b7511dcb3",
+        "v7/02402": "b55b96a6f8361ec0a598039808dfc54a4b814b8dbc7114f57d494e5b7511dcb3",
+        "v6/02403": "b55b96a6f8361ec0a598039808dfc54a4b814b8dbc7114f57d494e5b7511dcb3",
+        "v7/02403": "b55b96a6f8361ec0a598039808dfc54a4b814b8dbc7114f57d494e5b7511dcb3",
+        "v6/02404": "b55b96a6f8361ec0a598039808dfc54a4b814b8dbc7114f57d494e5b7511dcb3",
+        "v7/02404": "b55b96a6f8361ec0a598039808dfc54a4b814b8dbc7114f57d494e5b7511dcb3",
+        "v6/02405": "b55b96a6f8361ec0a598039808dfc54a4b814b8dbc7114f57d494e5b7511dcb3",
+        "v7/02405": "b55b96a6f8361ec0a598039808dfc54a4b814b8dbc7114f57d494e5b7511dcb3",
+        "v6/02406": "b55b96a6f8361ec0a598039808dfc54a4b814b8dbc7114f57d494e5b7511dcb3",
+        "v7/02406": "b55b96a6f8361ec0a598039808dfc54a4b814b8dbc7114f57d494e5b7511dcb3",
+        "v6/02407": "b55b96a6f8361ec0a598039808dfc54a4b814b8dbc7114f57d494e5b7511dcb3",
+        "v7/02407": "b55b96a6f8361ec0a598039808dfc54a4b814b8dbc7114f57d494e5b7511dcb3",
+        "v6/02408": "b55b96a6f8361ec0a598039808dfc54a4b814b8dbc7114f57d494e5b7511dcb3",
+        "v7/02408": "b55b96a6f8361ec0a598039808dfc54a4b814b8dbc7114f57d494e5b7511dcb3",
+        "v6/03576": "e73ebfe3349f3bda060ba9b2ae632601269743cea970226854367603c49832c8",
+        "v7/03576": "e73ebfe3349f3bda060ba9b2ae632601269743cea970226854367603c49832c8",
+        "v6/03577": "e73ebfe3349f3bda060ba9b2ae632601269743cea970226854367603c49832c8",
+        "v7/03577": "e73ebfe3349f3bda060ba9b2ae632601269743cea970226854367603c49832c8",
+        "v6/03578": "e73ebfe3349f3bda060ba9b2ae632601269743cea970226854367603c49832c8",
+        "v7/03578": "e73ebfe3349f3bda060ba9b2ae632601269743cea970226854367603c49832c8",
+        "v6/03579": "6931922543e7380b865ab767f8427c981f1b77a1ed099c203befa8a82c778c39",
+        "v7/03579": "6931922543e7380b865ab767f8427c981f1b77a1ed099c203befa8a82c778c39",
+        "v6/03580": "eb845c463c91ee0d57f180c2e04cd267873e45f7778dbd6605f0cd92f46c2f40",
+        "v7/03580": "eb845c463c91ee0d57f180c2e04cd267873e45f7778dbd6605f0cd92f46c2f40",
+        "v6/03581": "eb845c463c91ee0d57f180c2e04cd267873e45f7778dbd6605f0cd92f46c2f40",
+        "v7/03581": "eb845c463c91ee0d57f180c2e04cd267873e45f7778dbd6605f0cd92f46c2f40",
+        "v6/03582": "3722149636d8b3093f3dbafea20e2985447ec745edf5a41482eb3701e7ee148e",
+        "v7/03582": "3722149636d8b3093f3dbafea20e2985447ec745edf5a41482eb3701e7ee148e",
+        "v6/03583": "0ccc93c469a34bd1c35f19a37617c7eb1654b568b828a7fbd8a50ea2380c80e6",
+        "v7/03583": "0ccc93c469a34bd1c35f19a37617c7eb1654b568b828a7fbd8a50ea2380c80e6",
+        "v6/03584": "3d62662dcdf5c489b4c37cbd8935562b1e021ddc962b9539d7bfe67765e7d6ce",
+        "v7/03584": "2d7d64eee6677edb5ead9ef795b7d14b332818e1eadbabef67f77bbf7a79a291",
+        "v6/03585": "6fc97ce569d33de17b54a338da647e3a2d269efd003c83024745fa3f2924463e",
+        "v7/03585": "3709b5f467e1f32d93d79814a32fa1dd94aff347c43cf5eeeaf9e3a1e87380f5",
+        "v6/03586": "ee21c379b0f3a76613d6662deccee25e83b361c0d6264afef78026a170373ace",
+        "v7/03586": "09d7adec39e581a3e381bb6ba3c0f1841e66b9de320245aacb2990d43815af47",
+        "v6/03587": "76e9384671462dfb2d27166298ff90ce3260426e3b0da8822ba412eb0f4e44b1",
+        "v7/03587": "77cd75f0123913111ad10f10d6c1ba4b258d9404c7be7681aa07e86b453d9c3b",
+        "v6/03588": "f6f6088cc255e2e3a64bbf76ef0ea3bdb5355912bfbfb3b49866f0da279a246c",
+        "v7/03588": "4187624be9d3c9f85a58ad832552c8f5b567725eb18ed506a1b11d9d40d7ec98",
+        "v6/03589": "7e5652bdbde8ae9fea659df193fee80ed43fa7b2e64490f5b573be3ab17d56e9",
+        "v7/03589": "05496113d50b590a64926b1bf94419cbe08151682c0f71ad2f281afdc8a3a771",
+        "v6/03590": "4295d803cb4d28d9a99ca91d9e9c11a00088e3578ccf4ac41e2504916c01423f",
+        "v7/03590": "eee823786b6ed36f42766144b76a119ebb8eff28ed2ac569793aa6bcebac8593",
+        "v6/03591": "8d5aa161ee573c4a717c06c1ae21496de9879a1fe67eedd3bd49f485dc62b973",
+        "v7/03591": "e6aede459296082a396ba2685bc7c4c22e8851caea0e2e5233000c7b6af529a8",
+        "v6/03592": "e35d3d1d175896a94318c85b99fb6263067857d73528e5e78554c611c568a104",
+        "v7/03592": "63f7f0e66d2821dc5e0e2f1f851d3c23fcfbb7a1043280638f07979520422ceb",
+        "v6/03593": "9396d0a226bdeb8c5dde1c9d712a0a0c253f9452daa77bf8932070a935aa90de",
+        "v7/03593": "8d938eeeb9e9535bb56f6fef8d436d9d14e4830cb974562d5203f554eec84f98",
+        "v6/03594": "564488a61b706aecd784eb0162b379b99286fd9f83653bb7cb0d575432821a55",
+        "v7/03594": "11611832851022ec78578482bfd71ff02dd494ed7ec07c9bc5fbe3659c8ec13c",
+        "v6/03595": "f50719b34dd73dfcb4e4a01309ec9ec583955c370f7439558ae6bbd912a825d6",
+        "v7/03595": "a3a74f56ef931c8f3fc1ada59f95417fa063ca3232d27d5576dc9971c9682b14",
+        "v6/03596": "a0a18912c89bc5c1a1c6db3bda4d692aa7bb69396729d6d1f60c83fd6b0b1e27",
+        "v7/03596": "cfd491d58a038813944b7f4ac94ae5f4c459a835d8805441e0c9f18b7ef718a6",
+        "v6/03597": "34f52851a1dacf3e067a82e4dd8fb7a22ef3b6221ae9b1710674861ef6bb33b9",
+        "v7/03597": "b284771c5aacac96f2551be79ee25f2890e972ea90fc9321584b33f005e63dca",
+        "v6/03598": "3668f55aec454d9e43c4d911f8cfd1503828f2606cce6d4fed2213652f7d7d86",
+        "v7/03598": "4d028993c881137c3f6024ef7026c08223e3ea1375042da2dc386b227441fe1c",
+        "v6/03599": "6e92ef053805d77fc63e6f17a68b53a17a2803b149c09174f251dea60e9405cf",
+        "v7/03599": "93c6c007ae623dff7d244aef48f3cf01637d160d2434376919cb5b434bfddcb4",
+        "v6/03600": "770af2334f68bac63fa6ffdb8c070ef31a20c1aea5fd446a81f5c878740deb34",
+        "v7/03600": "db8027f45d3f61268638486ec40499cdc566f0e550205093171f55d2e4e97a9c",
+        "v6/03601": "36477a4ef13a7a44be20eb89ce1606f35c27dfb2211ca9c4b33e8cdf1ee91d4d",
+        "v7/03601": "308b38b3e7611e72b7c6a29ff1e0b7e7f726d7bc169e7b5e6d832c8ee2d0a1cf",
+        "v6/03602": "fcc4fb6503b73969e1a276458b7a77a804f4652cf92bd26d74a5b3a9a3feffcf",
+        "v7/03602": "4175bd16a19246f0aec73e9a7e7bc70d871159c2ed21eebfeb9125310224f509",
+        "v6/03603": "fcc4fb6503b73969e1a276458b7a77a804f4652cf92bd26d74a5b3a9a3feffcf",
+        "v7/03603": "4175bd16a19246f0aec73e9a7e7bc70d871159c2ed21eebfeb9125310224f509",
+        "v6/03604": "2f88131279f98e0007cb2491b287cba6911b611c4039b203aadc8ca55d468f4e",
+        "v7/03604": "18dfd82ea15df2637698e97afd1728b88c15ccacd34674883c70d5ef8a035169",
+        "v6/03605": "99bf2299ac33b201a5cef2844f6acf61e1c982a30b92dbde682bcd1517811f1f",
+        "v7/03605": "b47b36ffc8b94fe7b4e9b6734f707fa51ea18343f0acef1bd4387c3be0a1d72e",
+        "v6/03606": "7a8fe13c0207cdc4fb5ed68c28ba1831923f259e6532c0ca227905e44a889025",
+        "v7/03606": "bf506762a78c7b99681189afee8dacc036530ba1b45c35ec76649ba5a13ff350",
+        "v6/03607": "66df7b44b602d3a17a7c5fc0edd41a2ed536e6e08a7648dda37e473c53ebff6f",
+        "v7/03607": "b37d89750251e7237f2a3ab221d9fd59ddf263e8fd879d2b308a1f03fd111422",
+        "v6/03608": "bcc00781987128cf70cf12f280670ea16f25d7caa3f65f086d3eca20d683e297",
+        "v7/03608": "776f5025f190748369e54ad2da0d13d8a019f9f160c42c7385b1ac1d473c901a",
+        "v6/03609": "1990bd391ebfe1f1727d357910b1d83cc3179bfca61ebd73258c6dac94192992",
+        "v7/03609": "01463c5ee20f52bd0cda934d67abcaee68fa18037653528970dc652746b9480e",
+        "v6/03610": "644161d7cbd9151b2fe0d768e8a396b13d4b8d4c3ef904ca5dedec87774d4870",
+        "v7/03610": "371f2fda5c81cf2133e069c5f99fdc15c2e56036474a1ece7b8ca433abe75e9b",
+        "v6/03611": "1990bd391ebfe1f1727d357910b1d83cc3179bfca61ebd73258c6dac94192992",
+        "v7/03611": "01463c5ee20f52bd0cda934d67abcaee68fa18037653528970dc652746b9480e",
+        "v6/03612": "1990bd391ebfe1f1727d357910b1d83cc3179bfca61ebd73258c6dac94192992",
+        "v7/03612": "01463c5ee20f52bd0cda934d67abcaee68fa18037653528970dc652746b9480e",
+        "v6/03613": "67fcd86708076a5eb50ece7bc70f2a497fe8c08ac7d5cdebd40538f27d5c4bde",
+        "v7/03613": "87bebfa290ab25a4e95471b9165b77be425e4da605323358e94e420bbdfcf213",
+        "v6/03614": "d4f9c3cd10eeb8a39d47ca6739d625a1995c5a922911e99c8f0f0a61e5de6a34",
+        "v7/03614": "34a8c37f47b1309e13f62fc1a8fbc83cadef4c451741a880050c67c734024bef",
+        "v6/03615": "bb8dae25833228520c725ea3bd8a906f7549225f098451e1bf1c320557a66485",
+        "v7/03615": "ae24409b89bf25c28fe622f76e5952f36758edf8e35bb7a0f8f9b451ea7afe24",
+        "v6/03616": "ec7e37d004e4e5c8bad1c6b5d6008e9653eb92dd3251aa3e21b4f83f71903f17",
+        "v7/03616": "8843a3cc7b325e659fcc6406e8feada6cca9466a2bd5c1f6e7210fbf515eb0e6",
+        "v6/03617": "f535379d5919552a172d623fb33a4711bc3987c6264eeea2385f2e98f4c4a0ff",
+        "v7/03617": "0de77bfb59d70c2ff5ce12c7d5366d4fccf1d170ea67012d76ff57403fff8af7",
+        "v6/03618": "cbcfacee1fc6e02d183440e8c34639e8c8862fa4fbf73357f08340c838d33b29",
+        "v7/03618": "e43c3589c6f53b69223084c7dd77ae928bf4d10b9465a196794b081b51b43d69",
+        "v6/03619": "d28744345a82d6ccb53f68fa4ba851c5db2550c3afa81f37fe4e2c45da6ab730",
+        "v7/03619": "d5df2a10b4dd6bce6068ee3e5b5483efaecd26c3863d9bdffca18078b8d0579f",
+        "v6/03620": "5d00f252314280fcb733ef44c2cb8e1450897af719d0d97a73327ff792cda919",
+        "v7/03620": "b186db7f5346f8ebf45384c22c7ea169a07b4de6530aeadf0c3aebba563a06d2",
+        "v6/03621": "9cd23c61e5602ada65abbd016cbae9fd3136cb6606bb6a8ecfd1cedabfbab3db",
+        "v7/03621": "a36a64885f9b2fc002d0da12dff3e08ce47a3c5d176c7f2877a7cc6212eeb4c4",
+        "v6/03622": "92b325101b1221798a1bcd9806c12bf359f177a8fb2610873e7cb7ee40a2c625",
+        "v7/03622": "d65b3a7cd67e5be725a8e6901045ce8215ae77e70c65d581fea8a4aa105674b6",
+        "v6/03623": "45b5c47bfb966ea0e92debf935bc8781a71630f62a06bfc3ede616862debfc79",
+        "v7/03623": "c850f72ecf2aafe206ef204f0f13874d3caf7b8fad5457c72b543a9789a83706",
+        "v6/03624": "1adee3da62d8fd9d10d1cea97269e3f2d7ada4c57370de33e64c17869316c64a",
+        "v7/03624": "e75b4d1770d79c10658f4b43f5cc82442c6a71a9f3a6a396c0129675237a6dbd",
+        "v6/03625": "9f726428ef7880add346072fa97f62be8e4efb0e8ae59adfcfe9772af48ec650",
+        "v7/03625": "c64949b242baa22ea91d50466bd0aacc6929ccfa2c3f66194759b8541e8fc427",
+        "v6/03626": "a796a9150d2e0b7dff6cd48ff735f0063e344d9724e70c3a650c4a48c2f75d12",
+        "v7/03626": "8c843b633fef11b0c44f9e1a47d470c0883f18e428fa115183712e7f2b723093",
+        "v6/03627": "0f2204e69592a93158f5360ba85d528cdd7097014b1c46386d8c8bc5f5322d51",
+        "v7/03627": "636416f2eb2975b2e803750dd501cc1d0bbde1373fce6234222a08a6c8c01710",
+        "v6/03628": "9ae8044b900080670143cad50a3de9287c67ef92f9c59f689b209d28c273d27d",
+        "v7/03628": "3f42bad91ec61ec8ba5e6017220afad193519b797c80200ef013e5d7392397c0",
+        "v6/03629": "9ae8044b900080670143cad50a3de9287c67ef92f9c59f689b209d28c273d27d",
+        "v7/03629": "3f42bad91ec61ec8ba5e6017220afad193519b797c80200ef013e5d7392397c0",
+        "v6/03630": "7aa00ce8c553d5b8bd7e449e6c1a841f2cb5344725485a7052faf20765581776",
+        "v7/03630": "0fc445f60d112fc09905d30a6a599cd8f64cfc118098e7f247b0a3e3e45138a4",
+        "v6/03631": "57f5a8f61e91610a7c35c0da1cbb8a346caaf0d7f478524f1ecb6473a2803294",
+        "v7/03631": "b9d8594ba6876babe0aa9b8e7f0ec9141d3b0accb220229f3e3f18bfa0248155",
+        "v6/03632": "d13393fd9ae2ff25b379bd212383b5223bb32b25290824a3247b71f5a2710b65",
+        "v7/03632": "b8ef1ba799495fe743ffd9f0c297d990d79a28b1d9aa57884eaa85ddaf3c6e53",
+        "v6/03633": "b861d0fb20a5b2a16c3829f2036aa9fc403357954896a2e51e7447109573ae9c",
+        "v7/03633": "d26027d3fd4d561690be06ff12f05a2b41cd8658e8582085b382fc8b0f6ec3ef",
+        "v6/03634": "b861d0fb20a5b2a16c3829f2036aa9fc403357954896a2e51e7447109573ae9c",
+        "v7/03634": "d26027d3fd4d561690be06ff12f05a2b41cd8658e8582085b382fc8b0f6ec3ef",
+        "v6/03635": "ef1e325ed8b2026628b11f5540f46a84327dc88c572942ca1c1b21d2619d7766",
+        "v7/03635": "d26027d3fd4d561690be06ff12f05a2b41cd8658e8582085b382fc8b0f6ec3ef",
+        "v6/03636": "1c8adaf2ec64037cb13d4c73ef6ee9e79214d2a2098bebe2e6fd89974e0d2a4c",
+        "v7/03636": "744af21be37a5ff59567f00ebf390c11f6b5d5d2dc1d4f00c975c94478022b48",
+        "v6/03637": "d39b9575a2dd11520072f3d5c345e39ca3b981111b2d6172644d41a0fa89ad32",
+        "v7/03637": "45cd4f84a24b04f4f9335a0469b73729c5aa1ff88f119039b5febb6aae9736b3",
+        "v6/03638": "2977c138fab88fea04881c19ba0ff0a39a5cd31ebcfd4d30d846cd480af99128",
+        "v7/03638": "6c0ee6bb70ea2a886aeb75de9c147267b92d3804fbfa41e8cd5efac512b8aee8",
+        "v6/03639": "f828d8e872d2e8a46d57b166839432cab2fcd0ae6ec1e590a06e5a7171eb4a97",
+        "v7/03639": "d0d4da01bb37e22b7d82cef7d3ca86c7b1fe31b432a086ead99be23bfe96347c",
+        "v6/03640": "2705dcfdd246b83d608237e42c78b770d8441437af0571f018158c667777f4a5",
+        "v7/03640": "769b43f5cbac41bf8d728705662367a749d265c07cce6cf0de6a00300c6c2eb5",
+        "v6/03641": "6f41451df02c27adec6123d497b447dd362c797e8af91a66ed3bc0b4166c88bd",
+        "v7/03641": "4118c2025ae4910548a7e844dcd74826e3f64674bc500a874e3d166a50d010ac",
+        "v6/03642": "16205d4550e5ebcbe7c6eae3a967a317133d86523b436fa504377ecf7831376f",
+        "v7/03642": "b794ee591cf3299d9de9307d407f4b43f676d87b0fff759491387ea0406cd21f",
+        "v6/03643": "f77de590f6117af77fb0ba594378e19015376e3d87132740752de2d9312e6cce",
+        "v7/03643": "d6a4e3eca1aad9057d03fcb5959908f8a62fdf2943d8b2d001da88e17f7c9eb6",
+        "v6/03644": "f77de590f6117af77fb0ba594378e19015376e3d87132740752de2d9312e6cce",
+        "v7/03644": "d6a4e3eca1aad9057d03fcb5959908f8a62fdf2943d8b2d001da88e17f7c9eb6",
+        "v6/03645": "f77de590f6117af77fb0ba594378e19015376e3d87132740752de2d9312e6cce",
+        "v7/03645": "d6a4e3eca1aad9057d03fcb5959908f8a62fdf2943d8b2d001da88e17f7c9eb6",
+        "v6/03646": "cdb15cf532dd49e1150face4fdff94aa9d91cf7d715e49d4b12898fd01ab2f3b",
+        "v7/03646": "32b645a8b83b0d9dd6577924f80244951f040f9f68b932770740b2294451fad0",
+        "v6/03647": "ab7547a5a3c11e0688df4c6c967d712fb3264c70257b2f59ccab725411ea4f60",
+        "v7/03647": "2ad932c76acf745138e09be2a05aab8645580c5df9880eb9b639c25ccc34a394",
+        "v6/03648": "fe05293ba4c23f3027e1666f72480b7a4039ca2cc98a1072ef5d9a61ab9bf76b",
+        "v7/03648": "f7366534f19bc9272f48ebaf742fa46d79581af3d1f3c6df3cc2c87e69bbff30",
+        "v6/03649": "02f397ff9020ce546e9e79257b0050d500674dad1a4e353cde29728544ed89e4",
+        "v7/03649": "19d6dde0cbbe5e17aa2ad2e22e65e8a9f0fb03da0ce4e5e1e7fff9bede2e1f29",
+        "v6/03650": "02f397ff9020ce546e9e79257b0050d500674dad1a4e353cde29728544ed89e4",
+        "v7/03650": "19d6dde0cbbe5e17aa2ad2e22e65e8a9f0fb03da0ce4e5e1e7fff9bede2e1f29",
+        "v6/03651": "02f397ff9020ce546e9e79257b0050d500674dad1a4e353cde29728544ed89e4",
+        "v7/03651": "19d6dde0cbbe5e17aa2ad2e22e65e8a9f0fb03da0ce4e5e1e7fff9bede2e1f29",
+        "v6/03652": "6d1dc7143040c6a1a9351ce03f29fac6d4265b0bcdfaea7d07d28b312150a641",
+        "v7/03652": "b991e5ae72d81cc452c969bb1962d5a56e33189d30776218a1ebd9d322e14235",
+        "v6/03653": "6d1dc7143040c6a1a9351ce03f29fac6d4265b0bcdfaea7d07d28b312150a641",
+        "v7/03653": "b991e5ae72d81cc452c969bb1962d5a56e33189d30776218a1ebd9d322e14235",
+        "v6/03654": "cfcbe675d0521e5b09cc2403e48bb43e5a74db965795c1d01f36358233e6497a",
+        "v7/03654": "4198629fe6b20826033517bc47806b3163a85084fa2eaee69ff11f80c6bac13f",
+        "v6/03655": "b718f0da9b092233b46168f780061f9f5fe28b26167a9333333245e9ee4f7352",
+        "v7/03655": "00801233dcb68bdc1daebf4390b2feb76f10218218d23d7b2ffcacca73af7fe2",
+        "v6/03656": "ffbe4e3ec379e6ee59c174a60fe67cff7570527ec7cdc1744b36c3107dd96012",
+        "v7/03656": "6378804fdc413890a3672e02f00892be4e76fc9b7a9599dda4102f9cfb826fb4",
+        "v6/03657": "53348d59586b4f537f22c6fb2a4d1d634c8aa2266311b3bf81406801eda98930",
+        "v7/03657": "9790f4573c948122cdff1f205d55bf5465fad07e826d994d8f4c6da1639a575e",
+        "v6/03658": "55f5b2161dc7133f63c36f47e0a857a9928d9165319434c15d163971eaf18907",
+        "v7/03658": "936796db077301ec64d5952a66b516d29cc6c2a216bc12968a0f28d7e28eb81f",
+        "v6/03659": "55f5b2161dc7133f63c36f47e0a857a9928d9165319434c15d163971eaf18907",
+        "v7/03659": "936796db077301ec64d5952a66b516d29cc6c2a216bc12968a0f28d7e28eb81f",
+        "v6/03660": "afd965f7c898c499da1c4ddb3df0343e3f914ad04bffa94bde1b5771b21c75dd",
+        "v7/03660": "45d1f52e882418bd0f944dc30ec0f4c9b65d0c484b16eb13a6aba25519dd51bf",
+        "v6/03661": "8e6f530e79baf7e70dc11d24f2824c261a768ecb5089546900cb5b4adbb84cfa",
+        "v7/03661": "c423df6c06e68dd6fdf8f5ec424d71e4f8ad3ca858940d053d52ef8734b6e82a",
+        "v6/03662": "d2a7560acc5c3d990c540e2da046132da18e02e86ce2e9c903221c4bcf1667de",
+        "v7/03662": "5f3a1a81c39581b1c8668f827a3ef02bcb622dbf6d3606e292c7a29464da5076",
+        "v6/03663": "d2a7560acc5c3d990c540e2da046132da18e02e86ce2e9c903221c4bcf1667de",
+        "v7/03663": "5f3a1a81c39581b1c8668f827a3ef02bcb622dbf6d3606e292c7a29464da5076",
+        "v6/03664": "59d94bc59fc61577453cdf349b04ed0bf75b036360370260a8c9b0928829e1ab",
+        "v7/03664": "fcaf0aa248fec9a041e19a30b7f9e039472263749b7dd39ff98a32226244a34a",
+        "v6/03665": "49c2f9706e21f5d430a5ddd617ae8cb0dea56791e227fa1a75618cc570c17c15",
+        "v7/03665": "f7db8c1a0efee10058cb04cad3d1c78903add2d92cd386794855445f2eca2fdc",
+        "v6/03666": "dd121101a24d7b4ba361c9ed79861ba71e45c844173a79680d4f48095517c8ab",
+        "v7/03666": "dd121101a24d7b4ba361c9ed79861ba71e45c844173a79680d4f48095517c8ab",
+        "v6/03667": "bc90ef18a546e08b32390879589b33f36e7f0786784278e95c619021b3affdb7",
+        "v7/03667": "bc90ef18a546e08b32390879589b33f36e7f0786784278e95c619021b3affdb7",
+        "v6/03668": "bc90ef18a546e08b32390879589b33f36e7f0786784278e95c619021b3affdb7",
+        "v7/03668": "bc90ef18a546e08b32390879589b33f36e7f0786784278e95c619021b3affdb7",
+        "v6/03669": "bc90ef18a546e08b32390879589b33f36e7f0786784278e95c619021b3affdb7",
+        "v7/03669": "bc90ef18a546e08b32390879589b33f36e7f0786784278e95c619021b3affdb7",
+        "v6/03670": "73506d7f65ebb466031510c87cd6ec0bc0fb587333f54d099bcb88383ad3a02d",
+        "v7/03670": "73506d7f65ebb466031510c87cd6ec0bc0fb587333f54d099bcb88383ad3a02d",
+        "v6/03671": "613f5bd083006d62a622e51c7f5b78661f558a3fa73f8d147b487f0005ccb1b7",
+        "v7/03671": "613f5bd083006d62a622e51c7f5b78661f558a3fa73f8d147b487f0005ccb1b7",
+        "v6/03672": "27a5422b32a3c860e6c30d0437201a16b0e26cff5f41536caab3125821b2dc13",
+        "v7/03672": "27a5422b32a3c860e6c30d0437201a16b0e26cff5f41536caab3125821b2dc13",
+        "v6/03673": "05bc8f6a029eb6087aca32cc19ab751de99c4c42e1cabaa03601828fda4eacb2",
+        "v7/03673": "05bc8f6a029eb6087aca32cc19ab751de99c4c42e1cabaa03601828fda4eacb2"
+      },
+      "script_sha256": "1ce15a8f62b120c684f55fcfc6d21c7311beb654bb0b674760da6848f0761dbb",
+      "created_epoch": 1791645184.651672
+    }
+  },
+  "verification_record": {
+    "path": "<REVISION_WORKSPACE>\\outputs\\v7-verification.json",
+    "sha256": "cf4015241b6d6ae6589b0cf48c7f492022a2a40fc06f5c97baf18a74c266e4f7",
+    "bytes": 11837
+  },
+  "archive": {
+    "path": "<REVISION_WORKSPACE>\\outputs\\v7-revision-project.zip",
+    "includes": "local revision scripts/assets/manifests/evidence and readonly dependency snapshots",
+    "excludes": "full 3768 PNG sequence, MP4 media, old project large inputs and runtime libraries",
+    "archive_hash_record": "<REVISION_WORKSPACE>\\outputs\\v7-project-archive-verification.json"
+  },
+  "created_epoch": 1791646103.508617,
+  "rabbit_encoded_frame1088_evidence": {
+    "path": "<REVISION_WORKSPACE>\\work\\v7-decoded-extra\\01088.png",
+    "sha256": "45054ab8c904a1692928daf353db92653f25093e0a532584ace051f0180a5133",
+    "bytes": 219058
+  },
+  "rabbit_encoded_qa_script": {
+    "path": "<REVISION_WORKSPACE>\\work\\qa_rabbit_encoded.py",
+    "sha256": "fbc75899b2ce82028c20f660c4ce3dddbb84e15bd7769062ee83dea9966e0ade",
+    "bytes": 870
+  },
+  "user_visible_hand_preview": {
+    "path": "<REVISION_WORKSPACE>\\outputs\\v7-hand-preview.png",
+    "sha256": "aa20f50ab97f9811670c7961851148c7a1e82c5a63b551416cc7272266538cc3",
+    "bytes": 212830
+  }
+}

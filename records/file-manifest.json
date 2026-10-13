@@ -1,0 +1,1372 @@
+{
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 117,
+      "sha256": "4cfc6de895746f8dc24c3fcd93d4734438461a91a340fdd8d62c50659a9de71a"
+    },
+    {
+      "path": "ASSET-NOTICE.md",
+      "bytes": 1461,
+      "sha256": "0043923aca8911855ca8df8aaf19cead93f5231407098a2fd233e7f76419f77b"
+    },
+    {
+      "path": "assets/original-adopted/paired-v5/held.png",
+      "bytes": 1942427,
+      "sha256": "22371a0e20e00431179767fcc7bec9a5a4b15b1236a506952c6c99c8432c0ca1"
+    },
+    {
+      "path": "assets/original-adopted/paired-v5/rabbit.png",
+      "bytes": 1416942,
+      "sha256": "11e92a5d067e790edfe67668eca121090809bf5232bc5e5ad7986916850d673d"
+    },
+    {
+      "path": "assets/original-adopted/paired-v5/smoke-open.png",
+      "bytes": 1543659,
+      "sha256": "0252089926b2ceb792c0550d1ce7a02908472b802dccf2564d4eb98e736e9387"
+    },
+    {
+      "path": "assets/original-adopted/paired-v5/smoke.png",
+      "bytes": 1321183,
+      "sha256": "594bff9cef2a911fb7766199c9cac5bb67f3e3cd17cc67c7ecc5abb08a46089d"
+    },
+    {
+      "path": "assets/original-adopted/paired-v6/braid.png",
+      "bytes": 1595635,
+      "sha256": "c92cbfabcf9fc3ef074d8e324c5e1a50e70d1936db332fe958f81391190002bd"
+    },
+    {
+      "path": "assets/original-adopted/paired-v6/ending.png",
+      "bytes": 1648217,
+      "sha256": "338e1150c490b71683c6dd08bf32e8b0b1c531c7fb968ad24419893a3557b766"
+    },
+    {
+      "path": "assets/original-adopted/paired-v6/hand-1018.png",
+      "bytes": 364607,
+      "sha256": "0f028c5b5dfa3a06b6e165b14f3d256721118c7e65313a0f58e83c078e2765be"
+    },
+    {
+      "path": "assets/original-adopted/paired-v6/hand-1059.png",
+      "bytes": 532993,
+      "sha256": "955fa7c151b64398b31dfaa4544a7b9bca74c0561e344167bcd62698be0fbe38"
+    },
+    {
+      "path": "assets/original-adopted/paired-v6/hand-1064.png",
+      "bytes": 561178,
+      "sha256": "1d758df0ef1f995dd44f4fb13f834402203ac6eda852fb6fadb4108d64fb891b"
+    },
+    {
+      "path": "assets/original-adopted/paired-v6/hand-1071.png",
+      "bytes": 546538,
+      "sha256": "26f6edd86f9c4e4344758a036ff677f10df147278e0de5df685591958ec8e1bb"
+    },
+    {
+      "path": "assets/original-adopted/paired-v6/hand-1075.png",
+      "bytes": 621926,
+      "sha256": "99f1c47230b6420fb254567ba1b248170a774215d5924c24bbc8fa84b1de1264"
+    },
+    {
+      "path": "assets/original-adopted/paired-v6/hand-1084.png",
+      "bytes": 540782,
+      "sha256": "9fe475b60afed783b8507ff5f5fce9a5594c23665a3d364e563c14df947ad2ab"
+    },
+    {
+      "path": "assets/original-adopted/paired-v6/hand-600.png",
+      "bytes": 549650,
+      "sha256": "56e8ccb68fe6bb3e82afb98edbc83b9b5544684f7c36fe6f7df8005cc4824235"
+    },
+    {
+      "path": "assets/original-adopted/paired-v6/hat.png",
+      "bytes": 1485477,
+      "sha256": "e69e0c3004668fd983893a4d3eae6a9fabcd8eda381d86224b948d8d5eeaf825"
+    },
+    {
+      "path": "assets/original-adopted/paired-v6/palm.png",
+      "bytes": 1354579,
+      "sha256": "66e1cda7177bfb8c44da41abaf2b9575ae0aeca759e6df1556bd860efff6af3f"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/back-0787.png",
+      "bytes": 1315774,
+      "sha256": "1f30ecc0f6f07fb93f86bbabb4e1f9d95310d1079f1651396d5aa65f111f5a2d"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/back-1092.png",
+      "bytes": 1274146,
+      "sha256": "8ad1e959329b7c2f94a3cb22b3e839d8677295b3910f5c4dabdef9ab42a60108"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/back-calm-v2.png",
+      "bytes": 1255711,
+      "sha256": "5b7fc15171b7afd4e2198acdec92ed7a23054695905d7f2103e1395758768e0e"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/back-gust-v2.png",
+      "bytes": 1340942,
+      "sha256": "939487e61c418d969f17abb3b9549a9231211d1074b23a7d3eac49f2431165a9"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/bare-1018-v3.png",
+      "bytes": 426505,
+      "sha256": "cb7f8c3f92da9857e2ebea84e0271aec7b68e25af590f51a7a1dfb7b2cd14770"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/bare-1059-v3.png",
+      "bytes": 546377,
+      "sha256": "fd44a874fd043da5031a146e0107050e38bf7b08f550cf1ce54203ef1c1aeb7b"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/bare-1064-v3.png",
+      "bytes": 588684,
+      "sha256": "59d3023243975b348da5db1569123dbcf1958e241bb5951ca0719e44d0fd60ee"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/bare-1071-v3.png",
+      "bytes": 534194,
+      "sha256": "5cd15e8f629cc9250725ad1c6b62ec1f8d2143222014675f2caec15ee50bb8c1"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/bare-1075-v3.png",
+      "bytes": 620630,
+      "sha256": "5d33166d91a9364b36336c8d581c7bd10f8138f6d11723e4701aafd703c9f03c"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/bare-1084-v3.png",
+      "bytes": 536623,
+      "sha256": "fe046512ced4eb00366cadfe8004ef6a75e395480dcc5fb08067b82d7df0ce74"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/bare-1850-v3.png",
+      "bytes": 836283,
+      "sha256": "9a501534d9ee9850bdbb280fb7ee81f8afa629ed52cfb2a74a6bd94bfb1a0f75"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/bare-1856-v3.png",
+      "bytes": 667649,
+      "sha256": "8052e0669f580300913d5b79b359db30921b6a294287087382b928c9689b5240"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/bare-1858-v3.png",
+      "bytes": 846284,
+      "sha256": "f50c0710e576c1ab213cf7bcfdbbd20aec06442049d9ca344fb98f088b6101d8"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/bare-1872-v3.png",
+      "bytes": 677662,
+      "sha256": "b9c7e73e9c7e055ab7b3660f2c6f17995816e9da91811798e538fc359a5b3fde"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/bare-1875-v3.png",
+      "bytes": 438956,
+      "sha256": "fbd2b33203942a80e023ffad00f2f63afecb68a2791e516e86499ab147e3f43b"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/bare-205-v3.png",
+      "bytes": 610546,
+      "sha256": "154c108019220d14c155b3ee41b3abad90bb10705347a4bdcc2da18cdfa98b83"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/bare-216-v3.png",
+      "bytes": 711437,
+      "sha256": "733f01e88bbc14aab2c188618652efa78840172a7cf086903e95085943f784e6"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/bare-220-v3.png",
+      "bytes": 587296,
+      "sha256": "edf1137e5cd9e40ffae30c16eb0396ca6f2cba7c123e47050db42ef3722a4dc2"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/bare-24-v3.png",
+      "bytes": 410244,
+      "sha256": "69ac1c7e89523c855bf2f969559195d5b734941ab9b0f69e5ce2b82762d61dcd"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/bare-3024-v3.png",
+      "bytes": 435717,
+      "sha256": "b752f155412e67b68e5ecf23ef7f6717a2871a6f386623a64117814704174497"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/bare-393-v3.png",
+      "bytes": 784385,
+      "sha256": "d31d34b8435855a3362546aaf3c8926ded3e3c734101109b397761b8ff592329"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/bare-546-v3.png",
+      "bytes": 641626,
+      "sha256": "baf23d2c0a63fbc9774d44e403a80a2ac81b02f66dca752b991414ca7135e413"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/bare-549-v3.png",
+      "bytes": 494478,
+      "sha256": "fd8c0469985fdc11cf930890e4f061adb403334f2027c5af18a54d70a6fc158d"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/bare-552-v3.png",
+      "bytes": 531149,
+      "sha256": "512d42b4fca001329a656abe60e9eb9811ebebb1827453665e45bd75bc856af6"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/bare-555-v3.png",
+      "bytes": 540514,
+      "sha256": "0c2058b4175f40d758d3d50424a3b7a434b08652b0b2507f50c6f740d06ee8f7"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/bare-576-v3.png",
+      "bytes": 519079,
+      "sha256": "cf9b45a1dc2c77a76309e1ec1c230b2576990fc483bb92771a5127d618c921b6"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/bare-600-v3.png",
+      "bytes": 590870,
+      "sha256": "a4f3e85374f31ba2c249e7005bb8d171ef3b9da47ba417874ea0d3ec40da30fb"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/bare-603-v3.png",
+      "bytes": 591807,
+      "sha256": "27edf23dcdf8ae5bb9c922ebe48f79d0b3144c044ae6b8aa5bdee7c2d6566fbd"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/bare-612-v3.png",
+      "bytes": 493846,
+      "sha256": "3d7f900d58a13773f4958bfb3653708d8f3c6f0851ef7a900de3f81093a55772"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/blink-v4.png",
+      "bytes": 1565017,
+      "sha256": "33ed89d43f1df88a79c2a6059367ee18b9d313208b28e540ed2ddf45ed50f44c"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/casual-0930-v2.png",
+      "bytes": 1475791,
+      "sha256": "0f4e5d929a989e3d4d0740b3bde20fd1af17c87c521de1cf8c5a28d43ce9229a"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/casual-0939.png",
+      "bytes": 1544166,
+      "sha256": "db8f4b5bb31318ef6e119fe5b4acf942485bdecbb4ec5c38e9a8c98d2b769220"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/casual-0948.png",
+      "bytes": 1473912,
+      "sha256": "3a1e48c478c149688c2b5c6d10553157634a30e94a89983e9de44b1a1ee543a6"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/casual-0960.png",
+      "bytes": 1547052,
+      "sha256": "62925baf3692f4fd0318c9afd3613689cf401488fb33176fae2b5d43952a53b8"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/casual-1095.png",
+      "bytes": 1458910,
+      "sha256": "c139584a86ab8445597ca12aff5454bbbab841839e4ad0733448631421c878a9"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/casual-1099.png",
+      "bytes": 1494831,
+      "sha256": "5ae18721c9aa38a288ec0c523055d225c480c1426fbc4104e046bc845a885105"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/casual-1103.png",
+      "bytes": 1489674,
+      "sha256": "57f7ec85aff63a995320f3f819a0926b6616eb84a9106cba94df559e4f2baa78"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/casual-card-closed-v2.png",
+      "bytes": 1586868,
+      "sha256": "64e11595aeb9c2efcdd198abd2bb15907815ed50e56e4c6d4aa14abe21995237"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/closing-2939.png",
+      "bytes": 1346913,
+      "sha256": "2d8b627d20947f41d655ea701c617d14b0ecb48000862108d4626a5e90faed12"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/closing-2951.png",
+      "bytes": 1368139,
+      "sha256": "8675bccc48e9428dc8d400442ab03776ad71d2ac0ce1bcb9b2dc1cb1d3f41e5b"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/crown-0984.png",
+      "bytes": 1351724,
+      "sha256": "04fb18ff698f86f17079b4a5aa33cf6e1b7a3a3be0ddaf7d7f3c7520ec103da7"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/cup-calm-v2.png",
+      "bytes": 1554035,
+      "sha256": "c2c9f25b2209589529d6203fedce9b581ad5d0af8075ffa5c3ac73196e24e3bf"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/ending-clothing-v4.png",
+      "bytes": 1354751,
+      "sha256": "5dd413abe9530a1eae1f14c6b84028781d6cc27dd53b3af1443e7e301d6b71a8"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/face-0720.png",
+      "bytes": 1348947,
+      "sha256": "ec94daa48885d13903142b9bc38cd5d384a83be1ba1c02352de3279d91355330"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/face-0768.png",
+      "bytes": 1362820,
+      "sha256": "f2236412c59f399a14ab75010c07b4cbf1b143e4d6224bc63b73026fd07982b7"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/full-1140.png",
+      "bytes": 1563145,
+      "sha256": "3df3a99717bc638855e80d44b7a071c4fb4c2594c5d0c391266943bb1db2a25a"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/full-1158.png",
+      "bytes": 1562121,
+      "sha256": "e2ccc20d7e2e99398d0893414e5b793ac980ea0e5803eda1ee0dc47718c7fd49"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/full-1188.png",
+      "bytes": 1530550,
+      "sha256": "816881a3a88254fdc1c12afebfad3b8809f8da65ff53abf0bad1736f8de11b74"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/full-1209.png",
+      "bytes": 1318972,
+      "sha256": "627f50a1a0c421b629de309f66fdfccf0ebddaf56eba4f072335c8516de98bbe"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/full-1224.png",
+      "bytes": 1374155,
+      "sha256": "57bb3f26453b0b9627e74762ac890e30dc2c74c43a8c9c41445c7f687cc8c156"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/full-1260.png",
+      "bytes": 1535778,
+      "sha256": "38b90c597a96f9389c1e4fe83d99d3840e349ae1393e0355699ee36b8ef890c1"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/full-1319.png",
+      "bytes": 1689200,
+      "sha256": "b19dd2bf41fdef304d9ec2c8d5ed7aa3f7dc24c38a45fd549062b2a0431ed07f"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/full-1440.png",
+      "bytes": 1437297,
+      "sha256": "d69c9c5d73c8daf0f7e64f1d181bd24a8ef29a66d66416ffac51d25eae5d123b"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/full-1512.png",
+      "bytes": 1509560,
+      "sha256": "dfbe60b862b3aaa5a63f24f26619ec1ac21e42ac9c727f2f0c4f9bb74d55060d"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/full-1548.png",
+      "bytes": 1505658,
+      "sha256": "a357a190aee4911557ded36f5d16a8aee0cf4c8ee3b7876d4387c02e69da8a9a"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/full-1608.png",
+      "bytes": 1583173,
+      "sha256": "c15196344a50b2a717e5b62749f8fb9b2ae87beea759953da1a90e8739eb4ae7"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/full-1944.png",
+      "bytes": 1268659,
+      "sha256": "4b459029b855b098fc7ac8dc033286d782db828cd40a2f1aff5163bc72d7d649"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/full-2090.png",
+      "bytes": 1585406,
+      "sha256": "1565a11c8a8f3c7e4160653077de86fafe0d512e9d9c939cbb61536d17957284"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/full-2145.png",
+      "bytes": 1344714,
+      "sha256": "6686c88e0f065054bbe322dbabcf39d84c2a2efc4145da551e5f2679a9f21387"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/full-2200.png",
+      "bytes": 1512113,
+      "sha256": "9f173ea78781723b62cad8a73e21d96c0f585c0166c5a9febf033b1fc0de83eb"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/full-2225.png",
+      "bytes": 1540565,
+      "sha256": "bdc1c5108d9d903b4fb357285a2490ec98a4f61ed633505294dd70d5168762c0"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/full-2328.png",
+      "bytes": 1505772,
+      "sha256": "071fbddbdf985961760c4f91066423987ac9253f43fecf1b9a1207cd984b3a7d"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/full-2388.png",
+      "bytes": 1682751,
+      "sha256": "31232a2b2e8a2772622a70d9705e3dffe66727fe2657450f608c6d68941e8de1"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/full-2448.png",
+      "bytes": 1684950,
+      "sha256": "acf2e8398dbe285122e344890955a6775bcc9f7fbec52648f0e1b39cce97d22d"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/full-264.png",
+      "bytes": 1412341,
+      "sha256": "2aa303fc0647c4dda455339579ce227cc84036f50e98f4bf5c25b0d1fed901c9"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/full-2976.png",
+      "bytes": 1430755,
+      "sha256": "0a58fa54a451af8dd9ab5b865184f86485dad2a478ac57539798afe674edeec1"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/full-3120.png",
+      "bytes": 1364484,
+      "sha256": "e7b98817b0d2c1d2edd66e697f692a0d11fa1be6d229459c82aa80644404de6d"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/full-325.png",
+      "bytes": 1261138,
+      "sha256": "6d8a0db3167c95aba9f53350c70669bb0f5f781fb9cdb3e477ea68bef3cab2f3"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/full-3321.png",
+      "bytes": 1546359,
+      "sha256": "4c4bbeb4e159c29eebc543df0dd125270a4c1e87214d3a00f95bbfb70fa6627c"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/full-3330.png",
+      "bytes": 1539072,
+      "sha256": "e569a44c23224185bcc02face341604b4a76010c2d12a69238efc6f64515f3a2"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/full-3338.png",
+      "bytes": 1528988,
+      "sha256": "3661da21e7ca66af1750146e2f0138befe3508d831f6a8aab60cd14afc5002f7"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/full-3516.png",
+      "bytes": 1563041,
+      "sha256": "2ce329c3bab9ade22c9bc5740d4afdae7de83369bbbc4a2f7457c4417cf6e3bd"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/full-3550.png",
+      "bytes": 1144573,
+      "sha256": "5ceb9629efe3539659b80485105783271b2dcf6085ab5a178662be4ab3e9190b"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/full-3588.png",
+      "bytes": 1311962,
+      "sha256": "c7ad844cc9f2607adff6a82e2f3a50764013fa89e25c5ddaadfbcfae9a3a48db"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/full-3640.png",
+      "bytes": 1318030,
+      "sha256": "1aa2447328921f77afe2f78b7bc1a7aacbafa808a52bf81e55b1f48576ddbe0e"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/full-3675.png",
+      "bytes": 1595460,
+      "sha256": "5b8215020438858ea71b146024f86acd08224aff53047378f6aba3704d895ca5"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/full-444.png",
+      "bytes": 1346015,
+      "sha256": "439421ff35c18f3bb59a7abf492188d1747a6cab96e90476fb1ae101c0212758"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/full-449.png",
+      "bytes": 1511628,
+      "sha256": "591950eaa218e65cc9390fba35e35176ab7fe23ba116b88bf0ebd0835d8fee24"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/full-456.png",
+      "bytes": 1533569,
+      "sha256": "0974a6e13069c96bd118a4155077852c41f288b311479fae4c8799f140728eb2"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/full-459-v2.png",
+      "bytes": 1628666,
+      "sha256": "a0fa70c4b04157a5f942d829582849d4007beb2781c7bd152f58ce333574d3a3"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/full-464-bare-v2.png",
+      "bytes": 1685832,
+      "sha256": "cfe60c073f46639593acbb3d0fc3269e8507e8958c4bab0ca2de3b720f6f508b"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/full-540.png",
+      "bytes": 1587530,
+      "sha256": "7fcfa45ed72f8db3aecd23fc857c5059bc390365e4de370c2191ce259fe67495"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/full-86.png",
+      "bytes": 1345666,
+      "sha256": "a291a9551c8e54057542c599ed0d583223f22b93b44dc11a6b745255f84e3ff6"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/full-888.png",
+      "bytes": 1716573,
+      "sha256": "c4e8989a20102db7daf16cb013b48883eb75bf7351e68c408b1cd49a3db07f23"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/hand-1036.png",
+      "bytes": 1259679,
+      "sha256": "b456c7c79cf06f46fad46ce425e0d3ce3f735afa62ad1c8d748b0cc4825525b8"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/hands-release-v4.png",
+      "bytes": 1262684,
+      "sha256": "ae3f00fe6d811f7c58f04ee9baeffebcd7ac9b1f7bbd3f35056c4b336c0e9177"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/juggle-2472-v4-clean.png",
+      "bytes": 1405094,
+      "sha256": "ba91b52abb19fd15b010b8062019efe0d3d4a32a721f63328ef63a3c47770958"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/juggle-2478-v4-clean.png",
+      "bytes": 1413163,
+      "sha256": "5d72e951abc1bb07e861662ccb1d043e3197ccdc557a55630913f9ac0fa5a358"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/juggle-2484-v4-clean.png",
+      "bytes": 1509602,
+      "sha256": "3bf9aeae088fc244bf044eafe22832e009e7d4772b7e76ad8c2d1ecc8e20d76e"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/juggle-2487-v4-clean.png",
+      "bytes": 1388640,
+      "sha256": "9013567285e309ec23c2ff8a685fb5b07c4ec682d6da844da0c04b6435b23d1c"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/juggle-2490-v4-clean.png",
+      "bytes": 1438521,
+      "sha256": "22b08d79c4d16758cb2a43523a520f72a777feebe05bf38c0bd062f312eb93c1"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/juggle-2496-v4-clean.png",
+      "bytes": 1437379,
+      "sha256": "ebce19e093c29c59dde729638714d0256fb6a81ae066e84cff5623f4165c29a8"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/juggle-2502-v4-clean.png",
+      "bytes": 1475322,
+      "sha256": "2fecab070d62491ad9944ac4ebf8399e2bf56a5098ab5252ae2c0552c774c332"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/juggle-2508-v4-clean.png",
+      "bytes": 1549947,
+      "sha256": "6961d6d1d8f1c959a2e1a0d3f21310192b6aa3b8d509c5dca0b8a16c0a9731b3"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/juggle-2514-v4-clean.png",
+      "bytes": 1452517,
+      "sha256": "601338eb17ac467e4de7d5a0e40ae5ea2d857ecda329c7f6d6024e8d9036db12"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/juggle-2517-v4-clean.png",
+      "bytes": 1469476,
+      "sha256": "36ad51aa2c1afce340a1ed0f8728521977298041592eec1ec7e707542f58ca64"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/juggle-2520-v4-clean.png",
+      "bytes": 1491644,
+      "sha256": "2dc500d34f475cc15557dbe9e0afd403b241eb14be919c8ac5568c9280f95a84"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/juggle-2523-v4-clean.png",
+      "bytes": 1415573,
+      "sha256": "a8fdfc3750c297a699ce46f2b1f19c0704aa7b23bd941c6ad2e7544817fb5e67"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/juggle-2600-v4-clean.png",
+      "bytes": 1558435,
+      "sha256": "743f9cd53a264b5a010b6fb75673099f87316df3a625c59aa7c3f25ffba96934"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/lap-clothing-v4.png",
+      "bytes": 1284532,
+      "sha256": "783ada2ae63df525ccda1866bb9110bd4e617cb3c937d9320040ba1e8f922e9b"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/mage-0624.png",
+      "bytes": 1680984,
+      "sha256": "80976e313a37ae141408b0975bdcb6b020e6aeacb30e1e421990d163fc65792b"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/mage-0632.png",
+      "bytes": 1712183,
+      "sha256": "9fb23ddde0378b49986236f11209934f12072e2bc8f20969adc4228dd846e86f"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/mage-0648.png",
+      "bytes": 1690965,
+      "sha256": "a087729ff8ef526726d045443266ca0b7fc87fef7320af38319b24f3b87cbbef"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/mage-0912.png",
+      "bytes": 1856646,
+      "sha256": "d8bb944547416cea96d3448bae54e58934583e8832aaa4c83e30dc55790c0864"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/mage-cup-subtle-v2.png",
+      "bytes": 1592172,
+      "sha256": "c500dfdb6c95bfa2a542504e0efef7fbbd566bfb647c2bd8d11af5a5ea13ee26"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/mage-fingers-closed-v2.png",
+      "bytes": 1518281,
+      "sha256": "128e4ecc5d51eeaba6e39ad26bc170f46fc7f0a468a7cb76f9aac573cb41b9cf"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/mage-fists-up-v2.png",
+      "bytes": 1538517,
+      "sha256": "a7c084f8a7df4c5e1717da8bf06df8856606446fe6c0836329b97ebf0ebd8af1"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/mage-hand-chest-v2.png",
+      "bytes": 1456744,
+      "sha256": "29bc8e23e6c07dcd7672b8d4b45a8343dcb4d77ebcfa92881c6e38946efdffa8"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/mage-laugh-v4.png",
+      "bytes": 1301057,
+      "sha256": "95abda2c31a1b83ad92035dd475332e78b84348c8ce863a9cf33b38d23786de4"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/mage-profile-closed-v2.png",
+      "bytes": 1289052,
+      "sha256": "7b2581fa60a0c2426f812cd46936d1cbfd2c6e619e2e35d72ab0d270f86920df"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/pair-1680-v2.png",
+      "bytes": 1468350,
+      "sha256": "1e7ad4bd8bb8741f1d600402f461659f506d3e90a2f6e8e4e64519886888a4aa"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/pair-bare-3003-v3.png",
+      "bytes": 1109243,
+      "sha256": "1ecdadf5957673dcabe89030901ccb99e2461aeed8e349a08c88e629d906bbf3"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/pair-bare-3012-v3.png",
+      "bytes": 968703,
+      "sha256": "3ca9a563a1aa616f5054f1e69a9949cf44e5d545251284743a2c1af10dd37c58"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/profile-1728.png",
+      "bytes": 1271223,
+      "sha256": "3dbd92cef4e9c94dea72231bdedb011b07ac55609798f9ab1c18838aead3a1bc"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/profiles-1752.png",
+      "bytes": 1486237,
+      "sha256": "133de9351e577377afa8b7d948083138a1b2a09f7f52bc7565c741422cb9df0b"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/smile-closed-mouth-v4.png",
+      "bytes": 1524598,
+      "sha256": "7157f1ba7cc1abec3defbd94ed4dfe1dbdc6fe97fbafcc861075725949bce5b5"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/sofa-2880.png",
+      "bytes": 1499205,
+      "sha256": "5699fca1ded30b9247ad9f1d5d7772c4015deac414e1af70e47d9a735eb66bdb"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/sofa-awake-v4.png",
+      "bytes": 1407667,
+      "sha256": "0b940eaf52616a58f4a2e44cc38e02a9bfa28dba897be8bb47c106967106cf08"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/sofa-front-v4.png",
+      "bytes": 1402914,
+      "sha256": "aecc93a60e17f5e1e01fc1db95b98720cb59865659c34a0efd925a4981be8c01"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/sofa-right-v4.png",
+      "bytes": 1446234,
+      "sha256": "1ee8dd19bff01bc7f8fb703ba50de485cd3dd1101a63a70edf53bc2d319e224f"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/spiral-v4.png",
+      "bytes": 1757595,
+      "sha256": "17f21e652984dcf9510817d985c8a0e629a88bb698f18420c3ad8eebfce1a44b"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/standing-alt-v4.png",
+      "bytes": 1307174,
+      "sha256": "90532846459073af9a7705bfa2d6bebea99f8e310f2bacf96c0038c444133447"
+    },
+    {
+      "path": "assets/original-adopted/white-sailor/wink-v4.png",
+      "bytes": 1649162,
+      "sha256": "d022b261309abc7423eab2ef0b59d44f1564a4a73eace26b2735311c08142119"
+    },
+    {
+      "path": "assets/reference/character-black.jpg",
+      "bytes": 165643,
+      "sha256": "43cbe4c543465e6f723547d5f5073584dd102a9af649e543293b177178e14efb"
+    },
+    {
+      "path": "assets/reference/character-white.png",
+      "bytes": 1922158,
+      "sha256": "f22ba34f941bddca00a4d44e90864dcef4582eca1873dac0f8813d9f18587220"
+    },
+    {
+      "path": "assets/reference/white-style.png",
+      "bytes": 1725855,
+      "sha256": "db6e58f7fa15e28268c3eb47534b60490f165e72218d71b8fb68036bc5357fd0"
+    },
+    {
+      "path": "assets/registration/crops.json",
+      "bytes": 1598,
+      "sha256": "de97d209af1c1f08589f71b217ff49fcb30681dbb9d6f8188b140850bcc27535"
+    },
+    {
+      "path": "assets/revisions/v10/chin-neck-source.png",
+      "bytes": 1726554,
+      "sha256": "16239130fffd34e9bbf5353c8a8e93824e5f07221f4032310bc1fd8e238655d2"
+    },
+    {
+      "path": "assets/revisions/v10/hand-546.png",
+      "bytes": 244360,
+      "sha256": "0a7f3c699bbee962e9161e5b9b42566ab028cd3578ce18145bcba90359a40aac"
+    },
+    {
+      "path": "assets/revisions/v10/hand-549.png",
+      "bytes": 258964,
+      "sha256": "200c3d754edd2db67bd1930e4765171435bdff1c1c6bc40409a5778e6f959622"
+    },
+    {
+      "path": "assets/revisions/v10/hand-552.png",
+      "bytes": 277499,
+      "sha256": "a5a48b817649c683260ffd48ae3940ade12a5bc3aa8366e190b10aa8d80a578d"
+    },
+    {
+      "path": "assets/revisions/v10/hand-555.png",
+      "bytes": 282524,
+      "sha256": "f9e3e15f59998e3880b683ee347e90ce043531bedb8e621528adc9e031a32de1"
+    },
+    {
+      "path": "assets/revisions/v10/hand-576.png",
+      "bytes": 291158,
+      "sha256": "59d03c964816aa61b203b16175cddc730120e3b015345e80c64e1e848d6d4364"
+    },
+    {
+      "path": "assets/revisions/v10/signature.png",
+      "bytes": 21631,
+      "sha256": "68a63eb1838744f1aa2ad5ffbf0735064e99006bc4f3269fb5a15d605c32e401"
+    },
+    {
+      "path": "assets/revisions/v10/warm-panel.png",
+      "bytes": 1445156,
+      "sha256": "b48595d22a5992bab4371000f2620b5893e62ae122dd6152bcbe5569073b28eb"
+    },
+    {
+      "path": "assets/revisions/v11/full-3120.png",
+      "bytes": 1688936,
+      "sha256": "0d02a893f1b27ee0c973b3d59f0a03ef810974ce413fa824cbf7410f4c461b88"
+    },
+    {
+      "path": "assets/revisions/v11/sofa-awake-v4.png",
+      "bytes": 1749772,
+      "sha256": "f319fcc31ece5e60f43921a43f907343724249058044a02a31801054f3f7c10f"
+    },
+    {
+      "path": "assets/revisions/v11/sofa-front-v4.png",
+      "bytes": 1747099,
+      "sha256": "c103cbb881a13252d06a58323edd9effaa9268e3e6550b678f1e4a7384bed8cd"
+    },
+    {
+      "path": "assets/revisions/v11/sofa-right-v4.png",
+      "bytes": 1804147,
+      "sha256": "20465387ea8667192b426de2314c7b51b3671cf346291e62fd2a51a684c11711"
+    },
+    {
+      "path": "assets/revisions/v7/back.png",
+      "bytes": 1551366,
+      "sha256": "19282b043ae3db48f60a14af8d100708fd798941ce5b50b1c35c25729f79841a"
+    },
+    {
+      "path": "assets/revisions/v7/blow.png",
+      "bytes": 1539543,
+      "sha256": "ebe3cd9141c51c71e56b2a87fed2286875750dbb71f73214ce474f11a854fbc4"
+    },
+    {
+      "path": "assets/revisions/v7/braid.png",
+      "bytes": 1462591,
+      "sha256": "8c9d3db8e6aa84e57b5605ed8ece65177da4351f972910b5b5ab341ed89f90c5"
+    },
+    {
+      "path": "assets/revisions/v7/hand-1084.png",
+      "bytes": 350875,
+      "sha256": "85a3e1387a38ce1e71eb8de978f667df307460cffb6fd2957a2b74342c7288ad"
+    },
+    {
+      "path": "assets/revisions/v7/hand-600.png",
+      "bytes": 493846,
+      "sha256": "3d7f900d58a13773f4958bfb3653708d8f3c6f0851ef7a900de3f81093a55772"
+    },
+    {
+      "path": "assets/revisions/v7/inhale.png",
+      "bytes": 1566005,
+      "sha256": "3dead67a04689768bfd5a10c4d1ac31383601d70738f00260ffb16f96f96548b"
+    },
+    {
+      "path": "assets/revisions/v8/back-0787.png",
+      "bytes": 1588077,
+      "sha256": "c9dfc5deba40797248920a2d414059472d2bdbcbdc4db2f4a7b6ecf3501cc485"
+    },
+    {
+      "path": "assets/revisions/v8/back-1092.png",
+      "bytes": 1479313,
+      "sha256": "3dfddb709295c001609f7990f099d0b0d9a1ee1289666a355432c9786fe89b54"
+    },
+    {
+      "path": "assets/revisions/v8/back-calm-v2.png",
+      "bytes": 1511351,
+      "sha256": "e9cfd1c9e88cc468676d61d30d909e97b3996015be217fa0cbe76267e7691424"
+    },
+    {
+      "path": "assets/revisions/v8/back-ending.png",
+      "bytes": 1548124,
+      "sha256": "a2cb31d4e8ccf2051e32cf376bdf64edc091b48e0daa99ab44c10f458285b1d6"
+    },
+    {
+      "path": "assets/revisions/v8/back-gust-v2.png",
+      "bytes": 1593037,
+      "sha256": "bce8c216db4325b57d92b0792ada594bcd55ded6f2937cf943babd85b9f4e688"
+    },
+    {
+      "path": "assets/revisions/v8/cuff.png",
+      "bytes": 1406667,
+      "sha256": "a59511a62fe8b7cbdbdbb6ba4329e08afe5e44800a275ddba9bd4d59f32edd43"
+    },
+    {
+      "path": "assets/revisions/v8/gesture.png",
+      "bytes": 1320095,
+      "sha256": "aa5bddbcf3ac28f2e4b7ebe69249dd3b036d1550566d1e136a87b0715d3ed6e7"
+    },
+    {
+      "path": "assets/revisions/v8/hand-1036.png",
+      "bytes": 1551859,
+      "sha256": "8c42dee3a7a2446eb9216f38ac58b696bdb9e7991b85a586d6e72d51d4e96fc1"
+    },
+    {
+      "path": "assets/revisions/v9/chin-neck.png",
+      "bytes": 1726554,
+      "sha256": "16239130fffd34e9bbf5353c8a8e93824e5f07221f4032310bc1fd8e238655d2"
+    },
+    {
+      "path": "assets/revisions/v9/white-cup.png",
+      "bytes": 1522442,
+      "sha256": "2c93e8903ad1be193e17af621abd71b5cbe613d9573d3329f100064cafce7f62"
+    },
+    {
+      "path": "docs/history/pipeline.md",
+      "bytes": 2622,
+      "sha256": "a71c68ebb979ff34d5ce7a0973ae9ade7cb3039bf59b9a5268f2482a36df2c36"
+    },
+    {
+      "path": "docs/history/production-guide.md",
+      "bytes": 5229,
+      "sha256": "9f03187f0ffd3fe1cfa8e29a084d2a5be6e282663ceff9528c19d3ffc4748468"
+    },
+    {
+      "path": "docs/history/v4-revision.md",
+      "bytes": 7271,
+      "sha256": "70e8eb8eac6b888ffb947973e72686512cf2fcfccbdc0c8ac62282bd593de8d8"
+    },
+    {
+      "path": "docs/history/validation.md",
+      "bytes": 3372,
+      "sha256": "9efd2d8731c416fc7ccda65f53675f2314e3a7e63b5f02157ce63da704ba5877"
+    },
+    {
+      "path": "docs/materials.md",
+      "bytes": 1577,
+      "sha256": "f2cd5d487519dd87df5f433384db20157818b6192815cbcc6b96f2b3af2cba32"
+    },
+    {
+      "path": "docs/production-lessons.md",
+      "bytes": 3906,
+      "sha256": "6905e25705b9d44b908ae71fb9950be35b012c04b87e2eea63eb1eb44d3f17cf"
+    },
+    {
+      "path": "docs/reproduction.md",
+      "bytes": 1881,
+      "sha256": "d69f3ecdbef8cfd64f4659cba595480ae56147248b52eef5bee2f48de4171462"
+    },
+    {
+      "path": "docs/workflow.md",
+      "bytes": 1502,
+      "sha256": "babee18b481918578327296d5693a0995e6f05d5db1dfbf05bd7272beb4c43f5"
+    },
+    {
+      "path": "history/ORIGINAL-LICENSE",
+      "bytes": 1065,
+      "sha256": "c3ed5f8398f14dccf96427db37d08274a4c633f71ef5790df377be33f1fb2853"
+    },
+    {
+      "path": "history/original-tools/build.py",
+      "bytes": 3414,
+      "sha256": "90c242ea482631d41a6b6f638102d400f3e5f06f2b430a7b5421df2beef758cd"
+    },
+    {
+      "path": "history/original-tools/build_character.py",
+      "bytes": 14647,
+      "sha256": "72409f87e9d1635259f211d1b1d394f8704cd5400ddd19602fe909fd36ea2244"
+    },
+    {
+      "path": "history/original-tools/character_profile.py",
+      "bytes": 621,
+      "sha256": "5e16d375b4eccb26572569eba5f57e453243408b9c30b919348f1353bac0eceb"
+    },
+    {
+      "path": "history/original-tools/check_juggle_character.py",
+      "bytes": 1248,
+      "sha256": "b8846fd339e6142ae542f796ea4eb0deb059b9dac92b50591121720b73de37ab"
+    },
+    {
+      "path": "history/original-tools/chinese_subtitles.py",
+      "bytes": 8260,
+      "sha256": "f924ac3193c0a17ee460493f83a2394b0dcd0b235474316e9bdf16bd838b63b7"
+    },
+    {
+      "path": "history/original-tools/composite.py",
+      "bytes": 18590,
+      "sha256": "cc9ea6941d88022c614cf726aeb0db71843ffc559232c76505b9bd5f78890713"
+    },
+    {
+      "path": "history/original-tools/full_composite.py",
+      "bytes": 23626,
+      "sha256": "5919bb4b0ac206c13aad1d86d43b90c078d782899061c0897953a47a41c221ae"
+    },
+    {
+      "path": "history/original-tools/media_encode.py",
+      "bytes": 550,
+      "sha256": "7680ce70b835b05f1c1e77a045f704ce54edfd60e95df87eaa2cfc1cd3e6a7d0"
+    },
+    {
+      "path": "history/original-tools/media_verify.py",
+      "bytes": 624,
+      "sha256": "38364183dd77205cdba5e0de963ab2e5d7e681b9865f4ca85c703e26468fbd87"
+    },
+    {
+      "path": "history/original-tools/package_release.py",
+      "bytes": 1974,
+      "sha256": "7fa75a0daba9c8c4ce36f16d386f41bf8f303295d08a1d5fd83b81350bc716dc"
+    },
+    {
+      "path": "history/original-tools/prepare.py",
+      "bytes": 2978,
+      "sha256": "7d20808d2baced58dd50702a080c3df7dbb711c33eb41b912797aa7c52b3e7d3"
+    },
+    {
+      "path": "history/original-tools/prepare_full.py",
+      "bytes": 1809,
+      "sha256": "c34b1f315a11c30e76c167395ed8bb40f4780dfa5e240ab4a070559da536c28d"
+    },
+    {
+      "path": "history/original-tools/prepare_v3_hands.py",
+      "bytes": 1777,
+      "sha256": "2c345991d6cb640a65c73a201e288101d338f02cdc48d9c006bf57326424d21e"
+    },
+    {
+      "path": "history/original-tools/review_server.py",
+      "bytes": 2891,
+      "sha256": "7c02de2146a553b4477a8b2e159fe6c575deb0b61a7fe1b273fe020c2ac4cebf"
+    },
+    {
+      "path": "history/original-tools/revision3_composite.py",
+      "bytes": 13544,
+      "sha256": "e756efe10fa321860ec34cd05420ee7d00eddc0ae8f69987a60a74f658187a05"
+    },
+    {
+      "path": "history/original-tools/revision3_verify.py",
+      "bytes": 4775,
+      "sha256": "10676c98bd0ec4eea92ee71ce399970671ad4d764ad12627ffdaf6cb8db5d0fe"
+    },
+    {
+      "path": "history/original-tools/revision4_composite.py",
+      "bytes": 12680,
+      "sha256": "41eb40649dfc3f3f839223d0551b2d19f5c288556914edf836bb97bfb294c051"
+    },
+    {
+      "path": "history/original-tools/revision4_juggle.py",
+      "bytes": 7928,
+      "sha256": "e98ec0ed85a2afb4cb726e3a62f666d0f70142746d114944ba04580a36e6f9d8"
+    },
+    {
+      "path": "history/original-tools/revision4_layers.py",
+      "bytes": 396,
+      "sha256": "a8a82952f050ac4866fe296e93726cb697e4bc1c15a1bd5d62e1dfa68c4b49f2"
+    },
+    {
+      "path": "history/original-tools/revision4_verify.py",
+      "bytes": 6125,
+      "sha256": "3f2c0bc7b5b7fff7bf7ce864e2e687eef93432168e26ee8644c09e71743657f0"
+    },
+    {
+      "path": "history/original-tools/revision5_composite.py",
+      "bytes": 12667,
+      "sha256": "35ca8b773c88a3052c2952c477d86cb211e35ebb4a63a60b27940fec76eebc70"
+    },
+    {
+      "path": "history/original-tools/revision6_composite.py",
+      "bytes": 13378,
+      "sha256": "4e8c59c8a91cf3b9f250c6ab4439fbd01d0965b539aa943bc985e265602291cd"
+    },
+    {
+      "path": "history/original-tools/revision_composite.py",
+      "bytes": 9807,
+      "sha256": "849311a902cfe76b979868e32e23ad43fb1fbe7a662f63c032b5b1c1e2973291"
+    },
+    {
+      "path": "history/original-tools/revision_encode.py",
+      "bytes": 4619,
+      "sha256": "a8b077fb686b3143b047001bb72c9c6d691838f8556acb88ebaa29374c4bcc2b"
+    },
+    {
+      "path": "history/original-tools/runtime.py",
+      "bytes": 1059,
+      "sha256": "df6e8cb6d4242e35125157925e4d78435a47526bd0049899a9414b18a394bfdd"
+    },
+    {
+      "path": "history/original-tools/verify_chinese_subtitles.py",
+      "bytes": 3009,
+      "sha256": "02f71da2d0977d3313d5dca4ea0e64d2236e350d16a6ee4f2b0877e6e6238c12"
+    },
+    {
+      "path": "history/original-tools/verify_migration.py",
+      "bytes": 1557,
+      "sha256": "a93f6cb1498f04a9e0aa6f4486ebb97f6502f507ff56472340e3d14b8febb355"
+    },
+    {
+      "path": "history/revisions/encode_v10.py",
+      "bytes": 15364,
+      "sha256": "6d58846a79819c98ab3f9923e8f977c044460ff4e62baf19771eadeb643f78d3"
+    },
+    {
+      "path": "history/revisions/encode_v11.py",
+      "bytes": 15392,
+      "sha256": "1d08aee82818a96494664d9ce73a50bb5b5a42bb0b597aa9f07040c9a9417c8c"
+    },
+    {
+      "path": "history/revisions/encode_v7.py",
+      "bytes": 15772,
+      "sha256": "bdfcf2343003dd416e846ad9dd1e8e38e92fef808d69b5e73baddccd0541a238"
+    },
+    {
+      "path": "history/revisions/encode_v8.py",
+      "bytes": 15353,
+      "sha256": "f1fcf71984a21e8aec481ee5af1953e114a4088ba85abd52b0659cd55431ba9c"
+    },
+    {
+      "path": "history/revisions/encode_v9.py",
+      "bytes": 15350,
+      "sha256": "32b5f55066d7f324efa86697049e47ca3680fc6faa06aa667e3a4ee575f498de"
+    },
+    {
+      "path": "history/revisions/finalize_v10.py",
+      "bytes": 4981,
+      "sha256": "2d413472c33e2c57c167948704ff95eb5a7b639bb138adfd1cca66eb8ed2048b"
+    },
+    {
+      "path": "history/revisions/finalize_v11.py",
+      "bytes": 4843,
+      "sha256": "72d1c537b1bf4c0df9d41e590a0da5c82022db27aed5c634dbdc45eae8d8468d"
+    },
+    {
+      "path": "history/revisions/finalize_v7.py",
+      "bytes": 16320,
+      "sha256": "8af9db383d7d233eeb6898d53ca05f6ddff91c8073ff1a8ebbd0893a6ad46dbd"
+    },
+    {
+      "path": "history/revisions/finalize_v8.py",
+      "bytes": 5217,
+      "sha256": "ea778e426c4523fb20163714e2ba374b15a813c3ea45a1f7a0173585f7cb80fc"
+    },
+    {
+      "path": "history/revisions/finalize_v9.py",
+      "bytes": 4811,
+      "sha256": "14cf0bd474ebbab4fae86779157d3747e85ab542e196d8496fbcadcf9aaaa5e4"
+    },
+    {
+      "path": "history/revisions/revision10_composite.py",
+      "bytes": 6936,
+      "sha256": "4e2244870bc928c9c0f4a7cf378567e19de3478eb362671b1338b97cba065f0a"
+    },
+    {
+      "path": "history/revisions/revision11_composite.py",
+      "bytes": 6124,
+      "sha256": "2e90cc875b1c9f5017e842a9865b5fca93de752e10f80199925a125c75748505"
+    },
+    {
+      "path": "history/revisions/revision7_composite.py",
+      "bytes": 4005,
+      "sha256": "8c05e66d8eb0069e5d660022f6b204596c4daaae41181079708f5652f1e3bc95"
+    },
+    {
+      "path": "history/revisions/revision8_composite.py",
+      "bytes": 8459,
+      "sha256": "ecf25d34c17d75deff75daecbbe9f94300cc01b7698ba9ce82f18de4b8603867"
+    },
+    {
+      "path": "history/revisions/revision9_composite.py",
+      "bytes": 5273,
+      "sha256": "424c78baf75552b4599b75f6239348d8914abb8deac75d1469acfe18ec00b776"
+    },
+    {
+      "path": "history/v7/audit-mask/adopt_hands.py",
+      "bytes": 2435,
+      "sha256": "2e4bd1f1950ebc8e0e074264af156ab776d8fe9207fbd3ca380517c69d2e63c1"
+    },
+    {
+      "path": "history/v7/audit-mask/fix_full_rabbit.py",
+      "bytes": 1133,
+      "sha256": "a84d4ab43bac3ef6c4ed5fb60596ae338c6e01105a203fecce78af5253caca2a"
+    },
+    {
+      "path": "history/v7/audit-mask/hand_fixes.py",
+      "bytes": 5203,
+      "sha256": "91103a22640b8565496053a359298717f65660b54ced3e3270d1b34929133b55"
+    },
+    {
+      "path": "history/v7/audit-mask/inspect_rabbit.py",
+      "bytes": 819,
+      "sha256": "64ada0cc51860a803fa601101502b71f112e80a97635f1627e3858fcf8bf20d9"
+    },
+    {
+      "path": "history/v7/audit-mask/inspect_white_instances.py",
+      "bytes": 1193,
+      "sha256": "4ce1177d66c2d0ac27e6a29f97db847289b872d2679e7027744ad00583cb7bae"
+    },
+    {
+      "path": "history/v7/audit-mask/isolate1084.py",
+      "bytes": 3148,
+      "sha256": "c15cfa56492b39340aa4ea8523025c6583f586cad677f9a169d097257cbfaa87"
+    },
+    {
+      "path": "history/v7/audit-mask/mask_fixes.py",
+      "bytes": 2625,
+      "sha256": "a39d3e1a1473644d2a005b5a0ecbd13a453ce5fd513a4063bc9a4d074a75083b"
+    },
+    {
+      "path": "history/v7/audit-mask/prepare_inputs.py",
+      "bytes": 1986,
+      "sha256": "bcaba51d190ed839088ab5dd6d93e7a582b26fb98acf6bb624d73144f98b426e"
+    },
+    {
+      "path": "history/v7/audit-mask/verify_rabbit_full.py",
+      "bytes": 1430,
+      "sha256": "a0a3463ddce60d37a600a89776ad949ee3955dbb1cccb752d745615edc7db005"
+    },
+    {
+      "path": "history/v7/audit-motion/anchors.py",
+      "bytes": 765,
+      "sha256": "46914447da44bf941c4dffe2cf8f3c5eac754145eb19fc83f909e495109ed81f"
+    },
+    {
+      "path": "history/v7/audit-motion/collar_anchors.py",
+      "bytes": 729,
+      "sha256": "eb92783a4d4cae16cdb66ec339aaf9085bb00036b0ce75e67465254bc7d19bd1"
+    },
+    {
+      "path": "history/v7/audit-motion/motion_patch.py",
+      "bytes": 4431,
+      "sha256": "b8e85824eaa5d27eb26efee04d1db441c926ea16cea77d8f0f08d3848a5260ff"
+    },
+    {
+      "path": "history/v7/audit-motion/preview.py",
+      "bytes": 1238,
+      "sha256": "d1d085a8603c53abbb121b854a10a7666f7d2bcdb14df83c7d3444928c01a682"
+    },
+    {
+      "path": "history/v7/audit-motion/write_production_record.py",
+      "bytes": 3975,
+      "sha256": "e953c72b04a2c2c96b6071aba3a2f7e785b59a3bec0c005b6cfa34cff1308091"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1099,
+      "sha256": "2885dde9eff25ab90b3986aff0a0cc3560c68a08316768661316eaa608879d72"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2593,
+      "sha256": "ae8602858455628c943c87e1a533a3bfd6124237322bde428aa2380ce68b55a1"
+    },
+    {
+      "path": "records/history/full-manifest.json",
+      "bytes": 41497,
+      "sha256": "2faaf1b89c0f5ed1b659254cf17170d54e1b92f4c05715474ca0ade66b64f3e7"
+    },
+    {
+      "path": "records/history/manifest.json",
+      "bytes": 32243,
+      "sha256": "670f2fab89e6b8d8f3d55542c922b3fe59d35c6dfd7e14e08854caba38a8ce8e"
+    },
+    {
+      "path": "records/history/revision-manifest.json",
+      "bytes": 11295,
+      "sha256": "7ff84ef98eaf3a7a4cdfda13900f18f815e0792ca8b0220dbcf4cc1291b999f9"
+    },
+    {
+      "path": "records/history/revision3-manifest.json",
+      "bytes": 39772,
+      "sha256": "c19b3cb7c8844bb9cc4c092c73db32e5c0f4c9913083dc35cfbf62280a267447"
+    },
+    {
+      "path": "records/history/revision4-manifest.json",
+      "bytes": 31830,
+      "sha256": "3b075dcbb0a1346ab472139a561adbb8b5a734e3e616963e1133ee4a48c5d888"
+    },
+    {
+      "path": "records/material-origins.json",
+      "bytes": 41897,
+      "sha256": "475c58fc5197741c7f62a7585237ebf33db4329bd6fefbefdc9548d9a8038171"
+    },
+    {
+      "path": "records/tool-validation.json",
+      "bytes": 506,
+      "sha256": "5aa1e3154e7c48516bdbbec11519de3267b3322e55fef0f7a222587f58104142"
+    },
+    {
+      "path": "records/v10-asset-reuse-record.json",
+      "bytes": 771,
+      "sha256": "520c197ed49c3700928b2be5cac7bb79bcab6fa7ab09ec6d8b9068138283669b"
+    },
+    {
+      "path": "records/v10-production-record.json",
+      "bytes": 3735,
+      "sha256": "3b60b3c3f4f7fe439844d730d541b72ee93dffed5e53b5cf9a426f26c5505dde"
+    },
+    {
+      "path": "records/v10-verification.json",
+      "bytes": 10738,
+      "sha256": "db857fc9f1182bc5bce7e0c4d1d7488a586cd34336f2a8b6341e91b8146ee74e"
+    },
+    {
+      "path": "records/v11-production-record.json",
+      "bytes": 2939,
+      "sha256": "2d290cdd93beb3934ccdfcc257ff808b230fbd6551a6d53412b7e68eb0f40243"
+    },
+    {
+      "path": "records/v11-verification.json",
+      "bytes": 11284,
+      "sha256": "9ad244bdb89491124575cf4f369b7ad1df8898dd005d19b562016ed39e9ea9e7"
+    },
+    {
+      "path": "records/v7-production-record.json",
+      "bytes": 171828,
+      "sha256": "1198957757daf77d9a8b864c7df7ee9e66579d1af252f1cad63c69d891a0505f"
+    },
+    {
+      "path": "records/v7-verification.json",
+      "bytes": 11112,
+      "sha256": "ca2c0bdcd6fecf8490a86ff9ad20645e059b0efd42a60b8431b777cbd68aaaeb"
+    },
+    {
+      "path": "records/v8-production-record.json",
+      "bytes": 4390,
+      "sha256": "d5bdb747f669c89f76e5daa511682f09cd055d57a31827369592083a757c82c2"
+    },
+    {
+      "path": "records/v8-verification.json",
+      "bytes": 12782,
+      "sha256": "67015a114f92a0a120b2073ae6404e941e7825600dddf322d65fba603b018044"
+    },
+    {
+      "path": "records/v9-production-record.json",
+      "bytes": 2276,
+      "sha256": "b5dee8c2d754c6f2ad48912b51199428f3602ea6501a0034a251e37c443a8c91"
+    },
+    {
+      "path": "records/v9-verification.json",
+      "bytes": 10809,
+      "sha256": "8ec3fb1c6f3181fdfed15f59ed3b6a7704bede641421af14e3340b2590fe5751"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 8,
+      "sha256": "793f59ecad842f82a9a8ba9028b9c7ca9a581fe393abd4e6a36abafa2a1715a1"
+    },
+    {
+      "path": "review/v11-comparison-1.jpg",
+      "bytes": 1319403,
+      "sha256": "c8399c89876d3d5b79737c92765a0d510a19b92339db28568420f4df63acdf39"
+    },
+    {
+      "path": "review/v11-comparison-2.jpg",
+      "bytes": 1263067,
+      "sha256": "be47965ea73d4c8c9e0a1c2fbda3d9e68f92fcdf4c8bee94d0926e944da4041a"
+    },
+    {
+      "path": "review/v11-comparison-3.jpg",
+      "bytes": 1163112,
+      "sha256": "937d0ee74708d6640bbd7e2b48894691f279ab90172997494f1ea19d765e4382"
+    },
+    {
+      "path": "review/v11-curtain-check.jpg",
+      "bytes": 756211,
+      "sha256": "23aa4832cec98252cb463242e5df1425a5656a800199ec141cae4dc6700ebd25"
+    },
+    {
+      "path": "templates/next-pv-checklist.md",
+      "bytes": 1099,
+      "sha256": "75f3af93f08523a795cedd42fe108ac657a1bffd20622af7de3c5366a5e8b9ed"
+    },
+    {
+      "path": "templates/pv-planning/layers.csv",
+      "bytes": 135,
+      "sha256": "fa959cd6a162332d718db0002ff194863766bff2c1de3c1a4ae2a32660172017"
+    },
+    {
+      "path": "templates/pv-planning/pose-events.csv",
+      "bytes": 141,
+      "sha256": "16b4b8ac4a70a1c54b8e66848310d7c04ca3bc4e7d0ec230f9476d871c76f9ca"
+    },
+    {
+      "path": "templates/pv-planning/project.json",
+      "bytes": 406,
+      "sha256": "fb1ba32a8d2575992b04303e2b1d6e1e0b02c81a020dcf702d2f0dc7b6a7b5ac"
+    },
+    {
+      "path": "templates/pv-planning/README.md",
+      "bytes": 2486,
+      "sha256": "bbcaebb21a4fc17e0302a575470b5e3a62bbc202321d41ce94e599f7dee0610d"
+    },
+    {
+      "path": "templates/pv-planning/reviews.csv",
+      "bytes": 114,
+      "sha256": "b70fad89e95b1a107b11c314832e1e342beaa704397b54b8e842df0a716d1699"
+    },
+    {
+      "path": "templates/pv-planning/shots.csv",
+      "bytes": 173,
+      "sha256": "ae7619dce5ad80b17df8f9b568a4f8f3efe51499ebd85005d0023be3c07b8e6e"
+    },
+    {
+      "path": "tools/export_video.py",
+      "bytes": 3247,
+      "sha256": "3a2bc04110d1f48fc4f2f3213fb594f4ef936d71238dd2f4b40c1580e40ead38"
+    },
+    {
+      "path": "tools/validate_bundle.py",
+      "bytes": 1086,
+      "sha256": "b0f755207ce47ca6ec98d4fea7f24b938629a860b2ed3d622332ee9220e03c7a"
+    }
+  ],
+  "excluded": [
+    "original PV/audio",
+    "full PNG caches",
+    "full delivery videos",
+    "runtime binaries",
+    "system fonts"
+  ],
+  "credential_pattern_scan_passed": true
+}
